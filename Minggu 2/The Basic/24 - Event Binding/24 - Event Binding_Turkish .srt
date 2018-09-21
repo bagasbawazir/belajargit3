@@ -1,0 +1,223 @@
+1
+00:00:03,180 --> 00:00:09,110
+Son derslerde, şablondaki verileri çıktılamak için özellik bağlama ve stringin jubilasyonunu nasıl kullanabileceğimiz
+
+2
+00:00:09,110 --> 00:00:10,750
+hakkında çok şey öğreniyoruz.
+
+3
+00:00:10,760 --> 00:00:12,160
+Şimdi olaylara tepki verelim.
+
+4
+00:00:12,170 --> 00:00:14,010
+Örneğin burada bir desen var.
+
+5
+00:00:14,180 --> 00:00:20,090
+Ve iki saniye sonra bu kötülük etkinleşti, bu yüzden düğmeye bastığımızda bir
+
+6
+00:00:20,090 --> 00:00:20,890
+şeyler yapabilirdik.
+
+7
+00:00:21,200 --> 00:00:27,470
+Şimdi yakında bir sunucuya nasıl bir sunucu ekleyebileceğimizi göstereceğiz. Sunucu sunucumuzun yeni bir kopyasını yıl
+
+8
+00:00:27,560 --> 00:00:30,920
+boyunca sunucu bileşenimizin bir parçası olarak nasıl ekleyebiliriz.
+
+9
+00:00:30,980 --> 00:00:35,440
+Şimdilik yapmak istediğim şey bir şey çıkarmak istiyorum.
+
+10
+00:00:35,450 --> 00:00:41,180
+Bu metni buradan kaldıracağım ve bunun yerine bir mülkün değerini çıkarmak veya bu özelliği
+
+11
+00:00:41,180 --> 00:00:42,060
+oluşturmak istiyorum.
+
+12
+00:00:42,100 --> 00:00:45,680
+Ve yine bunun üzerinde daha fazla enerji yapıyorsunuz, çünkü şimdi buna geri döneceğim.
+
+13
+00:00:45,740 --> 00:00:55,660
+Sunucu oluşturma durumu olarak adlandıracağım ve başlangıçta bunun gibi bir sunucunun oluşturulmadığını ayarlayacağım.
+
+14
+00:00:55,660 --> 00:01:00,620
+Şimdi bu özellik bir telkong sunucu oluşturma durumu çıktı teller dizisi olabilir.
+
+15
+00:01:00,640 --> 00:01:03,930
+Ve sana söyledim, veri çıkışı yapmaya devam etmek istemiyorum.
+
+16
+00:01:03,940 --> 00:01:05,330
+Olayları dinlemek istiyoruz.
+
+17
+00:01:05,380 --> 00:01:07,720
+Bu yüzden yapacağımıza söz verdim.
+
+18
+00:01:07,870 --> 00:01:16,360
+Burada aşağıda başka bir yöntem ekleyeceğim ve bu yöntemin, şablonumdan başlatılacağını netleştirmek için
+
+19
+00:01:16,360 --> 00:01:20,750
+başlangıçta sunucu oluşturma üzerine d adını vereceğim.
+
+20
+00:01:20,770 --> 00:01:26,830
+Bir şeye isim vermek zorunda değilsiniz, ancak bu yöntemi kimin aradığını anlamak
+
+21
+00:01:26,830 --> 00:01:27,600
+daha kolay.
+
+22
+00:01:27,790 --> 00:01:33,370
+Peki kullanıcı temelde bir şey yapıp birşeyler yaparak onu sembolize etmek
+
+23
+00:01:33,370 --> 00:01:34,230
+istediğim şeydir.
+
+24
+00:01:34,510 --> 00:01:39,770
+Yani sunucu oluşturma durumunu sunucuya ayarlayabiliyorsanız, sunucu oluşturuldu.
+
+25
+00:01:40,270 --> 00:01:43,570
+Öyleyse eksik olan elbette bu yöntemi çağırmaktır.
+
+26
+00:01:43,570 --> 00:01:50,340
+Ve şimdi burada, ciltleme devreye girdiğinde, bu tıklama etkinliğini burada dinlemek istiyoruz.
+
+27
+00:01:50,470 --> 00:01:56,740
+Ve tipik olarak, bazı Chalis kodlarını kaldırabileceğiniz HDMI öğesinde tıklama özniteliğine
+
+28
+00:01:56,730 --> 00:01:57,550
+sahipsiniz.
+
+29
+00:01:57,670 --> 00:01:59,690
+Bunu fenerle kullanmayacağız.
+
+30
+00:01:59,860 --> 00:02:08,800
+Burada, Sendak'ın fenerlerinin bize, olayların bağlanması için kullanılan köşeli parantezler gibi parantezleri
+
+31
+00:02:08,830 --> 00:02:11,800
+kullanan olay bağlayıcısını sunuyoruz.
+
+32
+00:02:11,800 --> 00:02:15,190
+Parantezler, ciltleme yaparken kullandığımız bir işarettir.
+
+33
+00:02:15,490 --> 00:02:19,630
+Ve burada parantezler arasında DBAN adını belirtmek zorundayız.
+
+34
+00:02:19,750 --> 00:02:28,090
+Örneğin, tıklayın ve temel olarak HDMI özelliği tarafından sağlanan tüm etkinliklere bağlayabilirsiniz.
+
+35
+00:02:28,150 --> 00:02:29,740
+Bizi yerleştiriyorsun.
+
+36
+00:02:29,800 --> 00:02:37,600
+Yani, fare tıklaması üzerine tıklarsanız, başlangıçta fare girişini tıklamadan tıklayabilirsiniz.
+
+37
+00:02:37,600 --> 00:02:40,000
+Bu yüzden tıklama etkinliğine körüz.
+
+38
+00:02:40,090 --> 00:02:45,070
+Ve şimdi tırnak işaretleri arasında yürütmek istediğimiz kodu koyarız.
+
+39
+00:02:45,160 --> 00:02:50,290
+Bu olay çoğu kez meydana gelmediğinde, burada bir yöntem çağırırsınız.
+
+40
+00:02:50,320 --> 00:02:58,690
+Öyleyse, LED'lerin, parantez içinde oluşturduğu sunucuda bulunan yürütmek istediğimiz yönteme işaret etmesini sağlayalım.
+
+41
+00:02:58,810 --> 00:03:02,830
+Bu butona tıkladığımızda, bu yöntem şimdi uygulanacak.
+
+42
+00:03:03,220 --> 00:03:06,390
+Bir yan not olarak burada bir yöntem yürütmek zorunda değilsiniz.
+
+43
+00:03:06,430 --> 00:03:11,140
+Aynı zamanda çalıştırmak istediğiniz kodu tırnak işaretleri arasında da koyabilirsiniz.
+
+44
+00:03:11,300 --> 00:03:18,100
+Çoğu zaman bu çok iyi değildir çünkü bazı olaylar gerçekleşirse daha fazla kod çalıştırmak istersiniz.
+
+45
+00:03:18,100 --> 00:03:23,510
+Ancak, tek yapmanız gereken, örneğin, iyi bir Boolean özelliğini true olarak ayarlamaktır.
+
+46
+00:03:23,620 --> 00:03:30,100
+Yine de şablonlarınıza çok fazla mantık koymamanız için şablonu genel kural
+
+47
+00:03:30,130 --> 00:03:32,200
+olarak inline edebilirsiniz.
+
+48
+00:03:32,230 --> 00:03:39,270
+Şimdi, tıklama etkinliğine bağlanıyoruz ve gerçekleştiğinde sunucu yöntemi oluşturuyoruz.
+
+49
+00:03:39,270 --> 00:03:42,090
+Yani uygulamada bir eylem olduğunu görelim.
+
+50
+00:03:42,100 --> 00:03:43,470
+Sayfayı yeniden yükleyelim.
+
+51
+00:03:43,510 --> 00:03:47,530
+Düğme etkinleşir ve şimdi bu kısmı burada izler.
+
+52
+00:03:47,560 --> 00:03:55,620
+Bu yüzden, sunucunun oluşturulduğu düğmeyi tıklıyorum çünkü kendi yöntemlerimizi burada tetikliyoruz.
+
+53
+00:03:55,720 --> 00:03:58,270
+Ve bu basit bir olay bağlama nasıl çalışır.
+
+54
+00:03:58,270 --> 00:03:59,870
+Parantez kullanın.
+
+55
+00:04:00,040 --> 00:04:04,910
+Arasındaki ve ardından tırnak arasındaki etkinlik adı, yürütmek istediğiniz kodu işaretler.
+
+56
+00:04:05,020 --> 00:04:06,580
+Bu olay gerçekleştiğinde

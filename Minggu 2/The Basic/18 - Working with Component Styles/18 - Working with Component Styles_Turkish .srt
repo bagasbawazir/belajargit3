@@ -1,0 +1,203 @@
+1
+00:00:02,500 --> 00:00:08,560
+Şablonların önemli olduğunu ve bunları burada da kullanabileceğimizi ya da harici bir
+
+2
+00:00:08,560 --> 00:00:10,150
+dosyaya gösterebileceğimizi anladık.
+
+3
+00:00:10,360 --> 00:00:11,700
+Stilleri ne dersiniz?
+
+4
+00:00:11,710 --> 00:00:17,230
+Burada ayrıca bu stile veya başka bir özelliğe de sahibiz ve DS C S S dosyalarımız var.
+
+5
+00:00:17,230 --> 00:00:19,080
+Bununla ne yapabiliriz?
+
+6
+00:00:19,550 --> 00:00:22,070
+Bunun için uygulama bileşenimize geri dönelim.
+
+7
+00:00:22,120 --> 00:00:25,710
+Burada ağaç etiketi ve yatay bir çizgi var.
+
+8
+00:00:25,810 --> 00:00:30,120
+Ve eğer başvurumuza bakacak olursak, bu doğru değil.
+
+9
+00:00:30,330 --> 00:00:37,060
+Buradaki uygulama bileşeni metnindeyim, tüm metin aslında
+
+10
+00:00:37,060 --> 00:00:38,640
+doğru değilsiniz.
+
+11
+00:00:38,830 --> 00:00:45,610
+Şimdi bootstrap kullandığımızdan Elbette bunu geliştirmek için bazı bootstrap sınıflarını kullanabiliriz, böylece kapsayıcı
+
+12
+00:00:45,640 --> 00:00:49,800
+sınıfımızla bir gün ekleyebilir ve bir satır ekleyebiliriz.
+
+13
+00:00:49,900 --> 00:00:53,490
+Ve bu sadece D kullanıyor. C. çerçeve önyükleme olarak.
+
+14
+00:00:53,500 --> 00:00:58,400
+Yani bunlar, bu iskelet tarafından sağlanan bazı siestas sınıflarıdır.
+
+15
+00:00:58,660 --> 00:01:05,080
+Ardından, tüm cihazlarda bir sütunun bulunması için fazla servetinizin bir sütununu ekleyebiliriz.
+
+16
+00:01:05,080 --> 00:01:12,100
+Şimdi bunu eklediğimizde, bir şey yapıcıya özgü olmayan bir stil olarak bazı normal stiller ekledik.
+
+17
+00:01:12,100 --> 00:01:15,400
+Ve bizim app şimdi biraz daha güzel görünüyor.
+
+18
+00:01:15,490 --> 00:01:21,360
+Bu harika ama biz de bize açısallık ile verilen bazı araçları kullanabiliriz.
+
+19
+00:01:21,430 --> 00:01:24,990
+Diyelim ki Hindistan bileşenini burada yapıyorum.
+
+20
+00:01:25,000 --> 00:01:27,390
+Bu stili değiştirmek istiyoruz.
+
+21
+00:01:27,590 --> 00:01:31,960
+Belki biraz mavi renk vermek isteriz.
+
+22
+00:01:32,290 --> 00:01:39,480
+Bunu, bileşen için şekillendirmeyi tanımlayan uygulama bileşeni C S S dosyasına giderek yapabiliriz.
+
+23
+00:01:39,880 --> 00:01:42,690
+Ve şimdi normal SEUS kodunu kullanabiliriz veya yazabiliriz.
+
+24
+00:01:42,700 --> 00:01:49,570
+Yani, D stilini geçersiz kıl. H. ücretsiz etiket ve rengini Baloo'ya ayarlayın.
+
+25
+00:01:49,570 --> 00:01:52,970
+Yani belki Tudor'un koyu mavi rengi burada.
+
+26
+00:01:53,230 --> 00:01:59,050
+Şimdi bunu kaydedersek ve uygulamamıza baktığımızda koyu mavi olduğunu görürüz.
+
+27
+00:01:59,060 --> 00:02:08,230
+Şimdi bu stil dosyasını, bu bileşenin stillerini bulmak için uygulama bileşeninde başvurulan dosya
+
+28
+00:02:08,240 --> 00:02:11,390
+olarak bu C-s'yi de kullanabilirsiniz.
+
+29
+00:02:11,500 --> 00:02:20,170
+Artık, şablon için harici dosya ve satır içi kod arasında seçim yapabildiğimiz gibi, stil
+
+30
+00:02:20,170 --> 00:02:22,420
+için de aynısını yapabiliriz.
+
+31
+00:02:22,600 --> 00:02:29,310
+Biliyorsun ki bu tarz ya da başka bir dizi bir senedir, oysa şablon sen olmamıştın.
+
+32
+00:02:29,350 --> 00:02:36,290
+Burada birden çok harici stil sayfasına referans gösterebildiğimiz için, stil sayfalarına işaretçiler ekleyebilirsiniz.
+
+33
+00:02:36,790 --> 00:02:40,370
+Ama bunun dışında bir yorum yazacağım.
+
+34
+00:02:40,420 --> 00:02:44,170
+Sadece stilleri olan bir sayı özelliği de ayarlayabilirsiniz.
+
+35
+00:02:44,200 --> 00:02:50,770
+Bu ayrıca bir dizi alır, ancak şimdi bu dizede stili tanımladığınız dizeleri bir dizi alır.
+
+36
+00:02:50,770 --> 00:02:57,400
+Şimdi bu dosyada burada çok satırlı bir ifade yazabilmek için tekrar işaretler
+
+37
+00:02:57,400 --> 00:03:00,790
+kullanacağım ve sonra bir ağaç kurabilirdik.
+
+38
+00:03:00,790 --> 00:03:05,430
+Ve gerçekten bunun farklı olduğunu göstermek için renk küpünü ayarlayacağım.
+
+39
+00:03:05,440 --> 00:03:10,390
+Şimdi koyu mavi deme, ama Dodger mavisi.
+
+40
+00:03:10,750 --> 00:03:18,070
+bunu kaydedersem ve uygulamaya geri döndükçe mavi güncellendiğini görüyorsunuz çünkü şimdi satır içi stil devralmaya başlıyor.
+
+41
+00:03:18,070 --> 00:03:19,470
+Ve eğer şimdi
+
+42
+00:03:19,480 --> 00:03:25,460
+Diğerini, hangisinin kullanılacağına karar vermeniz gereken şablonla olduğu gibi yorumladım.
+
+43
+00:03:25,460 --> 00:03:32,290
+Stili veya başka stili ve stilleri birleştiremezsiniz, ancak her ikisi de önemli olan, şablondan farklı bir
+
+44
+00:03:32,290 --> 00:03:33,000
+dizi olmalıdır.
+
+45
+00:03:33,020 --> 00:03:40,730
+Sadece bir şablonunuz olabilir, birden fazla stil dosyası veya stil tanımınız olabilir ve bir dosyada satır
+
+46
+00:03:40,730 --> 00:03:43,330
+içi ve ekstra arasında seçim yapabilirsiniz.
+
+47
+00:03:43,340 --> 00:03:46,370
+Kurallar temelde şablonla aynıdır.
+
+48
+00:03:46,370 --> 00:03:52,970
+bir dosya kullanarak daha fazla kodunuz varsa, bunun gibi kısa bir stil tanımı varsa iyi bir fikirdir.
+
+49
+00:03:52,970 --> 00:03:53,670
+İçinde harici
+
+50
+00:03:53,720 --> 00:03:56,970
+Neden sadece yazı dosyalarına koymuyorsun.
+
+51
+00:03:56,990 --> 00:03:59,940
+Şablonlar ve stillerle nasıl çalışabilirsiniz

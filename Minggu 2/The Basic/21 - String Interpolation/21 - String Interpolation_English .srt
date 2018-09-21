@@ -1,0 +1,255 @@
+1
+00:00:02,680 --> 00:00:08,910
+Let's start by having a closer look at string interpellation here and you serve a component.
+
+2
+00:00:09,100 --> 00:00:14,770
+I don't want your output this year in the age molecule like this I don't want to hard code the output
+
+3
+00:00:14,770 --> 00:00:15,770
+here.
+
+4
+00:00:15,900 --> 00:00:22,020
+It would be realistic that our server component contains information about a specific server.
+
+5
+00:00:22,330 --> 00:00:34,450
+So maybe here in the template file we want to output server with ID and then some dynamic IDs your is
+
+6
+00:00:34,840 --> 00:00:37,020
+and under a status like off line.
+
+7
+00:00:37,210 --> 00:00:39,820
+So we have two dynamic fields here.
+
+8
+00:00:40,370 --> 00:00:46,360
+Now what makes sense to kind of derive them and typescript code in a real app that might be derived
+
+9
+00:00:46,360 --> 00:00:52,050
+from HGP request to make to some back end or some calculation.
+
+10
+00:00:52,090 --> 00:00:54,560
+For now it will hardcoded in here.
+
+11
+00:00:54,820 --> 00:01:01,300
+So we might have a server ID and I will assign a value of let's say 10.
+
+12
+00:01:01,330 --> 00:01:11,320
+So a number and I would also have a server at stators which is a string of line so two different types
+
+13
+00:01:11,380 --> 00:01:13,210
+of string and a number.
+
+14
+00:01:13,570 --> 00:01:19,920
+And though not necessary you could also be very explicit by assigning the type with type scripts feature
+
+15
+00:01:20,140 --> 00:01:25,500
+of adding a colon after the property name and then the type it will end for it automatically.
+
+16
+00:01:25,490 --> 00:01:29,710
+Those are does not required I'm just doing this here for demo purposes.
+
+17
+00:01:30,100 --> 00:01:37,020
+So now when you output these two properties in my template and to get this connection we need data data
+
+18
+00:01:37,030 --> 00:01:42,020
+mining because you learned it's all about the communication between your types would code and the template.
+
+19
+00:01:42,370 --> 00:01:49,750
+So stringin tribulations typically use case your typical solution for this task here instead of the
+
+20
+00:01:50,170 --> 00:01:51,220
+placeholder.
+
+21
+00:01:51,280 --> 00:01:58,050
+I use my double curly braces opening and closing does this the string interpellation syntax and in-between
+
+22
+00:01:58,170 --> 00:02:04,440
+these double curly braces you can now write typescript expression.
+
+23
+00:02:04,810 --> 00:02:12,670
+So the easiest expression is to simply reference a property like the server ID and this is the common
+
+24
+00:02:12,670 --> 00:02:19,340
+use case that you only output property here or the value of the property.
+
+25
+00:02:19,360 --> 00:02:22,630
+However it's not the only use case.
+
+26
+00:02:22,630 --> 00:02:30,790
+You could also for example year for server simply hard code a string in there any expression which can
+
+27
+00:02:30,790 --> 00:02:33,190
+be resolved to a string in the end.
+
+28
+00:02:33,190 --> 00:02:37,910
+That's the only condition for a string of depletions syntax here.
+
+29
+00:02:37,940 --> 00:02:43,640
+So whatever you have between the braces in the end it somehow has to return a string.
+
+30
+00:02:43,720 --> 00:02:50,530
+So you could call a method here which returns a string in the end the only ever restrictiveness you
+
+31
+00:02:50,710 --> 00:02:52,910
+can write multi-line expressions here.
+
+32
+00:02:52,960 --> 00:03:00,410
+You can't write block expressions in here so you can't add a if or for control structure in your.
+
+33
+00:03:00,550 --> 00:03:03,120
+You could use a ternary expression though.
+
+34
+00:03:03,490 --> 00:03:06,230
+So this is what you can do.
+
+35
+00:03:06,250 --> 00:03:12,400
+Now let's also replace the last placeholder and here I will again just reference a property the server
+
+36
+00:03:12,400 --> 00:03:14,250
+status.
+
+37
+00:03:14,260 --> 00:03:20,280
+Now this is string interpellation in you search and you'll see that we have an expression which is a
+
+38
+00:03:20,280 --> 00:03:21,240
+string itself.
+
+39
+00:03:21,430 --> 00:03:25,090
+And then two Abrego oppressions which simply point to properties.
+
+40
+00:03:25,150 --> 00:03:28,690
+And again you could also call a method here which returns a string.
+
+41
+00:03:28,690 --> 00:03:30,270
+Now interesting.
+
+42
+00:03:30,270 --> 00:03:33,720
+The server ID is not a string but a number.
+
+43
+00:03:33,760 --> 00:03:41,200
+And I just said that string of jubilation has to resolve to a string and the end has to get a string
+
+44
+00:03:41,200 --> 00:03:41,930
+in the end.
+
+45
+00:03:42,070 --> 00:03:46,800
+So let's see if this works if we save this with end the still running.
+
+46
+00:03:46,960 --> 00:03:52,170
+Let's also change observer back to observers to make this work again.
+
+47
+00:03:52,240 --> 00:03:58,420
+We see server with ID 10 is offline we see it twice because we repeat this component in each component
+
+48
+00:03:58,420 --> 00:04:04,600
+of course has the same content but we see that stringin tribulation is working and that it especially
+
+49
+00:04:05,080 --> 00:04:09,130
+is also a working year for our number.
+
+50
+00:04:09,160 --> 00:04:16,090
+So I did 10 data is not an issue that is working fine because a number can be easily converted into
+
+51
+00:04:16,090 --> 00:04:17,130
+a string.
+
+52
+00:04:17,140 --> 00:04:24,190
+So yes you have to get a string in the end or something which can be converted to a string to really
+
+53
+00:04:24,190 --> 00:04:25,810
+be correct here.
+
+54
+00:04:25,870 --> 00:04:28,230
+This is how you can use string underpopulation.
+
+55
+00:04:28,450 --> 00:04:35,620
+And now to really complete the example let's say the server status here is somehow returned in a Meffert
+
+56
+00:04:35,770 --> 00:04:38,970
+get server status could be the method name.
+
+57
+00:04:39,010 --> 00:04:41,680
+This is how you define a method in typescript.
+
+58
+00:04:41,680 --> 00:04:45,730
+So you might know kind of Matha definition from our language.
+
+59
+00:04:45,940 --> 00:04:51,430
+And here we simply return this server status.
+
+60
+00:04:51,520 --> 00:04:58,180
+So we return the property or we could of course have accessed as directly as we already did but just
+
+61
+00:04:58,210 --> 00:05:00,500
+demonstrate that you can call a method.
+
+62
+00:05:00,610 --> 00:05:08,140
+Here I am calling a method get service status of course leads to the same output because again all this
+
+63
+00:05:08,140 --> 00:05:14,470
+math does is it returns as a string in the end or something which can't be converted to a string that
+
+64
+00:05:14,470 --> 00:05:17,050
+is string interpellation in action.

@@ -1,0 +1,199 @@
+1
+00:00:02,670 --> 00:00:05,090
+En la última conferencia, echamos un vistazo al enlace de eventos.
+
+2
+00:00:05,120 --> 00:00:09,190
+El número cuatro se centra en el enlace bidireccional y explica qué es esto.
+
+3
+00:00:09,200 --> 00:00:12,360
+Hay otra cosa importante que debe saber incluso vinculante.
+
+4
+00:00:12,710 --> 00:00:17,210
+Digamos que antes del botón Disburden, también tenemos un nombre de servidor de etiquetas.
+
+5
+00:00:17,240 --> 00:00:24,110
+Y lo más importante es que tenemos la entrada que tal vez le demos a la clase de arranque de control de
+
+6
+00:00:24,180 --> 00:00:29,040
+formulario aquí y queremos permitirle al usuario ingresar el nombre del servidor que debería crearse.
+
+7
+00:00:29,360 --> 00:00:31,300
+Así que aquí podríamos escuchar el evento de entrada.
+
+8
+00:00:31,330 --> 00:00:37,600
+Este es un evento dormitorio normal que proporciona el elemento de entrada que es fuego y el usuario escribe.
+
+9
+00:00:38,000 --> 00:00:44,820
+Y podríamos ejecutar el nombre del servidor de actualización porque se disparará con cada pulsación de tecla.
+
+10
+00:00:45,260 --> 00:00:53,390
+Así que agreguemos este método a nuestro componente aquí y ahora de alguna manera quiero dar salida a lo que el usuario ingresó.
+
+11
+00:00:53,390 --> 00:01:01,140
+En este momento, el valor de este campo es que podemos hacer esto pasando el evento de signo de dólar aquí y
+
+12
+00:01:01,140 --> 00:01:05,970
+Thaller asignar eventos súper importantes es el tipo de nuestro nombre de variable reservado.
+
+13
+00:01:06,020 --> 00:01:13,220
+Puede usar la plantilla al usar el enlace de eventos para este evento, de modo que solo
+
+14
+00:01:13,220 --> 00:01:20,170
+entre estas comillas, su evento de signo de dólar simplemente será la información emitida con ese evento.
+
+15
+00:01:20,540 --> 00:01:24,890
+Entonces, ingrese y haga clic en los eventos predeterminados proporcionados por el dormitorio que podría decir.
+
+16
+00:01:25,220 --> 00:01:30,560
+Y envían algunos datos cuando se activan. El evento click nos da un objeto que, por ejemplo,
+
+17
+00:01:30,560 --> 00:01:35,540
+contiene las coordenadas donde hicimos clic y el evento también nos proporciona algunos datos o información
+
+18
+00:01:35,540 --> 00:01:42,410
+sobre el evento que podemos capturar con Data Sign event event passed como argumento para el método al que llamamos o usamos
+
+19
+00:01:42,410 --> 00:01:48,530
+en cualquier lugar entre estas comillas en su evento Kolgrim que ejecuta el signo del dólar, algo a tener en
+
+20
+00:01:48,620 --> 00:01:52,910
+cuenta para reservar la palabra que nos da acceso a los datos del evento.
+
+21
+00:01:53,330 --> 00:01:56,550
+Entonces ahora pasamos esto a un nombre de servidor de actualización.
+
+22
+00:01:56,630 --> 00:02:02,040
+Entonces, aquí sabemos que recibiremos este evento y este será de tipo cualquiera por ahora.
+
+23
+00:02:02,450 --> 00:02:08,450
+Así que ahora simplemente registremos en la consola para que podamos verlo en este registro de depuración.
+
+24
+00:02:09,170 --> 00:02:17,610
+Si hacemos esto y ahora escribo algo aquí, vi una consola a la derecha, hubo un par de salidas,
+
+25
+00:02:17,730 --> 00:02:22,880
+cuatro para ser precisas porque escribí cuatro caracteres y cuatro teclas.
+
+26
+00:02:22,920 --> 00:02:25,880
+Entonces la banda de entrada fue disparada cuatro veces.
+
+27
+00:02:25,890 --> 00:02:29,170
+Y si miran este evento, recibimos un par de información aquí.
+
+28
+00:02:29,220 --> 00:02:36,510
+Por ejemplo, el objetivo y el objetivo simplemente es el elemento HDMI en el que ocurrió este evento.
+
+29
+00:02:36,510 --> 00:02:48,550
+Entonces aquí en el objetivo dado que el elemento de entrada de nos desplazamos hacia abajo también obtuvimos la prueba de valor y esto es lo que
+
+30
+00:02:48,550 --> 00:02:49,830
+el usuario ingresó.
+
+31
+00:02:50,020 --> 00:02:57,130
+Entonces, lo que podemos hacer ahora en nuestro código de mecanografía es que podemos establecer una propiedad de nombre de servidor que es
+
+32
+00:02:57,130 --> 00:02:58,670
+una cadena vacía por defecto.
+
+33
+00:02:59,050 --> 00:03:06,490
+Y luego aquí en nuestro nombre de servidor de actualización en lugar de registrarlo podríamos decir este nombre de servidor
+
+34
+00:03:06,490 --> 00:03:14,650
+y acabamos de enterarnos de que en el evento que es un evento de tipo, como también sabemos, aquí tenemos un objetivo
+
+35
+00:03:14,650 --> 00:03:22,440
+y en el objetivo tenemos un valor y solo está disponible porque el objetivo es de tipo elemento de entrada.
+
+36
+00:03:22,460 --> 00:03:25,220
+Así que esta es la razón por la que a mi ID no le gusta.
+
+37
+00:03:25,290 --> 00:03:31,220
+Podemos informar explícitamente sobre el tipo en mecanografiado agregando el elemento de entrada HDMI aquí.
+
+38
+00:03:32,580 --> 00:03:35,280
+Delante de esto así.
+
+39
+00:03:35,510 --> 00:03:43,190
+Y de nuevo, esto solo es necesario para informar a los mecanografiados que sabemos que el tipo del elemento HDMI de este
+
+40
+00:03:43,190 --> 00:03:45,790
+evento será un elemento de entrada HMO.
+
+41
+00:03:45,800 --> 00:03:52,670
+Realizamos esta conversión explícita con este texto con la etiqueta de apertura y cierre del signo más pequeño y más grande
+
+42
+00:03:52,670 --> 00:03:54,920
+que el que aparece entre los dos.
+
+43
+00:03:55,340 --> 00:04:03,050
+Entonces con eso asignamos este valor a nuestro nombre de servidor donde ahora podemos hacer está en el AGM del archivo aquí
+
+44
+00:04:04,080 --> 00:04:05,670
+podemos mostrar esto por ahora.
+
+45
+00:04:05,670 --> 00:04:11,070
+Entonces, una interpelación estricta podría dar como resultado la entrada del nombre del servidor Melodia.
+
+46
+00:04:11,310 --> 00:04:18,390
+Si guardamos esto y volvemos a esta aplicación y escribo el servidor de prueba aquí, verá esto actualiza
+
+47
+00:04:18,390 --> 00:04:20,440
+dinámicamente el puerto de melodeon.
+
+48
+00:04:20,580 --> 00:04:27,480
+Así es como puede usar este objeto de evento de signo de dólar para obtener los datos del evento.
+
+49
+00:04:27,480 --> 00:04:34,560
+Ahora con eso, pasemos al enlace de datos bidireccional para terminar como un pequeño ejemplo, por
+
+50
+00:04:34,560 --> 00:04:35,230
+ahora.

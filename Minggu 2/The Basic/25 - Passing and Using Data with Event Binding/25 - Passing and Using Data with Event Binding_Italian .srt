@@ -1,0 +1,199 @@
+1
+00:00:02,670 --> 00:00:05,090
+Nell'ultima lezione abbiamo dato un'occhiata al binding di eventi.
+
+2
+00:00:05,120 --> 00:00:09,190
+Il numero quattro si concentra sul legame bidirezionale e spiega di cosa si tratta.
+
+3
+00:00:09,200 --> 00:00:12,360
+C'è un'altra cosa importante che devi sapere su anche vincolante.
+
+4
+00:00:12,710 --> 00:00:17,210
+Diciamo che prima del pulsante di disassociazione abbiamo anche il nome di un server di etichette.
+
+5
+00:00:17,240 --> 00:00:24,110
+E, ancora più importante, abbiamo l'input che potremmo dare qui alla classe bootstrap del controllo del modulo e
+
+6
+00:00:24,180 --> 00:00:29,040
+vogliamo consentire all'utente di inserire il nome del server che dovrebbe essere creato.
+
+7
+00:00:29,360 --> 00:00:31,300
+Quindi qui potremmo ascoltare l'evento di input.
+
+8
+00:00:31,330 --> 00:00:37,600
+Questo è un normale evento del dormitorio che fornisce l'elemento input che è fire e l'utente digita.
+
+9
+00:00:38,000 --> 00:00:44,820
+E potremmo eseguire il nome del server di aggiornamento perché verrà attivato ogni volta che si preme un tasto.
+
+10
+00:00:45,260 --> 00:00:53,390
+Quindi aggiungiamo questo metodo al nostro componente qui e ora in qualche modo voglio emettere ciò che l'utente ha inserito.
+
+11
+00:00:53,390 --> 00:01:01,140
+In questo momento il valore di questo campo è che possiamo farlo passando l'evento con il simbolo del dollaro qui e Thaller
+
+12
+00:01:01,140 --> 00:01:05,970
+assegnare eventi super importanti è una specie del nostro nome di variabile riservato.
+
+13
+00:01:06,020 --> 00:01:13,220
+È possibile utilizzare il modello quando si utilizza l'associazione eventi per questo evento, quindi solo
+
+14
+00:01:13,220 --> 00:01:20,170
+tra queste virgolette l'evento del simbolo del dollaro sarà semplicemente i dati emessi con quell'evento.
+
+15
+00:01:20,540 --> 00:01:24,890
+Quindi input e clic sono eventi predefiniti forniti dal dormitorio che potresti dire.
+
+16
+00:01:25,220 --> 00:01:30,560
+dollaro qualcosa da tenere a mente riservare la parola che ci dà accesso ai dati dell'evento.
+
+17
+00:01:30,560 --> 00:01:35,540
+E spediscono alcuni dati quando vengono licenziati l'evento click ci fornisce un oggetto che
+
+18
+00:01:35,540 --> 00:01:42,410
+per esempio contiene le coordinate su cui abbiamo cliccato e l'evento ci fornisce anche alcuni dati o alcune informazioni sull'evento
+
+19
+00:01:42,410 --> 00:01:48,530
+che possiamo acquisire con l'evento Dollar Sign passato come argomento per il metodo che stiamo chiamando o utilizzato
+
+20
+00:01:48,620 --> 00:01:52,910
+ovunque tra queste virgolette nel loro evento Kolgrim in esecuzione segno di
+
+21
+00:01:53,330 --> 00:01:56,550
+Quindi ora passiamo questo ad un nome del server di aggiornamento.
+
+22
+00:01:56,630 --> 00:02:02,040
+Quindi qui sappiamo che riceveremo questo evento e questo sarà di tipo qualsiasi per ora.
+
+23
+00:02:02,450 --> 00:02:08,450
+Quindi ora registriamo semplicemente la console in modo che possiamo vederla in questo registro di debug.
+
+24
+00:02:09,170 --> 00:02:17,610
+sulla destra un paio di uscite dove c'erano quattro per essere precisi perché ho digitato quattro caratteri per quattro battute.
+
+25
+00:02:17,730 --> 00:02:22,880
+Se facciamo questo e ora scrivo qualcosa qui ho visto una console
+
+26
+00:02:22,920 --> 00:02:25,880
+Quindi la banda di input è stata licenziata quattro volte.
+
+27
+00:02:25,890 --> 00:02:29,170
+E se dai un'occhiata a questo evento, otteniamo un paio di informazioni qui.
+
+28
+00:02:29,220 --> 00:02:36,510
+Ad esempio, il target e il target sono semplicemente l'elemento HDMI su cui si è verificato questo evento.
+
+29
+00:02:36,510 --> 00:02:48,550
+Quindi qui sul target poiché l'elemento di input di scroll down abbiamo ottenuto anche il test del valore e questo è ciò che l'utente
+
+30
+00:02:48,550 --> 00:02:49,830
+ha inserito.
+
+31
+00:02:50,020 --> 00:02:57,130
+Quindi, ciò che possiamo fare ora nel nostro codice dattiloscritto è che possiamo impostare una proprietà nome server che è una
+
+32
+00:02:57,130 --> 00:02:58,670
+stringa vuota per impostazione predefinita.
+
+33
+00:02:59,050 --> 00:03:06,490
+E poi qui nel nostro nome del server di aggiornamento invece di loggarlo potremmo dire questo nome del
+
+34
+00:03:06,490 --> 00:03:14,650
+server e abbiamo appena saputo che sull'evento che è un evento di tipo come sappiamo abbiamo visto anche qui abbiamo
+
+35
+00:03:14,650 --> 00:03:22,440
+un obiettivo e sul target abbiamo un valore e è disponibile solo perché il target è di tipo input element.
+
+36
+00:03:22,460 --> 00:03:25,220
+Quindi questo è il motivo per cui il mio ID non piace.
+
+37
+00:03:25,290 --> 00:03:31,220
+Possiamo esplicitamente informarlo sul tipo di dattiloscritto aggiungendo qui l'elemento di ingresso HDMI.
+
+38
+00:03:32,580 --> 00:03:35,280
+Di fronte a questo come questo.
+
+39
+00:03:35,510 --> 00:03:43,190
+E ancora questo è solo necessario per informare dattiloscritto che sappiamo che il tipo di elemento HDMI di questo
+
+40
+00:03:43,190 --> 00:03:45,790
+evento sarà un elemento di input HMO.
+
+41
+00:03:45,800 --> 00:03:52,670
+Facciamo questo casting esplicito con questo testo con il tag di apertura e di chiusura del segno più piccolo e più
+
+42
+00:03:52,670 --> 00:03:54,920
+grande di e da digitare in mezzo.
+
+43
+00:03:55,340 --> 00:04:03,050
+Quindi con questo assegniamo questo valore al nome del nostro server dove ora possiamo fare è nell'AGM del file, qui
+
+44
+00:04:04,080 --> 00:04:05,670
+possiamo inviarlo per ora.
+
+45
+00:04:05,670 --> 00:04:11,070
+Quindi un'interpellazione rigorosa potremmo produrre l'input del nome del server Melodia.
+
+46
+00:04:11,310 --> 00:04:18,390
+Se salviamo questo e torniamo a questa applicazione e scrivo qui test server, questo aggiorna
+
+47
+00:04:18,390 --> 00:04:20,440
+dinamicamente la porta melodeon.
+
+48
+00:04:20,580 --> 00:04:27,480
+Ecco come puoi usare questo oggetto evento con il simbolo del dollaro per recuperare i dati dell'evento.
+
+49
+00:04:27,480 --> 00:04:34,560
+Ora con questo passiamo al bind di dati bidirezionale per tipo di finito come un piccolo esempio
+
+50
+00:04:34,560 --> 00:04:35,230
+per ora.

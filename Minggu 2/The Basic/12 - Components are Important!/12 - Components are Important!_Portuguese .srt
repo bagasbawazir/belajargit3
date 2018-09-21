@@ -1,0 +1,147 @@
+1
+00:00:02,660 --> 00:00:10,560
+Na última aula, vimos de perto o que acontece no momento em que entendemos o localhost 4200
+
+2
+00:00:10,620 --> 00:00:12,000
+aqui no navegador.
+
+3
+00:00:12,120 --> 00:00:18,480
+Entendemos que o arquivo de índice HVM é servido que irá conter um monte de scripts
+
+4
+00:00:18,480 --> 00:00:24,390
+aqui que pode executar executado que, em seguida, basicamente, iniciar o app aplicativo dangler angular
+
+5
+00:00:24,390 --> 00:00:30,840
+recebe as informações importantes mortas deve saber o componente de aplicativo que deve analisá-lo com essas
+
+6
+00:00:30,900 --> 00:00:36,650
+informações código angular é capaz de analisar este ano faz componente raiz AB aqui.
+
+7
+00:00:36,670 --> 00:00:42,600
+Entenda isso e insira nosso aplicativo de raiva neste ponto e é por isso que não vemos carregamento de
+
+8
+00:00:42,600 --> 00:00:47,190
+dot dot dot que ainda estaria no código-fonte desta página, como você pode ver.
+
+9
+00:00:47,250 --> 00:00:55,760
+Mas, em vez disso, porque vemos isso porque o ângulo substitui isso em tempo de execução porque eles também o que ele faz para
+
+10
+00:00:55,780 --> 00:00:57,730
+o que é o SCHABAS.
+
+11
+00:00:57,750 --> 00:01:04,500
+Portanto, agora que vimos de perto este processo de inicialização, vamos dar uma olhada mais de perto nesses
+
+12
+00:01:04,530 --> 00:01:10,460
+componentes da Cobbold e / ou adicionar, e os componentes gerais são um recurso-chave na angular.
+
+13
+00:01:10,500 --> 00:01:17,220
+Você constrói toda a sua aplicação compondo-a a partir de alguns componentes que você cria por
+
+14
+00:01:17,220 --> 00:01:18,260
+conta própria.
+
+15
+00:01:18,270 --> 00:01:24,080
+Agora começamos com este componente de aplicativo, o componente raiz, que você deve dizer, que mantém nosso e como
+
+16
+00:01:24,080 --> 00:01:26,310
+todo o nosso aplicativo, basicamente, no final.
+
+17
+00:01:26,340 --> 00:01:32,670
+Portanto, este componente de rota, esse componente de aplicativo, será o componente em que mais tarde aninhamos ou adicionamos nossos
+
+18
+00:01:32,670 --> 00:01:33,720
+outros componentes também.
+
+19
+00:01:33,720 --> 00:01:36,580
+Então, para este modelo, o arquivo HVM é desativado.
+
+20
+00:01:36,600 --> 00:01:37,540
+Sim componente.
+
+21
+00:01:37,560 --> 00:01:41,050
+É aí que mais tarde adicionaremos nossos outros componentes.
+
+22
+00:01:41,160 --> 00:01:46,830
+Normalmente, podemos ter uma página da Web como esta com um cabeçalho com a página inicial e os usuários, em seguida, uma área
+
+23
+00:01:46,830 --> 00:01:48,370
+principal e uma barra lateral, talvez.
+
+24
+00:01:48,780 --> 00:01:55,930
+Agora, se tivermos uma aparência, este seria um componente adequado para o cabeçalho e talvez também os itens no cabelo possam ser o
+
+25
+00:01:55,980 --> 00:01:58,960
+seu próprio Kebon pode ser que você não precise.
+
+26
+00:01:59,010 --> 00:02:06,670
+Você aprenderá no Curso como eu me aproximo da divisão de um aplicativo em componentes separados.
+
+27
+00:02:06,690 --> 00:02:14,280
+Também temos, é claro, nossa área principal, a barra aqui como componentes, e essa é a ideia central por trás dos
+
+28
+00:02:14,490 --> 00:02:15,860
+componentes construídos pela Engler.
+
+29
+00:02:15,870 --> 00:02:21,130
+Cada componente tem seu próprio modelo de sua idade, todos mortos, talvez seu próprio estilo.
+
+30
+00:02:21,210 --> 00:02:26,850
+E mais importante também a sua própria lógica de negócios e negócios em grande benefício.
+
+31
+00:02:26,850 --> 00:02:34,180
+Ele nos permite dividir sua complexa aplicação em sua página web complexa em partes reutilizáveis.
+
+32
+00:02:34,200 --> 00:02:39,840
+Você pode usar um componente mais de uma vez e isso permite que você replique facilmente essa lógica de negócios.
+
+33
+00:02:39,870 --> 00:02:48,090
+Replicar esse estilo ou, em geral, fazer uma peça bem controlada em seu aplicativo sem ter que
+
+34
+00:02:48,090 --> 00:02:54,440
+compactar tudo em um único arquivo de script em vez de um único arquivo.
+
+35
+00:02:54,480 --> 00:02:59,330
+É muito fácil atualizar muito fácil de trocar e novamente reutilizável.
+
+36
+00:02:59,370 --> 00:03:04,890
+Então, vamos dar uma olhada mais de perto em como realmente criamos um componente e o
+
+37
+00:03:04,890 --> 00:03:06,980
+que isso faz na próxima aula.

@@ -1,0 +1,175 @@
+1
+00:00:02,760 --> 00:00:08,930
+Son derslerde, yeni bir bileşenin el ile oluşturulmasını içeren çok şey öğreniyoruz.
+
+2
+00:00:08,940 --> 00:00:15,300
+Şimdi de Seelye kullanırken manuel olarak oluşturmanın bir alternatifi var, yeni bir terminal penceresi veya
+
+3
+00:00:15,300 --> 00:00:18,470
+komut satırı açabilirsiniz Son kullanıcı penceresinin çalışmasını bırakın.
+
+4
+00:00:18,470 --> 00:00:20,470
+Bu önemli değil, kapatmayın.
+
+5
+00:00:20,490 --> 00:00:26,440
+Ve bu yeni pencerede, yeni bir bileşen oluşturmak için bazı çelik I komutlarını kullanabiliriz.
+
+6
+00:00:26,640 --> 00:00:34,110
+Tek sunucu bileşenlerinin burada bir dizi
+
+7
+00:00:34,110 --> 00:00:40,320
+bileşende yer almasını istediğimizi varsayalım.
+
+8
+00:00:40,380 --> 00:00:46,500
+elemanların angler tarafından desteklenen bazı elemanlar üretmemizi sağlayan bir oluşturma komutumuz vardır.
+
+9
+00:00:46,590 --> 00:00:54,780
+Bileşeni ile bir servis klasörü ekleyerek bunu manuel olarak oluşturabiliriz ya da ışığı enerji ile görmek için
+
+10
+00:00:54,780 --> 00:00:56,790
+kullanırız ve orada bazı
+
+11
+00:00:56,940 --> 00:01:03,420
+Böyle bir eleman bir bileşendir, bu yüzden enerji kaynaklı bileşenle yeni bir
+
+12
+00:01:03,420 --> 00:01:07,830
+bileşen oluşturabiliriz ve sonra adı servisini böyle geçirebiliriz.
+
+13
+00:01:07,830 --> 00:01:15,990
+Bir kısayol da kullanabilirsiniz ve enerji üreten bileşen yerine Engy G
+
+14
+00:01:15,990 --> 00:01:17,580
+C diyebilirsiniz.
+
+15
+00:01:17,580 --> 00:01:23,940
+Bu durumda ne yapacağını girin iseniz, uygulama klasörünüzde bileşen sunucularınızın adıyla yeni
+
+16
+00:01:23,940 --> 00:01:25,780
+bir klasör verecektir.
+
+17
+00:01:26,130 --> 00:01:33,060
+Ve orada temel olarak, temel olarak test için kullanılan Spack dosyasına girerken, LCS'nin eski
+
+18
+00:01:33,120 --> 00:01:37,160
+uygulama bileşeni için yaptığınız gibi aynı dosyaları bulabilirsiniz.
+
+19
+00:01:37,200 --> 00:01:38,670
+Şimdi bunu kaldıracağım.
+
+20
+00:01:38,670 --> 00:01:45,120
+Daha sonra test etme ile ilgili bir bölümümüz olacak ve daha sonra yeniden şekillendirmeye bakacağız.
+
+21
+00:01:45,150 --> 00:01:52,770
+Şimdilik, bu servis bileşeninde, tek sunucumuzu çıkarmak istediğimizi varsayalım.
+
+22
+00:01:53,040 --> 00:01:58,110
+Peki biz zaten bu dekoratör seçici uygulama sunucusuna sahibiz.
+
+23
+00:01:58,380 --> 00:02:05,580
+Bu nedenle, hizmet bileşeninin bu şablonunda, varsayılan metni uygulama sunucusu ile geçersiz kılabilir ve
+
+24
+00:02:05,580 --> 00:02:11,250
+belki de iki parçalı olduğumuzu hatırlatırız, çünkü bileşenleri hatırlamak yeniden kullanılabilir.
+
+25
+00:02:11,250 --> 00:02:17,610
+Aynı bileşeni, istediğimiz sıklıkta seçiciyi kullanarak istediğimiz sıklıkta kullanabiliriz.
+
+26
+00:02:17,920 --> 00:02:25,500
+Yani şimdi burada iki servisimiz var ve bununla birlikte servis bileşenimizde uygulama modülünü her zaman
+
+27
+00:02:25,500 --> 00:02:27,770
+güncellediğinizden emin olmanız gerekiyor.
+
+28
+00:02:27,780 --> 00:02:33,510
+Şimdi bunu otomatik olarak yapmam gerektiğini görüyorsunuz, bu yüzden bu dosyada zaten ithalat ve
+
+29
+00:02:33,510 --> 00:02:34,480
+beyanı buluyorsunuz.
+
+30
+00:02:34,650 --> 00:02:37,460
+Ama gerçekten burada olduğundan emin ol.
+
+31
+00:02:38,010 --> 00:02:44,610
+arızayı kontrol etmek için uygulama dash servisine gidip daha sonra uygulama bileşeni HMO
+
+32
+00:02:44,730 --> 00:02:52,080
+dosyamızın uygulama ekibimize gidip eski yerine bu yeni bileşeni kullanmak için seçimin güncellenmemesini sağlayabiliriz.
+
+33
+00:02:52,080 --> 00:02:55,310
+Bununla birlikte, servis bileşeni türlerine ve
+
+34
+00:02:55,410 --> 00:03:01,290
+Bununla, eğer şimdi bunu kaydedip uygulamamıza geri dönersek, tek bir sunucu bileşenimizi iki kez
+
+35
+00:03:01,290 --> 00:03:03,910
+görmeden önce hemen hemen aynı görünüyor.
+
+36
+00:03:04,200 --> 00:03:11,430
+Ancak buradaki kodu kromun geliştirici araçlarında incelersek, örneğin, bu yeni oluşturulan bileşene
+
+37
+00:03:11,430 --> 00:03:16,050
+uygulama sunucuları bileşenimizin de sahip olduğunu göreceksiniz.
+
+38
+00:03:16,200 --> 00:03:20,720
+Ve arada iki adet AB sunucu bileşenimiz var.
+
+39
+00:03:20,730 --> 00:03:25,710
+bunları birbirimize nasıl yerleştirebileceğimizi öğrendik ve diğer bileşenlerin herhangi
+
+40
+00:03:25,740 --> 00:03:32,160
+bir Obert şablonunda bileşen seçicilerini kullanabileceğimizi ve bileşenleri nasıl kopyalayabileceğimizi onları kullanarak.
+
+41
+00:03:32,160 --> 00:03:39,110
+Böylece, el ile bileşenlerin nasıl oluşturulacağı hakkında bir kaç önemli şey öğrendik ve
+
+42
+00:03:39,150 --> 00:03:42,530
+Pek çok kez seçimlerini birden çok kez kullanarak.
+
+43
+00:03:42,960 --> 00:03:47,940
+Stil ve bileşenlerin şablonuyla ilgili neler yapabileceğinizi onlara nasıl
+
+44
+00:03:47,940 --> 00:03:48,740
+çekebileceğimize bakalım.

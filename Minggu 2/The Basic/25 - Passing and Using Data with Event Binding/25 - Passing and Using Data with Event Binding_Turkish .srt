@@ -1,0 +1,199 @@
+1
+00:00:02,670 --> 00:00:05,090
+Son derste, olayın bağlayıcılığına bir göz attık.
+
+2
+00:00:05,120 --> 00:00:09,190
+Dört numaraya odaklanarak iki yönlü bağlama ve bunun ne olduğunu açıklamak.
+
+3
+00:00:09,200 --> 00:00:12,360
+Bağlama hakkında bilmeniz gereken bir başka önemli şey var.
+
+4
+00:00:12,710 --> 00:00:17,210
+Doldurma düğmesinden önce diyelim ki bir etiket sunucu ismimiz de var.
+
+5
+00:00:17,240 --> 00:00:24,110
+Ve daha da önemlisi, burada form kontrolünün bootstrap sınıfını verebileceğimiz girdiye sahibiz ve
+
+6
+00:00:24,180 --> 00:00:29,040
+kullanıcının yaratılması gereken sunucunun ismini girmesine izin vermek istiyoruz.
+
+7
+00:00:29,360 --> 00:00:31,300
+Böylece giriş olayını dinleyebiliriz.
+
+8
+00:00:31,330 --> 00:00:37,600
+Bu, yangın ve kullanıcı tipleri olan giriş elemanını sağlayan normal bir yurt olayıdır.
+
+9
+00:00:38,000 --> 00:00:44,820
+Güncelleme sunucu adı üzerinde çalışabiliriz çünkü her tuşa basılacaktır.
+
+10
+00:00:45,260 --> 00:00:53,390
+Öyleyse bu yöntemi buradaki bileşenimize ekleyelim ve şimdi bir şekilde kullanıcının girdiği çıktıyı çıkarmak istiyorum.
+
+11
+00:00:53,390 --> 00:01:01,140
+Şu anda bu alanın değeri, burada dolar işareti olayını geçerek bunu yapabiliriz ve Thaller
+
+12
+00:01:01,140 --> 00:01:05,970
+olayları süper önemli atamak, değişken değişken ismimizin bir türüdür.
+
+13
+00:01:06,020 --> 00:01:13,220
+Bu olay için olay ciltlemeyi kullanırken şablonu kullanabilirsiniz, bu nedenle yalnızca bu
+
+14
+00:01:13,220 --> 00:01:20,170
+tırnak işaretleri arasında dolar işareti etkinliğiniz yalnızca o etkinlikle yayılan veriler olacaktır.
+
+15
+00:01:20,540 --> 00:01:24,890
+Yani giriş ve tıklama, söyleyebileceğiniz yurt tarafından sağlanan varsayılan etkinliklerdir.
+
+16
+00:01:25,220 --> 00:01:30,560
+kullandığımız yönteme ilişkin bir argüman olarak, olay verilerine erişmemizi sağlayan sözcüğü saklı tutarız.
+
+17
+00:01:30,560 --> 00:01:35,540
+Ve onlar ateşlendiğinde bazı verileri gönderiyorlar. Tıklama olayı bize, örneğin tıklattığımız koordinatları
+
+18
+00:01:35,540 --> 00:01:42,410
+tutan olay ve bize bize bir miktar veri ya da bu verileri Dolar Sign olayıyla yakalayabileceğimiz
+
+19
+00:01:42,410 --> 00:01:48,530
+olay hakkında bazı bilgiler veren bir nesne veriyor Kolgrim'in dolar işareti olayı yürütmesi için
+
+20
+00:01:48,620 --> 00:01:52,910
+bu tırnak işaretleri arasında herhangi bir yerde arama yaptığımız veya
+
+21
+00:01:53,330 --> 00:01:56,550
+Yani şimdi bunu bir güncelleme sunucu adına aktarıyoruz.
+
+22
+00:01:56,630 --> 00:02:02,040
+Bu yüzden burada bu olayı alacağımızı biliyoruz ve bu şu an için herhangi bir türde olacak.
+
+23
+00:02:02,450 --> 00:02:08,450
+Yani şimdi sadece konsolda görelim, böylece bu hata ayıklama günlüğünde görebilelim.
+
+24
+00:02:09,170 --> 00:02:17,610
+izledim, çıkışların bir çift olduğu kesin olarak dört tane vardı, çünkü dört karakter yazdım dört tuş vuruşu yaptım.
+
+25
+00:02:17,730 --> 00:02:22,880
+Bunu yaparsak ve şimdi buraya bir şey yazdım sağda bir konsol
+
+26
+00:02:22,920 --> 00:02:25,880
+Böylece giriş bandı dört kez ateşlendi.
+
+27
+00:02:25,890 --> 00:02:29,170
+Ve eğer bu etkinliğe bir göz attığınızda, burada birkaç bilgi alırız.
+
+28
+00:02:29,220 --> 00:02:36,510
+Örneğin, hedef ve hedef, bu olayın gerçekleştiği HDMI öğesidir.
+
+29
+00:02:36,510 --> 00:02:48,550
+Yani burada aşağıya doğru ilerlediğimiz giriş elemanından bu yana değer testini aldık ve bu da kullanıcının
+
+30
+00:02:48,550 --> 00:02:49,830
+girdiği şey.
+
+31
+00:02:50,020 --> 00:02:57,130
+Şimdi bizim kod çizelgesinde yapabileceğimiz şey, varsayılan olarak boş bir dizge olan bir sunucu
+
+32
+00:02:57,130 --> 00:02:58,670
+adı özelliğini ayarlayabiliriz.
+
+33
+00:02:59,050 --> 00:03:06,490
+Ve daha sonra burada sunucu adımızı güncellemek yerine, bu sunucu adını söyleyebiliriz ve öğrendiğimiz
+
+34
+00:03:06,490 --> 00:03:14,650
+gibi bir olayın olayı olduğunu bildiğimiz bir olay olduğunu öğrendik ve burada bir hedefimiz var
+
+35
+00:03:14,650 --> 00:03:22,440
+ve hedefimiz üzerinde bir değerimiz var. Sadece hedef, tip giriş elemanından olduğu için kullanılabilir.
+
+36
+00:03:22,460 --> 00:03:25,220
+İşte bu yüzden kimliğim bundan hoşlanmıyor.
+
+37
+00:03:25,290 --> 00:03:31,220
+Burada HDMI giriş elemanını ekleyerek yazı tipindeki tür hakkında açıkça bilgi verebiliriz.
+
+38
+00:03:32,580 --> 00:03:35,280
+Bunun önünde böyle.
+
+39
+00:03:35,510 --> 00:03:43,190
+Ve yine bu sadece bu olayın HDMI elemanının türünün bir HMO giriş elemanı olacağını
+
+40
+00:03:43,190 --> 00:03:45,790
+bildiğimiz yazıyı bilgilendirmek için gereklidir.
+
+41
+00:03:45,800 --> 00:03:52,670
+Bu açık döküm işlemini, bu metne ekleyerek, daha küçük ve büyük harflerin açılış ve
+
+42
+00:03:52,670 --> 00:03:54,920
+kapanış etiketleriyle ve aralarında yazıyoruz.
+
+43
+00:03:55,340 --> 00:04:03,050
+Böylece bu değeri sunucu ismimize atayabiliyoruz, şimdi burada yapabildiğimiz AGM dosyasında bunu
+
+44
+00:04:04,080 --> 00:04:05,670
+şimdilik çıkarabiliyoruz.
+
+45
+00:04:05,670 --> 00:04:11,070
+Bu yüzden sıkı bir açıklama olarak sunucu adı Melodia girdisi çıktı verebiliriz.
+
+46
+00:04:11,310 --> 00:04:18,390
+Bunu kaydedip bu uygulamaya geri dönersek test sunucusunu buraya yazdığımda, bu dinamik olarak
+
+47
+00:04:18,390 --> 00:04:20,440
+melodeon portunu güncellediğini görüyorsunuz.
+
+48
+00:04:20,580 --> 00:04:27,480
+Olay verilerini almak için bu dolar işareti olayı nesnesini bu şekilde kullanabilirsiniz.
+
+49
+00:04:27,480 --> 00:04:34,560
+Şimdi bunun için iki yollu veri bağlamaya geçelim, şu an için küçük bir örnek
+
+50
+00:04:34,560 --> 00:04:35,230
+eppi.

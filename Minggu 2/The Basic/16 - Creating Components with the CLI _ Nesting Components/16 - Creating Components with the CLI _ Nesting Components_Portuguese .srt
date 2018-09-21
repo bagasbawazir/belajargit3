@@ -1,0 +1,175 @@
+1
+00:00:02,760 --> 00:00:08,930
+Nas últimas palestras aprendemos muito incluindo a criação de um novo componente à mão.
+
+2
+00:00:08,940 --> 00:00:15,300
+Agora também há uma alternativa para criá-lo manualmente ao usar o Seelye você pode abrir uma nova janela de terminal ou
+
+3
+00:00:15,300 --> 00:00:18,470
+linha de comando Deixe a janela do usuário final em execução.
+
+4
+00:00:18,470 --> 00:00:20,470
+Isso é importante, não feche.
+
+5
+00:00:20,490 --> 00:00:26,440
+E nesta nova janela podemos usar algum comando em aço para também criar um novo componente.
+
+6
+00:00:26,640 --> 00:00:34,110
+Digamos que queremos que nossos componentes de servidor único aqui em um número de componentes são
+
+7
+00:00:34,110 --> 00:00:40,320
+aninhados em um número de componentes de vários servidores de componentes do servidor.
+
+8
+00:00:40,380 --> 00:00:46,500
+Podemos criar isso manualmente, adicionando uma pasta de serviço com o nosso componente ou
+
+9
+00:00:46,590 --> 00:00:54,780
+usamos para ver a luz com energia e lá temos um comando gerar que nos permite gerar alguns elementos
+
+10
+00:00:54,780 --> 00:00:56,790
+alguns elementos suportados pelo pescador.
+
+11
+00:00:56,940 --> 00:01:03,420
+Um desses elementos é um componente, para que possamos criar um novo componente com o componente gerado
+
+12
+00:01:03,420 --> 00:01:07,830
+por energia e, em seguida, passar o serviço de nomes como este.
+
+13
+00:01:07,830 --> 00:01:15,990
+Você também pode usar um atalho e, em vez de um componente gerado por energia, você poderia dizer Engy G C,
+
+14
+00:01:15,990 --> 00:01:17,580
+que faz o mesmo.
+
+15
+00:01:17,580 --> 00:01:23,940
+Então, se você apertar enter, o que isso vai fazer é dar a você uma nova pasta na pasta do seu aplicativo com
+
+16
+00:01:23,940 --> 00:01:25,780
+o nome dos seus servidores de componentes.
+
+17
+00:01:26,130 --> 00:01:33,060
+E aí você basicamente encontra os mesmos arquivos que você tinha para o LCS envelhecido componente de aplicativo como
+
+18
+00:01:33,120 --> 00:01:37,160
+TS entra no arquivo Spack que basicamente é usado para testes.
+
+19
+00:01:37,200 --> 00:01:38,670
+Agora vou remover isso.
+
+20
+00:01:38,670 --> 00:01:45,120
+Mais tarde, teremos uma seção sobre testes e veremos mais tarde o restyling.
+
+21
+00:01:45,150 --> 00:01:52,770
+Por enquanto, digamos que é neste componente de serviço que queremos produzir nosso único servidor.
+
+22
+00:01:53,040 --> 00:01:58,110
+Bem, nós já temos este servidor de aplicativos seletor de decorador.
+
+23
+00:01:58,380 --> 00:02:05,580
+Portanto, nesse modelo do componente de serviço, podemos substituir o texto padrão pelo servidor de aplicativos e, talvez,
+
+24
+00:02:05,580 --> 00:02:11,250
+simplesmente replicá-lo, de modo que tenhamos dois componentes, porque os componentes do lembrete são reutilizáveis.
+
+25
+00:02:11,250 --> 00:02:17,610
+Podemos usar o mesmo componente quantas vezes quisermos simplesmente usando o seletor quantas vezes quisermos.
+
+26
+00:02:17,920 --> 00:02:25,500
+Então, agora temos dois serviços aqui e com isso em nosso componente de serviço, você precisa ter certeza de que
+
+27
+00:02:25,500 --> 00:02:27,770
+sempre atualiza o módulo do aplicativo.
+
+28
+00:02:27,780 --> 00:02:33,510
+Agora você vê que eu deveria fazer isso automaticamente, e é por isso que você já encontrou a importação e a
+
+29
+00:02:33,510 --> 00:02:34,480
+declaração neste arquivo.
+
+30
+00:02:34,650 --> 00:02:37,460
+Mas tenha certeza que você realmente tem isso aqui.
+
+31
+00:02:38,010 --> 00:02:44,610
+Com isso podemos ir para os nossos tipos de componentes de serviço e falha para verificar o seletor que é serviço
+
+32
+00:02:44,730 --> 00:02:52,080
+de traço app e, em seguida, podemos ir para nossa equipe de aplicativo do nosso arquivo de componente de aplicativo HMO e atualizar
+
+33
+00:02:52,080 --> 00:02:55,310
+desmarcado para usar este novo componente em vez do antigo.
+
+34
+00:02:55,410 --> 00:03:01,290
+Com isso, se salvarmos isso e voltarmos para o nosso aplicativo, parece quase o mesmo que antes de
+
+35
+00:03:01,290 --> 00:03:03,910
+vermos um único componente de servidor duas vezes.
+
+36
+00:03:04,200 --> 00:03:11,430
+Mas se nós inspecionarmos o código aqui nas ferramentas do desenvolvedor do chrome, por exemplo, você verá que
+
+37
+00:03:11,430 --> 00:03:16,050
+temos esse componente dos nossos servidores de aplicativos para este componente recém-criado.
+
+38
+00:03:16,200 --> 00:03:20,720
+E entre nós temos dois componentes de servidor AB únicos.
+
+39
+00:03:20,730 --> 00:03:25,710
+Então, com isso, aprendemos algumas coisas importantes sobre como criar componentes manualmente
+
+40
+00:03:25,740 --> 00:03:32,160
+ou com a Selye como podemos aninhá-los uns aos outros que podemos usar seletores de
+
+41
+00:03:32,160 --> 00:03:39,110
+componentes em qualquer modelo Obert de qualquer outro componente e como podemos replicar componentes simplesmente usando-os.
+
+42
+00:03:39,150 --> 00:03:42,530
+Bem várias vezes usando seus seletores várias vezes.
+
+43
+00:03:42,960 --> 00:03:47,940
+Vamos mergulhar em como podemos realmente estilizá-los sobre o que você pode fazer em relação ao estilo e ao
+
+44
+00:03:47,940 --> 00:03:48,740
+modelo dos componentes.

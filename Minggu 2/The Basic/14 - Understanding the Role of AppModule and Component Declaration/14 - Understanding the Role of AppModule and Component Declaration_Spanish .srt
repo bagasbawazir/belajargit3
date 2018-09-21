@@ -1,0 +1,259 @@
+1
+00:00:02,800 --> 00:00:03,860
+En la última conferencia
+
+2
+00:00:03,900 --> 00:00:07,710
+Creamos nuestro propio componente, el componente del servidor aquí.
+
+3
+00:00:07,710 --> 00:00:15,240
+Está casi listo para ser utilizado, pero para usarlo necesitamos cambiar algo sobre nuestro módulo
+
+4
+00:00:15,250 --> 00:00:25,200
+de aplicación. WHAT AIR AIR angular usa componentes para construir páginas web y utiliza módulos para agrupar básicamente diferentes piezas,
+
+5
+00:00:25,260 --> 00:00:29,390
+por ejemplo, componentes de su aplicación en paquetes.
+
+6
+00:00:29,550 --> 00:00:34,320
+Usted sabe que esta es una característica avanzada pero más adelante en el curso tendré
+
+7
+00:00:34,320 --> 00:00:40,920
+una sección completa sobre módulos para la mayoría de este curso. Solo usaremos el módulo de la aplicación, que está
+
+8
+00:00:40,920 --> 00:00:46,080
+absolutamente bien para muchos proyectos solo en proyectos más grandes. piense en dividir su aplicación en
+
+9
+00:00:46,160 --> 00:00:47,340
+múltiples módulos de aapke.
+
+10
+00:00:47,580 --> 00:00:51,170
+Pero, ¿qué hace esta aplicación? ¿Qué es un módulo?
+
+11
+00:00:51,600 --> 00:00:58,890
+Bueno, es como dije conjunto de funcionalidades de nuestra aplicación y básicamente le da a Inglaterra la información de
+
+12
+00:00:59,010 --> 00:01:05,850
+qué características tiene y usa mi aplicación, ya que puedes ver que todo es solo una clase de
+
+13
+00:01:06,060 --> 00:01:12,900
+mecanografía vacía como componente y el componente preguntado lo transformamos en algo más por agregando un decorador aquí.
+
+14
+00:01:13,020 --> 00:01:19,300
+Es el decorador de módulos Engy que también se importa desde un núcleo angular.
+
+15
+00:01:19,320 --> 00:01:27,450
+Ahora, allí vemos cuatro propiedades que configuramos en el objeto que le pasamos a usted declaraciones de
+
+16
+00:01:27,450 --> 00:01:29,350
+módulo importadores y bootstrap.
+
+17
+00:01:29,430 --> 00:01:35,640
+Echamos un vistazo a bootstrap que fue el responsable de contar el angler hate, qué componente
+
+18
+00:01:35,640 --> 00:01:39,240
+deberías conocer en el momento en que comienza la aplicación.
+
+19
+00:01:39,240 --> 00:01:43,050
+Entonces, ¿qué componente reconocerías básicamente en el índice extremófilos?
+
+20
+00:01:43,200 --> 00:01:45,330
+Y ese era el componente de la aplicación.
+
+21
+00:01:45,360 --> 00:01:51,020
+Ahora ya he mencionado que no agregaremos más selectores de componentes al próximo archivo HDMI.
+
+22
+00:01:51,030 --> 00:01:53,040
+Así no es como funciona.
+
+23
+00:01:53,160 --> 00:01:56,010
+Por lo tanto, queremos realmente arrancar.
+
+24
+00:01:56,340 --> 00:02:03,360
+Todavía agregamos un nuevo componente a angular y este nuevo componente ahora tiene que estar registrado aquí
+
+25
+00:02:03,360 --> 00:02:10,500
+en el módulo, así que angler sabe que este componente existe porque y esto es importante por defecto.
+
+26
+00:02:10,530 --> 00:02:13,410
+Engler no escaneará todos sus archivos aquí.
+
+27
+00:02:13,680 --> 00:02:20,510
+Entonces, si no le dice que el componente del servidor existe, no lo sabe.
+
+28
+00:02:20,550 --> 00:02:23,430
+Solo crear el archivo no es suficiente.
+
+29
+00:02:23,490 --> 00:02:30,750
+Es por eso que tenemos que registrarlo aquí en el módulo NGI para decirle a Engler Hey parte de este módulo
+
+30
+00:02:30,750 --> 00:02:36,390
+y aquí toda nuestra aplicación, ya que solo tenemos este módulo es el componente del servidor.
+
+31
+00:02:36,900 --> 00:02:41,490
+Registramos nuevos componentes en esta matriz de declaraciones.
+
+32
+00:02:41,730 --> 00:02:47,010
+Ya registramos aquí el componente de la aplicación porque, aunque también se usa en Bootstrap, también
+
+33
+00:02:47,010 --> 00:02:48,660
+forma parte de nuestra aplicación.
+
+34
+00:02:48,660 --> 00:02:52,880
+Ahora también necesitamos agregar el componente del servidor aquí.
+
+35
+00:02:53,790 --> 00:02:59,310
+Sin embargo, agregar esto no es suficiente porque ahora el pescador podría saber que esto es parte de
+
+36
+00:02:59,310 --> 00:03:04,850
+la aplicación, pero el texto mecanografiado no sabría dónde encontrar este tipo para encontrar el componente del servidor.
+
+37
+00:03:04,860 --> 00:03:12,990
+Entonces, cuando intentemos agrupar nuestro código, obtendríamos un error, pero en realidad se puede ver si se guardó esta activación
+
+38
+00:03:12,990 --> 00:03:14,380
+de la recompilación.
+
+39
+00:03:14,430 --> 00:03:20,110
+Verá que obtenemos un error en la terminal que no puede encontrar el componente del servidor porque.
+
+40
+00:03:20,180 --> 00:03:22,130
+¿Y este angler no hace este tipo stropped?
+
+41
+00:03:22,200 --> 00:03:25,800
+No sabe dónde está este archivo para encontrar esta clase.
+
+42
+00:03:26,010 --> 00:03:30,710
+Entonces, necesitamos agregar importación en la parte superior apuntando manualmente a esto.
+
+43
+00:03:30,840 --> 00:03:41,340
+Así que agregamos componentes de servidor aquí cuando importan desde el servidor punto barra y luego aquí en el componente servidor y admite el punto TS No
+
+44
+00:03:41,520 --> 00:03:48,110
+agrega punto ts a su componente de punto de servidor de importación shust para que el nombre
+
+45
+00:03:48,110 --> 00:03:55,110
+de archivo sin la extensión la extensión se agrega mediante un bolso web que agrupa nuestro proyecto automáticamente.
+
+46
+00:03:55,110 --> 00:03:57,030
+Entonces con esto y es tan importante.
+
+47
+00:03:57,030 --> 00:04:01,790
+¿Esto no termina o no es una característica de mecanografía ahora mecanografía sabe dónde encontrar esto.
+
+48
+00:04:01,830 --> 00:04:08,580
+Por lo tanto, todo se puede agrupar, por lo que ahora Engler cuando se ejecuta sabe que tenemos un componente de
+
+49
+00:04:08,580 --> 00:04:11,030
+servidor y eso es parte de nuestra aplicación.
+
+50
+00:04:11,190 --> 00:04:14,390
+Y con esto, ahora podemos finalmente usar nuestro componente.
+
+51
+00:04:14,670 --> 00:04:16,190
+Haremos esto en la próxima conferencia.
+
+52
+00:04:16,200 --> 00:04:21,530
+Pero tal vez también se pregunte qué importa y qué proveedores tenemos aquí en el módulo.
+
+53
+00:04:21,600 --> 00:04:28,260
+Regresaré a los proveedores más adelante en las importaciones de la sección de servicios, simplemente nos permite agregar algunos
+
+54
+00:04:28,260 --> 00:04:29,180
+módulos de Alber.
+
+55
+00:04:29,220 --> 00:04:34,500
+Judas Marchal porque te dije que puedes dividir tu aplicación en varios módulos y luego puedes
+
+56
+00:04:34,530 --> 00:04:40,710
+importar estos módulos para básicamente hacer que este módulo sea más ágil y subcontratar algunas cosas en otro módulo.
+
+57
+00:04:40,710 --> 00:04:43,550
+Ahora te dije que solo vamos a usar un módulo.
+
+58
+00:04:43,590 --> 00:04:45,450
+Entonces, ¿qué estamos importando aquí?
+
+59
+00:04:45,450 --> 00:04:51,630
+Algunos módulos incorporados en angular porque el propio angular está dividido en módulos, por lo que el módulo de navegador
+
+60
+00:04:51,630 --> 00:04:58,280
+por ejemplo nos brinda toda la funcionalidad básica que necesitamos para iniciar nuestra aplicación y formularios y el módulo HTP que
+
+61
+00:04:58,270 --> 00:05:02,210
+es algo que le devuelvo para su sección HTP o el curso.
+
+62
+00:05:02,220 --> 00:05:07,890
+Así que con los días en los que los fundamentos de esta marcha serán claros volveremos a profundizar en esto más adelante
+
+63
+00:05:07,890 --> 00:05:08,530
+en el curso.
+
+64
+00:05:08,700 --> 00:05:11,160
+También registramos nuestro propio componente.
+
+65
+00:05:11,280 --> 00:05:13,500
+Vamos a usarlo ahora en la próxima conferencia.

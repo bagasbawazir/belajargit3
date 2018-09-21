@@ -1,0 +1,135 @@
+1
+00:00:02,460 --> 00:00:07,740
+Nella nostra piccola prima applicazione di base stiamo lavorando su dove abbiamo aggiunto un paio di componenti.
+
+2
+00:00:07,790 --> 00:00:13,240
+Abbiamo coperto molti aspetti chiave del nostro pescatore di base e di come inizia e come utilizzare i componenti.
+
+3
+00:00:13,250 --> 00:00:21,660
+Il componente base di qualsiasi app per pescatore, ma finora produciamo solo contenuto statico.
+
+4
+00:00:21,680 --> 00:00:25,370
+Il componente server qui non è molto interessante.
+
+5
+00:00:25,370 --> 00:00:28,750
+Abbiamo fatto anche di più nella prima sezione di questo corso.
+
+6
+00:00:29,030 --> 00:00:36,350
+Cambiamo quindi l'output di alcuni dati che sono almeno dinamici e che non sono codificati
+
+7
+00:00:36,350 --> 00:00:37,360
+nel modello.
+
+8
+00:00:37,370 --> 00:00:40,560
+Tempo per il binding di alcuni dati Cos'è il binding di dati.
+
+9
+00:00:40,730 --> 00:00:48,170
+In pratica puoi tradurre l'associazione dei dati con la comunicazione di comunicazione tra i tuoi tipi di codice del tuo componente,
+
+10
+00:00:48,380 --> 00:00:54,200
+la tua logica aziendale e i modelli o ciò che l'utente vede perché potresti avere qualche risultato
+
+11
+00:00:54,200 --> 00:01:00,230
+nel tuo codice a strisce di tipo perché hai recuperato qualcosa da un server o terminato qualche
+
+12
+00:01:00,470 --> 00:01:02,300
+calcolo che vuoi mostrare all'utente.
+
+13
+00:01:02,420 --> 00:01:05,100
+E l'unica cosa che l'utente vede è il modello.
+
+14
+00:01:05,240 --> 00:01:11,240
+Quindi abbiamo bisogno di un qualche tipo di comunicazione tra entrambi i pezzi per essere in grado di fare davvero qualcosa
+
+15
+00:01:11,240 --> 00:01:17,030
+nella nostra app che è il momento in cui il data mining entra in gioco perché è responsabile di questa comunicazione.
+
+16
+00:01:17,030 --> 00:01:23,420
+tipi di codice nell'HCM tutto il codice nel modello, per questo possiamo usare l'ablazione con stringin.
+
+17
+00:01:23,770 --> 00:01:29,060
+Ora otteniamo diversi modi di comunicare, ad esempio vogliamo esportare i dati dai nostri
+
+18
+00:01:29,060 --> 00:01:33,650
+Hai visto questo nella prima sezione, ovviamente è la sintassi con le doppie parentesi
+
+19
+00:01:33,650 --> 00:01:40,360
+graffe e poi qualche nome di proprietà o qualche espressione intermedia o vincolante di proprietà avremo uno sguardo più ravvicinato
+
+20
+00:01:40,370 --> 00:01:44,900
+a tutte queste forme ovviamente nella prossima lezione o così faremo impara cosa è
+
+21
+00:01:45,000 --> 00:01:50,240
+questo e come funziona all'indice usa fondamentalmente queste strane parentesi quadre attorno agli attributi femminili dell'età.
+
+22
+00:01:50,240 --> 00:01:52,280
+Ma tornerò di nuovo su questo.
+
+23
+00:01:52,670 --> 00:01:56,490
+A volte anche la direzione media è interessante.
+
+24
+00:01:56,600 --> 00:02:02,150
+è la cosa con cui l'utente interagisce e che vede anche dove è in grado di fare clic sui pulsanti.
+
+25
+00:02:02,150 --> 00:02:07,130
+Se l'utente fa clic su un pulsante, è possibile pensare all'utente che fa clic sul pulsante sul modello
+
+26
+00:02:07,130 --> 00:02:08,380
+perché di nuovo il modello
+
+27
+00:02:08,690 --> 00:02:13,300
+Quindi, se clicchiamo su un pulsante, forse vogliamo attivare qualcosa nei nostri tipi di codice.
+
+28
+00:02:13,310 --> 00:02:17,620
+Quindi ora abbiamo bisogno della direzione e possiamo ottenere questa direzione.
+
+29
+00:02:17,630 --> 00:02:24,320
+Possiamo reagire ai venti di utilizzo con il binding anche in modo da poter associare ad esempio un evento click per eseguire
+
+30
+00:02:24,320 --> 00:02:26,420
+del codice ogni volta che si verifica.
+
+31
+00:02:26,840 --> 00:02:34,940
+anche una forma aggiuntiva di data mining in cui combiniamo entrambe le direzioni in modo bidirezionale il binding dei dati in cui siamo in
+
+32
+00:02:35,120 --> 00:02:41,300
+grado di reagire agli eventi e produrre qualcosa allo stesso tempo potrebbe non essere super chiaro come funziona.
+
+33
+00:02:41,300 --> 00:02:41,930
+E abbiamo
+
+34
+00:02:41,960 --> 00:02:47,400
+Ma questo è ciò che ora avrai in dettaglio in tutti e quattro i forum nelle prossime lezioni

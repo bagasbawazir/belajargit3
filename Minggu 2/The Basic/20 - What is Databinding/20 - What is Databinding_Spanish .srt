@@ -1,0 +1,135 @@
+1
+00:00:02,460 --> 00:00:07,740
+En nuestra pequeña primera aplicación básica estamos trabajando en donde agregamos un par de componentes.
+
+2
+00:00:07,790 --> 00:00:13,240
+Cubrimos muchos aspectos clave de nuestro pescador básico y cómo comienza y cómo usar los componentes.
+
+3
+00:00:13,250 --> 00:00:21,660
+El componente básico de cualquier aplicación de pescador, pero hasta ahora solo generamos contenido estático.
+
+4
+00:00:21,680 --> 00:00:25,370
+El componente del servidor aquí no es muy interesante.
+
+5
+00:00:25,370 --> 00:00:28,750
+Hicimos incluso más que eso en la primera sección de este curso.
+
+6
+00:00:29,030 --> 00:00:36,350
+Así que vamos a cambiar para generar algunos datos que son dinámicos, al menos, que no están codificados
+
+7
+00:00:36,350 --> 00:00:37,360
+en la plantilla.
+
+8
+00:00:37,370 --> 00:00:40,560
+Tiempo para un enlace de datos ¿Qué es el enlace de datos?
+
+9
+00:00:40,730 --> 00:00:48,170
+Básicamente, puede traducir el enlace de datos con la comunicación de comunicación entre los tipos de código de su componente, la lógica
+
+10
+00:00:48,380 --> 00:00:54,200
+de su negocio y las plantillas, o lo que el usuario ve, ya que puede obtener algún
+
+11
+00:00:54,200 --> 00:01:00,230
+resultado en su código de tipo de tira porque buscó algo de un servidor o finalizó algún cálculo
+
+12
+00:01:00,470 --> 00:01:02,300
+que quieres mostrar al usuario.
+
+13
+00:01:02,420 --> 00:01:05,100
+Y lo único que el usuario ve es la plantilla.
+
+14
+00:01:05,240 --> 00:01:11,240
+Entonces, necesitamos algún tipo de comunicación entre ambas partes para poder hacer algo realmente bien en nuestra
+
+15
+00:01:11,240 --> 00:01:17,030
+aplicación, que es donde la minería de datos entra en juego porque es responsable de esta comunicación.
+
+16
+00:01:17,030 --> 00:01:23,420
+Obtenemos diferentes formas de comunicación ahora, por ejemplo, queremos sacar datos de nuestros tipos de código en el
+
+17
+00:01:23,770 --> 00:01:29,060
+código HCM all en la plantilla, podemos usar la ablación de stringin para esto.
+
+18
+00:01:29,060 --> 00:01:33,650
+Viste esto en la primera sección, por supuesto, es la sintaxis con las llaves de
+
+19
+00:01:33,650 --> 00:01:40,360
+doble llamada y luego algún nombre de propiedad o alguna expresión entre encuadernación o propiedad veremos más de cerca todas estas
+
+20
+00:01:40,370 --> 00:01:44,900
+formas de curso en la próxima conferencia o así lo haremos aprende qué es
+
+21
+00:01:45,000 --> 00:01:50,240
+esto y cómo funciona indexar, básicamente utiliza estos corchetes extraños alrededor de los atributos de edad femenina.
+
+22
+00:01:50,240 --> 00:01:52,280
+Pero de nuevo volveré a esto.
+
+23
+00:01:52,670 --> 00:01:56,490
+A veces, aunque la dirección promedio también es interesante.
+
+24
+00:01:56,600 --> 00:02:02,150
+Si el usuario hace clic en un botón, puede pensar que el usuario hace clic en el botón de la plantilla
+
+25
+00:02:02,150 --> 00:02:07,130
+porque, una vez más, la plantilla con la que interactúa el usuario ve y en la que también puede
+
+26
+00:02:07,130 --> 00:02:08,380
+hacer clic en los botones.
+
+27
+00:02:08,690 --> 00:02:13,300
+Entonces, si hacemos clic en un botón, es posible que deseemos activar algo en nuestros tipos de código.
+
+28
+00:02:13,310 --> 00:02:17,620
+Entonces ahora necesitamos la dirección y podemos obtener esta dirección.
+
+29
+00:02:17,630 --> 00:02:24,320
+Podemos reaccionar a los vientos de uso con un enlace uniforme, por lo que podemos unirnos, por ejemplo, a un evento de clic
+
+30
+00:02:24,320 --> 00:02:26,420
+para ejecutar algún código siempre que ocurra.
+
+31
+00:02:26,840 --> 00:02:34,940
+Y también tenemos una forma adicional de minería de datos en la que combinamos ambas direcciones. El enlace de datos bidireccional,
+
+32
+00:02:35,120 --> 00:02:41,300
+donde podemos reaccionar eventos y generar algo al mismo tiempo, podría no ser muy claro cómo
+
+33
+00:02:41,300 --> 00:02:41,930
+funciona.
+
+34
+00:02:41,960 --> 00:02:47,400
+Pero eso es lo que ahora tendrá una visión detallada de los cuatro foros en las próximas conferencias

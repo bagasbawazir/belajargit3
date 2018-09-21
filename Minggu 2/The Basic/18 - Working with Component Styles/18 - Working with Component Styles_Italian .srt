@@ -1,0 +1,203 @@
+1
+00:00:02,500 --> 00:00:08,560
+Abbiamo capito che i modelli sono importanti e che possiamo usarli in linea qui o puntare
+
+2
+00:00:08,560 --> 00:00:10,150
+a un file esterno.
+
+3
+00:00:10,360 --> 00:00:11,700
+Che dire degli stili.
+
+4
+00:00:11,710 --> 00:00:17,230
+Abbiamo anche questo stile o altre proprietà qui e abbiamo i file DS C S S.
+
+5
+00:00:17,230 --> 00:00:19,080
+Cosa possiamo fare con quelli.
+
+6
+00:00:19,550 --> 00:00:22,070
+Torniamo al nostro componente app per questo.
+
+7
+00:00:22,120 --> 00:00:25,710
+Qui abbiamo un tag dell'albero e una linea orizzontale.
+
+8
+00:00:25,810 --> 00:00:30,120
+E se diamo un'occhiata alla nostra applicazione non è così carino.
+
+9
+00:00:30,330 --> 00:00:37,060
+Il fatto che io sia nel testo del componente app qui è tutto il testo in realtà è seduto proprio
+
+10
+00:00:37,060 --> 00:00:38,640
+sul non sei super bello.
+
+11
+00:00:38,830 --> 00:00:45,610
+Da quando usiamo il bootstrap Ovviamente possiamo usare alcune classi di bootstrap per migliorare questo, così potremmo aggiungere un giorno
+
+12
+00:00:45,640 --> 00:00:49,800
+con la nostra classe contenitore intorno ad esso e aggiungere una riga.
+
+13
+00:00:49,900 --> 00:00:53,490
+E questo è solo usando D. C. è come bootstrap framework.
+
+14
+00:00:53,500 --> 00:00:58,400
+Quindi queste sono alcune classi di siesta fornite da questo quadro niente di specifico del pescatore.
+
+15
+00:00:58,660 --> 00:01:05,080
+E poi potremmo aggiungere una colonna della tua ricchezza in eccesso per avere una colonna su tutte le sfuriate del dispositivo.
+
+16
+00:01:05,080 --> 00:01:12,100
+Ora, se aggiungiamo questo, abbiamo aggiunto un po 'di stile alla normalità come lo stile di nessun pescatore specifico.
+
+17
+00:01:12,100 --> 00:01:15,400
+E la nostra app sembra un po 'più bella ora.
+
+18
+00:01:15,490 --> 00:01:21,360
+Questo è grandioso, ma possiamo anche usare alcuni strumenti che ci sono stati dati dall'angolarità.
+
+19
+00:01:21,430 --> 00:01:24,990
+Diciamo che sto facendo parte del componente India qui.
+
+20
+00:01:25,000 --> 00:01:27,390
+Vogliamo cambiare questo stile.
+
+21
+00:01:27,590 --> 00:01:31,960
+Forse vogliamo dare un po 'di colore blu.
+
+22
+00:01:32,290 --> 00:01:39,480
+Possiamo farlo semplicemente andando al file C S S del componente app che definisce lo stile per il componente does.
+
+23
+00:01:39,880 --> 00:01:42,690
+E ora possiamo usare o scrivere il normale codice US SEUS.
+
+24
+00:01:42,700 --> 00:01:49,570
+Quindi scavalca lo stile di D. H. tag libero e imposta il suo colore ad alcuni Baloo.
+
+25
+00:01:49,570 --> 00:01:52,970
+Quindi forse il blu scuro di Tudor qui.
+
+26
+00:01:53,230 --> 00:01:59,050
+Se ora salviamo questo e diamo un'occhiata alla nostra applicazione, vedi che è blu scuro.
+
+27
+00:01:59,060 --> 00:02:08,230
+Ora questo è come puoi usare questo file di stile come C-s come file di riferimento nel componente app anche qui
+
+28
+00:02:08,240 --> 00:02:11,390
+per trovare gli stili per un componente.
+
+29
+00:02:11,500 --> 00:02:20,170
+Ora, proprio come siamo stati in grado di scegliere tra file esterni e codice in linea per il modello, possiamo fare
+
+30
+00:02:20,170 --> 00:02:22,420
+lo stesso per lo stile.
+
+31
+00:02:22,600 --> 00:02:29,310
+Lo sai che lo stile sei o un anno di array, mentre il modello sei stato un Was non è questo.
+
+32
+00:02:29,350 --> 00:02:36,290
+Perché potremmo fare riferimento a più fogli di stile esterni qui in modo da poter aggiungere puntatori ai fogli di stile.
+
+33
+00:02:36,790 --> 00:02:40,370
+Ma oltre a questo ho intenzione di commentare questo.
+
+34
+00:02:40,420 --> 00:02:44,170
+Puoi anche impostare una proprietà numero che è solo uno stile.
+
+35
+00:02:44,200 --> 00:02:50,770
+Questo richiede anche un array, ma ora prende una serie di stringhe in cui definisci lo stile in questa stringa.
+
+36
+00:02:50,770 --> 00:02:57,400
+Quindi ora, in questo file, userò di nuovo i tick di nuovo per poter scrivere un'espressione su più
+
+37
+00:02:57,400 --> 00:03:00,790
+righe qui e poi potremmo creare un albero qui.
+
+38
+00:03:00,790 --> 00:03:05,430
+E per mostrarti davvero che questo è diverso, imposterò il cubo di colore.
+
+39
+00:03:05,440 --> 00:03:10,390
+Ora non diciamo blu scuro ma hai Dodger blu.
+
+40
+00:03:10,750 --> 00:03:18,070
+questo e torniamo all'applicazione, vedi il blu aggiornato perché ora lo stile in linea sta prendendo il sopravvento.
+
+41
+00:03:18,070 --> 00:03:19,470
+E se ora salvi
+
+42
+00:03:19,480 --> 00:03:25,460
+Ho commentato l'altro proprio come con il modello devi decidere quale usare.
+
+43
+00:03:25,460 --> 00:03:32,290
+Non è possibile combinare lo stile o gli stili, ma entrambi importanti qui devono essere una matrice diversa
+
+44
+00:03:32,290 --> 00:03:33,000
+dal modello.
+
+45
+00:03:33,020 --> 00:03:40,730
+Devi avere un solo modello per avere più file di stile o definizioni di stile e puoi scegliere tra
+
+46
+00:03:40,730 --> 00:03:43,330
+inline ed extra in un file.
+
+47
+00:03:43,340 --> 00:03:46,370
+Le regole sono fondamentalmente le stesse del modello.
+
+48
+00:03:46,370 --> 00:03:52,970
+più codice in là usando un file esterno è una buona idea se è una definizione di stile breve come questa.
+
+49
+00:03:52,970 --> 00:03:53,670
+Se hai
+
+50
+00:03:53,720 --> 00:03:56,970
+Perché non lo metti nel file dattiloscritto.
+
+51
+00:03:56,990 --> 00:03:59,940
+È così che puoi lavorare con modelli e stili

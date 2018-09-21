@@ -1,0 +1,163 @@
+1
+00:00:03,270 --> 00:00:10,320
+Hasta ahora siempre usamos el archivo de plantilla externo y no hemos hecho nada con respecto al diseño
+
+2
+00:00:10,320 --> 00:00:11,310
+de los componentes.
+
+3
+00:00:11,340 --> 00:00:13,110
+Hora de cambiar ambos.
+
+4
+00:00:13,530 --> 00:00:21,170
+Ahora, en lugar de usar un archivo de plantilla externo, también puede usar una plantilla en línea, lo que significa que
+
+5
+00:00:21,230 --> 00:00:22,110
+define DHT.
+
+6
+00:00:22,130 --> 00:00:25,680
+Todo el código en los hypes el código suena extraño.
+
+7
+00:00:25,710 --> 00:00:33,520
+Si bien es posible, podemos hacer esto simplemente yendo a nuestros componentes de servicio aquí, por
+
+8
+00:00:33,540 --> 00:00:37,210
+ejemplo, y ahora señalamos este archivo HDMI aquí.
+
+9
+00:00:37,260 --> 00:00:40,500
+Ahora podemos cambiar la plantilla Eurail a plantilla.
+
+10
+00:00:40,710 --> 00:00:47,250
+Uno de los dos tiene que estar presente Ebro vinculado a una plantilla externa o simplemente plantilla para definirlo
+
+11
+00:00:47,250 --> 00:00:48,240
+en este archivo.
+
+12
+00:00:48,270 --> 00:00:50,750
+Pero cada componente necesita una plantilla.
+
+13
+00:00:50,750 --> 00:00:55,160
+Esta es la única propiedad que debe tener en todo momento.
+
+14
+00:00:55,650 --> 00:00:58,600
+Entonces con eso ahora lo cambié a plantilla.
+
+15
+00:00:58,740 --> 00:01:01,790
+Ahora podemos escribir nuestro código de plantilla aquí.
+
+16
+00:01:01,950 --> 00:01:07,560
+Entonces aquí podríamos replicar el servidor de aplicaciones de esta manera.
+
+17
+00:01:08,420 --> 00:01:14,810
+Quizás dos veces tengamos que asegurarnos de no envolver esta línea porque no es compatible con una
+
+18
+00:01:15,050 --> 00:01:16,700
+cadena de texto por defecto.
+
+19
+00:01:16,820 --> 00:01:21,200
+Y si ahora guardo esto, vemos el mismo resultado que antes.
+
+20
+00:01:21,380 --> 00:01:23,120
+Entonces parece que nada ha cambiado.
+
+21
+00:01:23,120 --> 00:01:23,780
+Y eso es bueno.
+
+22
+00:01:23,780 --> 00:01:26,760
+En este caso, porque tratamos de que se vea así.
+
+23
+00:01:26,990 --> 00:01:31,280
+Pero en realidad cambiamos la forma en que configuramos nuestra plantilla aquí.
+
+24
+00:01:31,280 --> 00:01:35,370
+Ahora estamos definiendo el código VHDL en este mismo archivo.
+
+25
+00:01:35,600 --> 00:01:41,120
+Y, en realidad, si quiere escribir cadenas de líneas múltiples aquí, que probablemente quiera
+
+26
+00:01:41,120 --> 00:01:49,520
+si agrega más HVM o código, puede pasar de una cadena normal de comillas simples a usar tácticas para usar expresiones
+
+27
+00:01:49,520 --> 00:01:55,540
+de plantilla de JavaScript para poder escribir cadenas de línea de entre allí ahora.
+
+28
+00:01:55,790 --> 00:02:03,390
+Entonces, ahora, entre la apertura y el cierre de Tig, usted puede en realidad ajustar la línea y ahora escribir su
+
+29
+00:02:03,440 --> 00:02:10,070
+código HMO así. ¿Qué debería usar si utiliza este año de enfoque de uso de plantilla o un
+
+30
+00:02:10,070 --> 00:02:10,880
+archivo externo?
+
+31
+00:02:10,880 --> 00:02:17,960
+Depende si no tienes tanto código que no lo haya envejecido demasiado, el código que usa una plantilla en línea como
+
+32
+00:02:17,960 --> 00:02:19,130
+este podría estar bien.
+
+33
+00:02:19,130 --> 00:02:23,550
+Entonces tienes toda la lógica del código de mecanografía y eso está absolutamente bien.
+
+34
+00:02:23,750 --> 00:02:29,300
+Pero tan pronto como digamos que hay más de tres líneas de código en la parte de HCM aquí en
+
+35
+00:02:29,510 --> 00:02:35,420
+la plantilla, usar un archivo externo es una buena idea para que sea más fácil de seguir y más fácil de entender.
+
+36
+00:02:35,450 --> 00:02:42,560
+Sin embargo, es importante tener en cuenta que puede utilizar este enfoque para alinear sus plantillas
+
+37
+00:02:42,680 --> 00:02:48,290
+y es muy importante que tenga al menos una plantilla en un componente.
+
+38
+00:02:48,500 --> 00:02:54,500
+Puede omitir el selector que más adelante en la sección de enrutamiento aprenderá una forma diferente de
+
+39
+00:02:54,500 --> 00:03:01,880
+componentes flotantes sin usar su selector y no tiene que agregar estilos, pero las plantillas tienen que estar presentes para que
+
+40
+00:03:01,880 --> 00:03:03,200
+las plantillas de Word.
+
+41
+00:03:03,200 --> 00:03:06,480
+Ahora echemos un vistazo a los estilos en la próxima conferencia.

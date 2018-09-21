@@ -1,0 +1,223 @@
+1
+00:00:03,180 --> 00:00:09,110
+Nas últimas palestras, aprendemos muito sobre como podemos usar a vinculação de propriedade e o jubilation de string para os
+
+2
+00:00:09,110 --> 00:00:10,750
+dados de saída no modelo.
+
+3
+00:00:10,760 --> 00:00:12,160
+Vamos agora reagir aos eventos.
+
+4
+00:00:12,170 --> 00:00:14,010
+Por exemplo, temos um padrão aqui.
+
+5
+00:00:14,180 --> 00:00:20,090
+E depois de dois segundos, essa maldade ativada seria legal, poderíamos fazer algo assim que clicássemos
+
+6
+00:00:20,090 --> 00:00:20,890
+no botão.
+
+7
+00:00:21,200 --> 00:00:27,470
+Agora eu vou mostrar em breve como podemos realmente adicionar um servidor de notícias como podemos adicionar uma nova réplica do
+
+8
+00:00:27,560 --> 00:00:30,920
+nosso servidor um seletor do nosso componente de servidor para o ano.
+
+9
+00:00:30,980 --> 00:00:35,440
+Por agora, o que eu quero fazer é querer algo de saída.
+
+10
+00:00:35,450 --> 00:00:41,180
+Vou remover este texto aqui e, em vez disso, aqui eu quero mostrar o valor de uma propriedade ou
+
+11
+00:00:41,180 --> 00:00:42,060
+criar essa propriedade.
+
+12
+00:00:42,100 --> 00:00:45,680
+E mais uma vez você ganha mais energia com isso, por enquanto, voltarei a isso.
+
+13
+00:00:45,740 --> 00:00:55,660
+Eu vou nomeá-lo status de criação do servidor e inicialmente capaz de configurá-lo para nenhum servidor foi criado assim.
+
+14
+00:00:55,660 --> 00:01:00,620
+Agora, essa propriedade pode ter cadeias de caracteres de saída, um status de criação de servidor de tribulação.
+
+15
+00:01:00,640 --> 00:01:03,930
+E eu acabei de dizer que não quero continuar enviando dados.
+
+16
+00:01:03,940 --> 00:01:05,330
+Queremos ouvir eventos.
+
+17
+00:01:05,380 --> 00:01:07,720
+Então eu prometi que faríamos isso.
+
+18
+00:01:07,870 --> 00:01:16,360
+Vou adicionar outro método abaixo aqui e vou nomear este método em create server d on no início para
+
+19
+00:01:16,360 --> 00:01:20,750
+deixar claro que isso será acionado dentro do meu template.
+
+20
+00:01:20,770 --> 00:01:26,830
+Você não precisa nomear em algo, mas isso facilita a compreensão de quem irá chamar
+
+21
+00:01:26,830 --> 00:01:27,600
+esse método.
+
+22
+00:01:27,790 --> 00:01:33,370
+Bem, o usuário basicamente fará algo que algum evento irá chamar, é isso que eu quero
+
+23
+00:01:33,370 --> 00:01:34,230
+simbolizar com isso.
+
+24
+00:01:34,510 --> 00:01:39,770
+Então, se você é capaz de definir o status de criação do servidor para o servidor foi criado.
+
+25
+00:01:40,270 --> 00:01:43,570
+Então, a peça que faltava, claro, é chamar esse método.
+
+26
+00:01:43,570 --> 00:01:50,340
+E agora aqui é onde, quando a ligação entra em jogo, queremos ouvir este evento click aqui.
+
+27
+00:01:50,470 --> 00:01:56,740
+E normalmente você tem o atributo on click no elemento HDMI, onde você pode executar algum código descartado
+
+28
+00:01:56,730 --> 00:01:57,550
+do Chalis.
+
+29
+00:01:57,670 --> 00:01:59,690
+Nós não vamos usar isso com o pescador embora.
+
+30
+00:01:59,860 --> 00:02:08,800
+Aqui nós temos o pescador de Sendak nos oferece ligação de evento que usa parênteses como propriedade
+
+31
+00:02:08,830 --> 00:02:11,800
+que liga colchetes usados ​​para eventos.
+
+32
+00:02:11,800 --> 00:02:15,190
+Parênteses são um sinal que estamos usando quando nos ligamos.
+
+33
+00:02:15,490 --> 00:02:19,630
+E aqui temos que especificar o nome do DBAN entre os parênteses.
+
+34
+00:02:19,750 --> 00:02:28,090
+Por exemplo, clique e basicamente você pode vincular a todos os eventos disponibilizados pelo atributo HDMI.
+
+35
+00:02:28,150 --> 00:02:29,740
+Você está nos colocando.
+
+36
+00:02:29,800 --> 00:02:37,600
+Então, se você tem um clique no mouse, você pode ligar para clicar no mouse sem o no início.
+
+37
+00:02:37,600 --> 00:02:40,000
+Então, estamos cegos para o evento click.
+
+38
+00:02:40,090 --> 00:02:45,070
+E agora, entre as aspas, colocamos o código que queremos executar.
+
+39
+00:02:45,160 --> 00:02:50,290
+Uma vez que este evento ocorra não muitas vezes você chamará um método aqui.
+
+40
+00:02:50,320 --> 00:02:58,690
+Então, vamos fazer como LEDs apontam para o método que queremos executar, que está no servidor create com parênteses.
+
+41
+00:02:58,810 --> 00:03:02,830
+Então, esse método será executado agora sempre que clicarmos no botão.
+
+42
+00:03:03,220 --> 00:03:06,390
+Como uma nota lateral, você não precisa executar um método aqui.
+
+43
+00:03:06,430 --> 00:03:11,140
+Você também pode colocar o código que deseja executar entre aspas.
+
+44
+00:03:11,300 --> 00:03:18,100
+Muitas vezes isso não é muito bom porque você quer executar mais código se algum evento acontecer.
+
+45
+00:03:18,100 --> 00:03:23,510
+Mas se tudo que você quer fazer é definir alguma propriedade booleana como True, por exemplo, bem.
+
+46
+00:03:23,620 --> 00:03:30,100
+Você pode definitivamente fazer inline o template como uma regra geral, embora você não deva colocar
+
+47
+00:03:30,130 --> 00:03:32,200
+muita lógica em seus templates.
+
+48
+00:03:32,230 --> 00:03:39,270
+Então, agora estamos ligando para clicar em evento e executamos no método create server quando ocorre.
+
+49
+00:03:39,270 --> 00:03:42,090
+Então vamos ver que há uma ação em nosso aplicativo.
+
+50
+00:03:42,100 --> 00:03:43,470
+Vamos recarregar a página.
+
+51
+00:03:43,510 --> 00:03:47,530
+O botão fica ativado e agora observe esta parte aqui.
+
+52
+00:03:47,560 --> 00:03:55,620
+Então eu clico no botão que muda o servidor foi criado porque estamos acionando nossos próprios métodos aqui.
+
+53
+00:03:55,720 --> 00:03:58,270
+E é assim que uma simples ligação de eventos funciona.
+
+54
+00:03:58,270 --> 00:03:59,870
+Use parênteses.
+
+55
+00:04:00,040 --> 00:04:04,910
+O nome do evento entre e, em seguida, entre as aspas, o código que você deseja executar.
+
+56
+00:04:05,020 --> 00:04:06,580
+Quando este evento ocorre

@@ -1,0 +1,255 @@
+1
+00:00:02,680 --> 00:00:08,910
+Vamos começar examinando de perto a interpelação de strings aqui e você serve um componente.
+
+2
+00:00:09,100 --> 00:00:14,770
+Eu não quero sua saída este ano na molécula de idade como esta, eu não quero codificar
+
+3
+00:00:14,770 --> 00:00:15,770
+a saída aqui.
+
+4
+00:00:15,900 --> 00:00:22,020
+Seria realista que nosso componente de servidor contenha informações sobre um servidor específico.
+
+5
+00:00:22,330 --> 00:00:34,450
+Então, talvez aqui no arquivo de modelo que queremos para o servidor de saída com ID e, em seguida, alguns IDs dinâmicos é seu e
+
+6
+00:00:34,840 --> 00:00:37,020
+sob um status como off-line.
+
+7
+00:00:37,210 --> 00:00:39,820
+Então nós temos dois campos dinâmicos aqui.
+
+8
+00:00:40,370 --> 00:00:46,360
+Agora, o que faz sentido derivá-los e digitar o código em um aplicativo real que
+
+9
+00:00:46,360 --> 00:00:52,050
+pode ser derivado da solicitação do HGP para fazer um back end ou algum cálculo.
+
+10
+00:00:52,090 --> 00:00:54,560
+Por enquanto, será codificado aqui.
+
+11
+00:00:54,820 --> 00:01:01,300
+Então, podemos ter um ID do servidor e eu vou atribuir um valor de digamos 10.
+
+12
+00:01:01,330 --> 00:01:11,320
+Então, um número e eu também teria um servidor em stators, que é uma string de linha, então dois tipos diferentes de
+
+13
+00:01:11,380 --> 00:01:13,210
+string e um número.
+
+14
+00:01:13,570 --> 00:01:19,920
+E, embora não seja necessário, você também pode ser muito explícito ao atribuir o recurso type with scripts do tipo
+
+15
+00:01:20,140 --> 00:01:25,500
+de adição de dois-pontos após o nome da propriedade e, em seguida, o tipo que terminará automaticamente.
+
+16
+00:01:25,490 --> 00:01:29,710
+Não são necessários, só estou fazendo isso aqui para fins de demonstração.
+
+17
+00:01:30,100 --> 00:01:37,020
+Então, agora, quando você gera essas duas propriedades em meu modelo e para obter essa conexão, precisamos de mineração de dados
+
+18
+00:01:37,030 --> 00:01:42,020
+porque você aprendeu que é tudo sobre a comunicação entre seus tipos e o modelo.
+
+19
+00:01:42,370 --> 00:01:49,750
+Portanto, as tribulações de stringin geralmente usam a solução típica para essa tarefa aqui, em vez
+
+20
+00:01:50,170 --> 00:01:51,220
+do placeholder.
+
+21
+00:01:51,280 --> 00:01:58,050
+Eu uso minhas chaves duplas abrindo e fechando faz a sintaxe de interpelação de
+
+22
+00:01:58,170 --> 00:02:04,440
+string e entre essas chaves duplas agora você pode escrever a expressão typescript.
+
+23
+00:02:04,810 --> 00:02:12,670
+Portanto, a expressão mais fácil é simplesmente fazer referência a uma propriedade como o ID do servidor e esse é o
+
+24
+00:02:12,670 --> 00:02:19,340
+caso de uso comum em que você apenas produz a propriedade aqui ou o valor da propriedade.
+
+25
+00:02:19,360 --> 00:02:22,630
+No entanto, esse não é o único caso de uso.
+
+26
+00:02:22,630 --> 00:02:30,790
+Você também pode, por exemplo, ano para o servidor simplesmente codificar uma string lá qualquer expressão que pode ser
+
+27
+00:02:30,790 --> 00:02:33,190
+resolvida para uma string no final.
+
+28
+00:02:33,190 --> 00:02:37,910
+Essa é a única condição para uma string de sintaxe de esgotamento aqui.
+
+29
+00:02:37,940 --> 00:02:43,640
+Então, o que quer que você tenha entre as chaves no final, de alguma forma ele deve retornar uma string.
+
+30
+00:02:43,720 --> 00:02:50,530
+Então você poderia chamar um método aqui que retorna uma string no final da única restrição que você pode
+
+31
+00:02:50,710 --> 00:02:52,910
+escrever expressões de múltiplas linhas aqui.
+
+32
+00:02:52,960 --> 00:03:00,410
+Você não pode escrever expressões de bloco aqui, então você não pode adicionar uma estrutura de controle if ou for em seu.
+
+33
+00:03:00,550 --> 00:03:03,120
+Você poderia usar uma expressão ternária embora.
+
+34
+00:03:03,490 --> 00:03:06,230
+Então é isso que você pode fazer.
+
+35
+00:03:06,250 --> 00:03:12,400
+Agora vamos também substituir o último espaço reservado e aqui vou novamente referenciar uma propriedade
+
+36
+00:03:12,400 --> 00:03:14,250
+o status do servidor.
+
+37
+00:03:14,260 --> 00:03:20,280
+Agora, isso é uma interpelação de string na sua pesquisa e você verá que temos uma expressão que é uma
+
+38
+00:03:20,280 --> 00:03:21,240
+string em si.
+
+39
+00:03:21,430 --> 00:03:25,090
+E então duas opressões Abrego que simplesmente apontam para propriedades.
+
+40
+00:03:25,150 --> 00:03:28,690
+E novamente você também pode chamar um método aqui que retorna uma string.
+
+41
+00:03:28,690 --> 00:03:30,270
+Agora interessante.
+
+42
+00:03:30,270 --> 00:03:33,720
+O ID do servidor não é uma cadeia, mas um número.
+
+43
+00:03:33,760 --> 00:03:41,200
+E eu acabei de dizer que essa cadeia de júbilo tem que ser resolvida em uma string e o final tem que pegar uma string
+
+44
+00:03:41,200 --> 00:03:41,930
+no final.
+
+45
+00:03:42,070 --> 00:03:46,800
+Então vamos ver se isso funciona se salvarmos isso com o fim ainda em execução.
+
+46
+00:03:46,960 --> 00:03:52,170
+Vamos também mudar o observador de volta para os observadores para que isso funcione novamente.
+
+47
+00:03:52,240 --> 00:03:58,420
+Nós vemos servidor com ID 10 está offline, vemos duas vezes, porque repetimos este componente em
+
+48
+00:03:58,420 --> 00:04:04,600
+cada componente, claro, tem o mesmo conteúdo, mas vemos que tribulação stringin está funcionando e que
+
+49
+00:04:05,080 --> 00:04:09,130
+especialmente é também um ano de trabalho para o nosso número.
+
+50
+00:04:09,160 --> 00:04:16,090
+Então eu fiz 10 dados não é um problema que está funcionando bem porque um número pode ser facilmente convertido
+
+51
+00:04:16,090 --> 00:04:17,130
+em uma string.
+
+52
+00:04:17,140 --> 00:04:24,190
+Então, sim, você precisa obter uma string no final ou algo que possa ser convertido em uma string para
+
+53
+00:04:24,190 --> 00:04:25,810
+estar realmente correto aqui.
+
+54
+00:04:25,870 --> 00:04:28,230
+É assim que você pode usar a subpopulação de strings.
+
+55
+00:04:28,450 --> 00:04:35,620
+E agora, para realmente completar o exemplo, digamos que o status do servidor aqui seja de alguma forma retornado em um status
+
+56
+00:04:35,770 --> 00:04:38,970
+de servidor get Meffert poderia ser o nome do método.
+
+57
+00:04:39,010 --> 00:04:41,680
+É assim que você define um método no typescript.
+
+58
+00:04:41,680 --> 00:04:45,730
+Então você pode saber uma espécie de definição de Matha da nossa língua.
+
+59
+00:04:45,940 --> 00:04:51,430
+E aqui nós simplesmente retornamos este status do servidor.
+
+60
+00:04:51,520 --> 00:04:58,180
+Então, nós retornamos a propriedade ou poderíamos ter acessado diretamente como já fizemos, mas apenas demonstrar
+
+61
+00:04:58,210 --> 00:05:00,500
+que você pode chamar um método.
+
+62
+00:05:00,610 --> 00:05:08,140
+Aqui eu estou chamando um método obter o status do serviço, claro, leva à mesma saída, porque novamente tudo isso que a
+
+63
+00:05:08,140 --> 00:05:14,470
+matemática faz é retornar como uma string no final ou algo que não pode ser convertido em uma
+
+64
+00:05:14,470 --> 00:05:17,050
+string que é interpelação de string em ação.

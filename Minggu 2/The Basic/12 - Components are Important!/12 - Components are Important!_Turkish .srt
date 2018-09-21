@@ -1,0 +1,147 @@
+1
+00:00:02,660 --> 00:00:10,560
+Son derste, yerel sunucuda (4200) tarayıcıda bu noktadan geçenleri
+
+2
+00:00:10,620 --> 00:00:12,000
+yakından inceledik.
+
+3
+00:00:12,120 --> 00:00:18,480
+Biz indeks HVM dosyasının burada çalıştırılan bir grup komut dosyası içereceğini anladığını
+
+4
+00:00:18,480 --> 00:00:24,390
+anlıyoruz ki bu uygulama temel olarak açısal uygulama sarkan uygulamasının başlattığı
+
+5
+00:00:24,390 --> 00:00:30,840
+önemli bilgileri alırken uygulama bileşenini bu bilgi ile analiz etmesi gerektiğini bilmelidir.
+
+6
+00:00:30,900 --> 00:00:36,650
+Açısal kod bu yıl ayrıştırmak için AB kök bileşenini burada yapar.
+
+7
+00:00:36,670 --> 00:00:42,600
+Bunu anlayın ve öfke uygulamamızı bu noktaya ekleyin ve bu yüzden, gördüğünüz gibi
+
+8
+00:00:42,600 --> 00:00:47,190
+bu sayfanın kaynak kodunda bulunan yükleme nokta nokta noktasını göremiyoruz.
+
+9
+00:00:47,250 --> 00:00:55,760
+Fakat bunun yerine neden bunu görüyoruz, çünkü açısal, bunu çalışma zamanında geçersiz kılıyor çünkü SCHABAS'ın ne olduğu için
+
+10
+00:00:55,780 --> 00:00:57,730
+de iyi bir şey.
+
+11
+00:00:57,750 --> 00:01:04,500
+Şimdi bu başlangıç ​​sürecine yakından baktığımızda, bu Cobbold'a daha yakından bakalım ve
+
+12
+00:01:04,530 --> 00:01:10,460
+bileşenleri ekleyelim ve genel bileşenler açısal olarak önemli bir özellik.
+
+13
+00:01:10,500 --> 00:01:17,220
+Tüm uygulamanızı kendi başınıza oluşturduğunuz birkaç bileşenden oluşturarak
+
+14
+00:01:17,220 --> 00:01:18,260
+oluşturursunuz.
+
+15
+00:01:18,270 --> 00:01:24,080
+Şimdi bu uygulama bileşeni ile başlamamız gereken kök bileşeni ve başlangıçtaki tüm uygulamalarımızın
+
+16
+00:01:24,080 --> 00:01:26,310
+temel olarak nasıl başlayacağına başlıyoruz.
+
+17
+00:01:26,340 --> 00:01:32,670
+Bu nedenle bu rota bileşeni bu uygulama bileşeninin daha sonra diğer bileşenlere yerleştirdiğimiz veya eklediğimiz
+
+18
+00:01:32,670 --> 00:01:33,720
+bileşen olacaktır.
+
+19
+00:01:33,720 --> 00:01:36,580
+Bu yüzden bu şablonda HVM dosyası kapalı.
+
+20
+00:01:36,600 --> 00:01:37,540
+Yep bileşeni.
+
+21
+00:01:37,560 --> 00:01:41,050
+Daha sonra diğer bileşenlerimizi de ekleyeceğiz.
+
+22
+00:01:41,160 --> 00:01:46,830
+Tipik olarak, bir ana sayfa ve kullanıcı ile bir ana sayfa ve bir yan çubuk belki de bir kullanıcı
+
+23
+00:01:46,830 --> 00:01:48,370
+ile bir web sayfası olabilir.
+
+24
+00:01:48,780 --> 00:01:55,930
+uygun bir bileşen olabilir ve belki de saç üzerindeki eşyalar da kendi Kebonlarınız olabilir.
+
+25
+00:01:55,980 --> 00:01:58,960
+Şimdi bir bakacak olursak, bu başlığa
+
+26
+00:01:59,010 --> 00:02:06,670
+Kurstan, bir uygulamanın ayrık bileşenlere ayrılmasına nasıl yaklaşacağımı öğreneceksiniz.
+
+27
+00:02:06,690 --> 00:02:14,280
+Elbette ana alanımıza bar bileşenleri olarak da sahibiz ve bu da Engler'in yapılı bileşenlerinin
+
+28
+00:02:14,490 --> 00:02:15,860
+ardındaki temel fikir.
+
+29
+00:02:15,870 --> 00:02:21,130
+Her bir bileşenin kendi şablonunun kendi yaşının tamamı öldürülmüş olabilir.
+
+30
+00:02:21,210 --> 00:02:26,850
+Ve daha da önemlisi, kendi iş mantığına ve işine büyük fayda sağlamak.
+
+31
+00:02:26,850 --> 00:02:34,180
+Karmaşık uygulamanızı karmaşık web sayfanızı yeniden kullanılabilir bölümlere ayırmamızı sağlar.
+
+32
+00:02:34,200 --> 00:02:39,840
+Bir bileşeni birden çok kez kullanabilir ve bu iş mantığını kolayca çoğaltabilirsiniz.
+
+33
+00:02:39,870 --> 00:02:48,090
+Bu stili çoğaltın ya da genel olarak her şeyi tek bir komut dosyası haline
+
+34
+00:02:48,090 --> 00:02:54,440
+getirmek zorunda kalmadan uygulamanızda ince ayarlı bir parça haline getirin.
+
+35
+00:02:54,480 --> 00:02:59,330
+Değiş tokuş ve yeniden kullanılabilirliği çok kolay güncellemek çok kolaydır.
+
+36
+00:02:59,370 --> 00:03:04,890
+Öyleyse, aslında bir bileşeni nasıl oluşturduğumuza ve bu bileşenin bir sonraki derste
+
+37
+00:03:04,890 --> 00:03:06,980
+neler yaptığını daha yakından inceleyelim.

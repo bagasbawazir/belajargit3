@@ -1,0 +1,167 @@
+1
+00:00:02,730 --> 00:00:05,440
+Ahora ya eres un ninja componente.
+
+2
+00:00:05,640 --> 00:00:12,820
+Aprendimos mucho sobre los componentes sobre las opciones de plantillas que tenemos allí y sobre los estilos que quiero y nos centramos
+
+3
+00:00:12,820 --> 00:00:17,480
+en la última propiedad que vemos en este decorador de componentes por el momento.
+
+4
+00:00:17,670 --> 00:00:26,310
+El selector ya mencioné que tiene que ser un selector único para que no anule accidentalmente un elemento
+
+5
+00:00:26,550 --> 00:00:33,450
+ya existente o tal vez un componente disponible por una cantidad de paquetes de terceros
+
+6
+00:00:33,450 --> 00:00:35,790
+que utilice en su proyecto.
+
+7
+00:00:35,790 --> 00:00:38,000
+Hay otra información sobre el selector.
+
+8
+00:00:38,000 --> 00:00:47,430
+Aunque no tiene que usar este tipo de selector en este momento, nuestro selector es el mismo selector que el que
+
+9
+00:00:47,430 --> 00:00:48,840
+usamos en C. En cuanto a la
+
+10
+00:00:48,870 --> 00:00:57,210
+selección del elemento, este año tenemos el servidor de aplicaciones como elemento, y esto es reconocido por angular porque el selector que elegimos son los servidores
+
+11
+00:00:57,600 --> 00:01:04,050
+de aplicaciones y esto básicamente solo observa cómo se usan los elementos seleccionados en C S S a la derecha.
+
+12
+00:01:04,050 --> 00:01:05,490
+Seleccionamos el elemento árbol de edad simplemente escribiendo Atri aquí.
+
+13
+00:01:05,490 --> 00:01:09,950
+Seleccionamos el elemento de servicio de la aplicación simplemente escribiendo el servicio de la aplicación aquí.
+
+14
+00:01:10,110 --> 00:01:17,460
+Entonces eso realmente funciona como selector de Legacy y, por lo tanto, no está limitado a seleccionar por elemento.
+
+15
+00:01:17,820 --> 00:01:26,840
+Podría poner esto entre corchetes para usar el selector de atributos.
+
+16
+00:01:27,120 --> 00:01:33,620
+Entonces, en Zia's puedes seleccionar elementos por atributo al encerrar ese atributo entre corchetes.
+
+17
+00:01:33,690 --> 00:01:40,190
+Y ahora, si guarda esto, vería que nuestra aplicación en realidad está rota porque si
+
+18
+00:01:40,650 --> 00:01:48,150
+echamos un vistazo a los servidores de aplicaciones de mensajes de error, es un elemento desconocido porque ahora
+
+19
+00:01:48,150 --> 00:01:56,670
+nuestro Code Angler ya no reconoce el servicio de aplicaciones porque hemos cambiado el selector para que sea un atributo.
+
+20
+00:01:56,700 --> 00:02:02,330
+Para que esto vuelva a funcionar tendríamos que comentarlo o eliminarlo y quizás añadir un elemento
+
+21
+00:02:02,400 --> 00:02:08,220
+div o cualquier otro elemento humano envejecido normal que tenga el atributo de servidor de aplicaciones ahora.
+
+22
+00:02:08,220 --> 00:02:15,120
+Ahora con el atributo personalizado de días agregado ahora.
+
+23
+00:02:15,120 --> 00:02:18,240
+Ahora los Eberts otra vez porque ahora el pescador
+
+24
+00:02:18,300 --> 00:02:25,170
+selecciona el elemento por atributo y no por el elemento en sí porque hemos cambiado el selector y la
+
+25
+00:02:25,200 --> 00:02:33,630
+alternativa de Navier es seleccionar por y voy a comentar esto para que el código siga ahí para referencia a seleccionar por clase
+
+26
+00:02:33,630 --> 00:02:38,630
+Así que con un punto al principio, los servidores de aplicaciones vuelven a ser como en C S S.
+
+27
+00:02:38,640 --> 00:02:44,120
+Entonces aquí ahora podemos seleccionar por clase.
+
+28
+00:02:44,160 --> 00:02:48,120
+Así que agreguemos un nuevo día del año que
+
+29
+00:02:48,120 --> 00:02:54,600
+tenga una clase de servidores de aplicaciones que, por supuesto, ahora también podríamos diseñar.
+
+30
+00:02:54,630 --> 00:02:55,380
+Pero además de eso, Engler también lo reconoce como un selector y por eso todavía vemos la aplicación.
+
+31
+00:02:55,410 --> 00:03:02,240
+Ahora estas son todas las opciones que tienes.
+
+32
+00:03:02,490 --> 00:03:04,460
+Como una nota al margen, la selección
+
+33
+00:03:04,740 --> 00:03:12,330
+por ID no funcionará, no es compatible con angular y todos esos pseudo selectores como hover y demás tampoco funcionan y normalmente utiliza el estilo de elementos aquí.
+
+34
+00:03:12,390 --> 00:03:19,170
+Servidores de aplicaciones para componentes.
+
+35
+00:03:19,310 --> 00:03:21,750
+Pronto aprenderemos sobre las directivas.
+
+36
+00:03:21,780 --> 00:03:23,820
+Otra característica donde esto es diferente.
+
+37
+00:03:23,830 --> 00:03:25,920
+Pero para los componentes, normalmente
+
+38
+00:03:26,100 --> 00:03:33,360
+crea sus propios elementos y, por lo tanto, no usa ese estilo y no usa el estilo de atributo.
+
+39
+00:03:33,360 --> 00:03:36,140
+En cambio, utilizas la aplicación
+
+40
+00:03:36,180 --> 00:03:43,530
+Cirus como elemento, pero es importante comprender que no estás limitado a esto.
+
+41
+00:03:43,530 --> 00:03:43,840
+Y puede haber casos de uso en los que desee utilizar un selector diferente
+
+42
+00:03:43,860 --> 00:03:47,750
+&nbsp;

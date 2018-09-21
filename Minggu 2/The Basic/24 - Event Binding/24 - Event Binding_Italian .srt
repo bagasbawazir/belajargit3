@@ -1,0 +1,223 @@
+1
+00:00:03,180 --> 00:00:09,110
+Nelle ultime lezioni apprendiamo molto su come possiamo usare l'associazione di proprietà e la jubilation di stringhe
+
+2
+00:00:09,110 --> 00:00:10,750
+per produrre dati nel modello.
+
+3
+00:00:10,760 --> 00:00:12,160
+Ora reagiamo agli eventi.
+
+4
+00:00:12,170 --> 00:00:14,010
+Ad esempio abbiamo uno schema qui.
+
+5
+00:00:14,180 --> 00:00:20,090
+E dopo due secondi che questa cattiveria è stata abilitata, sarebbe bello poter fare qualcosa dopo aver fatto
+
+6
+00:00:20,090 --> 00:00:20,890
+clic sul pulsante.
+
+7
+00:00:21,200 --> 00:00:27,470
+Ora vi mostrerò presto come possiamo effettivamente aggiungere un server di notizie su come aggiungere una nuova replica
+
+8
+00:00:27,560 --> 00:00:30,920
+del nostro server come selettore del nostro componente server all'anno.
+
+9
+00:00:30,980 --> 00:00:35,440
+Per ora quello che voglio fare è produrre qualcosa.
+
+10
+00:00:35,450 --> 00:00:41,180
+Rimuoverò questo testo qui e invece qui voglio produrre il valore di una proprietà o creare
+
+11
+00:00:41,180 --> 00:00:42,060
+questa proprietà.
+
+12
+00:00:42,100 --> 00:00:45,680
+E di nuovo ci guadagni più energia per ora tornerò su questo.
+
+13
+00:00:45,740 --> 00:00:55,660
+Lo chiamerò Stato di creazione del server e inizialmente in grado di impostarlo su nessun server è stato creato in questo modo.
+
+14
+00:00:55,660 --> 00:01:00,620
+Ora questa proprietà può essere in output fili stringa uno stato di creazione del server di tribolazione.
+
+15
+00:01:00,640 --> 00:01:03,930
+E ti ho appena detto che non voglio continuare a produrre dati.
+
+16
+00:01:03,940 --> 00:01:05,330
+Vogliamo ascoltare gli eventi.
+
+17
+00:01:05,380 --> 00:01:07,720
+Così ho promesso che lo faremo.
+
+18
+00:01:07,870 --> 00:01:16,360
+Aggiungerò un altro metodo qui sotto e chiamerò questo metodo su create server d on all'inizio
+
+19
+00:01:16,360 --> 00:01:20,750
+per chiarire che questo verrà attivato dal mio modello.
+
+20
+00:01:20,770 --> 00:01:26,830
+Non devi nominarlo su qualcosa, ma rende più facile capire chi chiamerà
+
+21
+00:01:26,830 --> 00:01:27,600
+questo metodo.
+
+22
+00:01:27,790 --> 00:01:33,370
+Bene, l'utente fondamentalmente sta facendo qualcosa che un evento chiamerà questo è ciò che voglio simbolizzare
+
+23
+00:01:33,370 --> 00:01:34,230
+con quello.
+
+24
+00:01:34,510 --> 00:01:39,770
+Quindi, se sei in grado di impostare lo stato di creazione del server sul server è stato creato.
+
+25
+00:01:40,270 --> 00:01:43,570
+Quindi il pezzo mancante è chiamare questo metodo.
+
+26
+00:01:43,570 --> 00:01:50,340
+E ora qui è dove se quando entra in gioco il binding vogliamo ascoltare questo evento click qui.
+
+27
+00:01:50,470 --> 00:01:56,740
+E in genere si ha l'attributo on-click sull'elemento HDMI in cui è ora possibile eseguire un codice rilasciato
+
+28
+00:01:56,730 --> 00:01:57,550
+da Chalis.
+
+29
+00:01:57,670 --> 00:01:59,690
+Non lo useremo comunque con il pescatore.
+
+30
+00:01:59,860 --> 00:02:08,800
+Qui abbiamo il pescatore di Sendak che ci offre il binding di eventi che usa parentesi come
+
+31
+00:02:08,830 --> 00:02:11,800
+parentesi quadre usate per gli eventi.
+
+32
+00:02:11,800 --> 00:02:15,190
+Le parentesi sono un segnale che stiamo usando durante il binding.
+
+33
+00:02:15,490 --> 00:02:19,630
+E qui dobbiamo specificare il nome di DBAN tra parentesi.
+
+34
+00:02:19,750 --> 00:02:28,090
+Ad esempio, fai clic e puoi fondamentalmente associare a tutti gli eventi resi disponibili dall'attributo HDMI.
+
+35
+00:02:28,150 --> 00:02:29,740
+Ci stai piazzando.
+
+36
+00:02:29,800 --> 00:02:37,600
+Quindi se hai cliccato su "mouse" puoi "legare" per fare clic con il mouse per entrare senza "on" all'inizio.
+
+37
+00:02:37,600 --> 00:02:40,000
+Quindi siamo ciechi per l'evento click.
+
+38
+00:02:40,090 --> 00:02:45,070
+E ora tra le virgolette mettiamo il codice che vogliamo eseguire.
+
+39
+00:02:45,160 --> 00:02:50,290
+Una volta che questo evento si verifica, spesso chiamerai un metodo qui.
+
+40
+00:02:50,320 --> 00:02:58,690
+Quindi facciamo come i LED puntano al metodo che vogliamo eseguire, che si trova sul server di creazione con parentesi.
+
+41
+00:02:58,810 --> 00:03:02,830
+Quindi questo metodo verrà ora eseguito ogni volta che clicchiamo sul pulsante.
+
+42
+00:03:03,220 --> 00:03:06,390
+Come nota a margine non devi eseguire un metodo qui.
+
+43
+00:03:06,430 --> 00:03:11,140
+È anche possibile inserire il codice che si desidera eseguire a destra tra virgolette.
+
+44
+00:03:11,300 --> 00:03:18,100
+Spesso questo non è molto buono perché si desidera eseguire più codice se si verifica qualche evento.
+
+45
+00:03:18,100 --> 00:03:23,510
+Ma se tutto ciò che si vuole fare è impostare bene alcune proprietà booleane su True.
+
+46
+00:03:23,620 --> 00:03:30,100
+Puoi sicuramente fare in linea il modello come regola generale, anche se non dovresti mettere
+
+47
+00:03:30,130 --> 00:03:32,200
+troppa logica nei tuoi modelli.
+
+48
+00:03:32,230 --> 00:03:39,270
+Quindi ora ci impegniamo a fare clic sull'evento e noi eseguiamo il metodo server quando si verifica.
+
+49
+00:03:39,270 --> 00:03:42,090
+Quindi vediamo che c'è un'azione nella nostra applicazione.
+
+50
+00:03:42,100 --> 00:03:43,470
+Ricarichiamo la pagina.
+
+51
+00:03:43,510 --> 00:03:47,530
+Il pulsante viene abilitato e ora guarda questa parte qui.
+
+52
+00:03:47,560 --> 00:03:55,620
+Quindi faccio clic sul pulsante che modifica il server è stato creato perché stiamo attivando i nostri metodi qui.
+
+53
+00:03:55,720 --> 00:03:58,270
+Ed è così che funziona un semplice evento binding.
+
+54
+00:03:58,270 --> 00:03:59,870
+Usa le parentesi.
+
+55
+00:04:00,040 --> 00:04:04,910
+Il nome dell'evento tra e quindi tra le virgolette segna il codice che si desidera eseguire.
+
+56
+00:04:05,020 --> 00:04:06,580
+Quando si verifica questo evento

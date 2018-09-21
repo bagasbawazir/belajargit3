@@ -1,0 +1,167 @@
+1
+00:00:02,890 --> 00:00:05,720
+Son derste mülkiyet bağlayıcıyı öğrendik.
+
+2
+00:00:05,770 --> 00:00:12,400
+Şimdi de İHTİYAÇ SİZİN haber sunucusunun mevcut değerini vermek istediğimiz bir vakayı kullanmak zorunda
+
+3
+00:00:12,400 --> 00:00:17,890
+olsaydık, elbette haber sunucusuna izin vermek için dize yüklemesini kullanabiliriz ve Boullion
+
+4
+00:00:17,890 --> 00:00:19,660
+da bir dizeye dönüştürülebilir.
+
+5
+00:00:20,110 --> 00:00:25,500
+Şimdi burada düşüşler görüyoruz ve iki saniye sonra sadece doğruyu görüyorsunuz, çünkü kodu değiştirdik.
+
+6
+00:00:25,660 --> 00:00:26,980
+Güzel.
+
+7
+00:00:26,980 --> 00:00:32,320
+Şimdi bu haklı durumlardan biri, ipeksi ve tükenme yerine mülkiyet bağlayıcısını
+
+8
+00:00:32,320 --> 00:00:33,410
+kolayca kullanabilirsiniz.
+
+9
+00:00:33,580 --> 00:00:43,560
+Böylece, bu öğenin bir özelliğine basit bir şekilde Metin Metni özelliğini bağlayabilir ve bir haber sunucusuna izin vermek için bunu
+
+10
+00:00:43,560 --> 00:00:45,210
+eşit olarak ayarlayabilirsiniz.
+
+11
+00:00:45,210 --> 00:00:50,940
+Şimdi stringin dağıtımını verginin içinde ve şimdi neyin boş olabileceğini kaldırabilirim.
+
+12
+00:00:51,030 --> 00:00:56,520
+Peki, metnimizle aynı şeyi yapabilmemiz için, bir öğenin iç Metin özelliği, açılış ve kapanış etiketi
+
+13
+00:00:56,520 --> 00:01:00,000
+arasında ne olduğuyla ilgili olarak aynı şeyi elde ederiz.
+
+14
+00:01:00,000 --> 00:01:05,990
+Bu durumda, string interpolasyonunu mülkiyet bağlaması ile kolayca değiştirebildik.
+
+15
+00:01:06,000 --> 00:01:08,630
+Öyleyse ikisinden hangisini kullanmalısınız.
+
+16
+00:01:08,910 --> 00:01:14,880
+sonra bir direktif veya bir bileşen hakkında bilgi edinmek istiyorsanız, bir dizgeyi sözdizimi kullanın.
+
+17
+00:01:15,330 --> 00:01:21,990
+Temel olarak şablonunuzda bir şey çıktısını almak istiyorsanız, bir yazıyı eski bir dişi elemanınki gibi
+
+18
+00:01:21,990 --> 00:01:23,560
+değiştirmek ya da daha
+
+19
+00:01:23,730 --> 00:01:25,740
+Genellikle özellik bağlayıcı kullanın.
+
+20
+00:01:25,740 --> 00:01:31,080
+Bu şekilde farklılaştırılmış olabilirsiniz ve kurs projesinde çalıştıktan
+
+21
+00:01:31,080 --> 00:01:33,280
+sonra böyle devam edersiniz.
+
+22
+00:01:33,510 --> 00:01:41,680
+Yani hala yapmak istediğim önemli bir not var özellik bağlayıcı ve dize enterpolasyon karıştırmayın.
+
+23
+00:01:41,850 --> 00:01:48,750
+eşitliği devre dışı bıraktığımızı ve daha sonra tırnak işaretlerimiz olduğunu ve daha sonra doğrudan mülk
+
+24
+00:01:48,830 --> 00:01:55,410
+ismimizin şu andaki tırnak işaretleri arasında küme parantezleri olmadığını ve bunun olmaması gerektiğini fark edebilirsiniz.
+
+25
+00:01:55,410 --> 00:01:55,830
+Burada,
+
+26
+00:01:55,950 --> 00:01:57,430
+Çünkü bu uygulama kırılacak.
+
+27
+00:01:57,450 --> 00:02:02,050
+Bu tırnak işaretleri veya özellik ciltleme arasında çalışmaz.
+
+28
+00:02:02,130 --> 00:02:09,270
+Bu özellik beklediğiniz değeri döndürecek bir yazı tipi ifadesi söylemek için kod türlerini
+
+29
+00:02:09,270 --> 00:02:11,100
+zaten yazmanız gerekir.
+
+30
+00:02:11,100 --> 00:02:14,360
+Yani, doğru veya yanlış döndüren bazı ifadeleri devre dışı bırakmak için.
+
+31
+00:02:14,400 --> 00:02:20,580
+Dize enterpolasyonu ile olduğu gibi, orada da bir yöntem arayabilirsin ama orada kaşlı
+
+32
+00:02:20,580 --> 00:02:21,540
+ayraç eklememelisin.
+
+33
+00:02:21,630 --> 00:02:25,110
+Bakalım, sadece HVM özelliğini kullanıyoruz.
+
+34
+00:02:25,140 --> 00:02:26,420
+Orada değiliz.
+
+35
+00:02:26,490 --> 00:02:30,650
+Bu sözdizimi yılı, açısal tarafından tanınan bir sözdizimi.
+
+36
+00:02:30,780 --> 00:02:37,360
+İşte bu yüzden zaten yazabilirsiniz tırnak işaretleri arasında ve zaten sen kodlama
+
+37
+00:02:37,370 --> 00:02:43,770
+binmek zorunda çünkü tekrar tüm bu ifade açılışı ile değerlendirilen açısal karıştırma
+
+38
+00:02:43,800 --> 00:02:44,540
+kırmak olacaktır.
+
+39
+00:02:44,580 --> 00:02:51,750
+Dize interpellation, yalnızca bu şablonun Navier ifadesiyle değil, bir şablon bağlamasında veya bunun
+
+40
+00:02:51,870 --> 00:02:55,770
+gibi bir şeyle değil, normal şablonda çalışır.
+
+41
+00:02:55,950 --> 00:03:03,090
+Mülkün bağlayıcı olması ve genel olarak şablonda veri çıkışı ile ilgili olarak, olaylara
+
+42
+00:03:03,240 --> 00:03:05,730
+nasıl tepki verebileceğimizi görelim

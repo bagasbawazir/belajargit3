@@ -1,0 +1,363 @@
+1
+00:00:02,560 --> 00:00:04,210
+Los componentes son importantes, ¿verdad?
+
+2
+00:00:04,240 --> 00:00:09,940
+Es por eso que comenzamos con uno con el componente de la aplicación; por un lado, es un componente
+
+3
+00:00:09,970 --> 00:00:14,740
+angular normal, pero por otro lado también es algo especial porque sirve como nuestro componente raíz.
+
+4
+00:00:14,800 --> 00:00:20,320
+Está en el alistado aquí en el módulo de laboratorio y esta matriz de arranque que le dice al pescador que odia
+
+5
+00:00:20,320 --> 00:00:21,010
+un componente especial.
+
+6
+00:00:21,100 --> 00:00:26,490
+Debe iniciar la aplicación completa con ese componente como el componente raíz.
+
+7
+00:00:26,560 --> 00:00:33,460
+Por lo tanto, todos nuestros componentes que creamos no se agregarán al equipo de index h o a un archivo. Los selectores
+
+8
+00:00:33,460 --> 00:00:34,600
+no se agregarán aquí.
+
+9
+00:00:34,910 --> 00:00:37,900
+Se agregarán selectores al componente de la aplicación.
+
+10
+00:00:37,900 --> 00:00:43,940
+Todos los HDMI caen porque ahora existen el componente raíz de nuestra aplicación donde agregamos las otras partes.
+
+11
+00:00:44,110 --> 00:00:47,970
+Basta hablar de agregar componentes, permite agregar uno.
+
+12
+00:00:48,130 --> 00:00:53,610
+Digamos que queremos generar información sobre un servidor.
+
+13
+00:00:53,710 --> 00:01:00,720
+Estamos construyendo un back-end para nuestra aplicación de administración de servidores y queremos generar cierta información del servidor.
+
+14
+00:01:00,820 --> 00:01:07,260
+Así que voy a almacenar no es una nueva carpeta que es una subcarpeta de la carpeta de la aplicación porque, en
+
+15
+00:01:07,260 --> 00:01:13,330
+general, con el sello de un pescador, proyecto toda su aplicación Rollei, ese contenido irá a la carpeta de esta aplicación.
+
+16
+00:01:13,540 --> 00:01:17,210
+Lo nombraré servidor porque mantendrá mi componente de servidor.
+
+17
+00:01:17,260 --> 00:01:18,730
+Y esta es una buena práctica.
+
+18
+00:01:18,730 --> 00:01:24,910
+Tener el nombre de la carpeta igual al nombre de su componente y cada componente normalmente debería tener su propia carpeta,
+
+19
+00:01:25,110 --> 00:01:28,280
+aunque no es una regla difícil, pero en general tiene sentido.
+
+20
+00:01:28,540 --> 00:01:32,690
+Entonces aquí en la carpeta del servidor agregaré mi componente de servidor.
+
+21
+00:01:32,690 --> 00:01:41,110
+Ahora, una buena convención de nomenclatura es tener primero los servidores o el nombre de su componente, luego un punto y luego
+
+22
+00:01:41,200 --> 00:01:47,200
+un componente; luego aprenderemos que siempre hay bloques de construcción en un ángulo o aplicación.
+
+23
+00:01:47,320 --> 00:01:52,030
+Entonces, al usar nombres de archivos como este, es muy fácil ver lo que hay dentro del archivo.
+
+24
+00:01:52,270 --> 00:01:55,380
+Y muy importante, no olvides agregar dot ts.
+
+25
+00:01:55,570 --> 00:01:59,780
+Entonces, para mecanografiar porque hay en qué escribirás este componente.
+
+26
+00:02:00,190 --> 00:02:03,020
+Entonces ahora obtenemos un archivo vacío para nuestro nuevo componente.
+
+27
+00:02:03,160 --> 00:02:04,470
+¿Cómo creamos un componente?
+
+28
+00:02:04,480 --> 00:02:13,370
+Ahora, ante todo, un componente simplemente es una clase que oculta la clase para que Engler pueda instanciarla para
+
+29
+00:02:13,370 --> 00:02:18,010
+crear objetos en función del modelo que hemos establecido aquí.
+
+30
+00:02:18,010 --> 00:02:22,030
+Exportemos esta clase para que podamos usarla fuera del archivo también.
+
+31
+00:02:22,030 --> 00:02:27,460
+Porque como mencioné antes, vamos a usar nuestro componente en el componente de la aplicación, por ejemplo,
+
+32
+00:02:27,460 --> 00:02:28,430
+para agregarlo allí.
+
+33
+00:02:28,870 --> 00:02:35,020
+Así que agregaremos una clase aquí y esta clase ahora se denominará componente de servidor.
+
+34
+00:02:35,020 --> 00:02:41,260
+De nuevo, la convención de nombres aquí tiene el nombre del primer servidor componente y luego también el componente
+
+35
+00:02:41,350 --> 00:02:41,910
+de descripción.
+
+36
+00:02:41,920 --> 00:02:46,630
+Porque más tarde también aprenderemos sobre otras partes que luego podrían nombrarse de manera diferente en la
+
+37
+00:02:46,630 --> 00:02:47,310
+aplicación angular.
+
+38
+00:02:47,620 --> 00:02:51,340
+Esta es nuestra clase y en este momento es un tipo normal de ventaja.
+
+39
+00:02:51,370 --> 00:02:53,110
+Nada especial al respecto.
+
+40
+00:02:53,530 --> 00:02:58,100
+No podemos usarlo como este pescador no tiene toda la información que requiere.
+
+41
+00:02:58,330 --> 00:03:04,330
+Por lo tanto, deberíamos agregarle algo que pregúntele al pescador que esta no es solo una
+
+42
+00:03:04,840 --> 00:03:07,640
+clase normal de mecanografía, sino un componente especial.
+
+43
+00:03:08,050 --> 00:03:10,720
+Hacemos esto agregando un decorador especial.
+
+44
+00:03:10,720 --> 00:03:18,580
+Los decoradores son una característica de tipo que le permite mejorar sus clases, por ejemplo, y los elementos de Hans que utiliza
+
+45
+00:03:18,580 --> 00:03:19,540
+en su código.
+
+46
+00:03:19,540 --> 00:03:20,970
+No está restringido a las clases.
+
+47
+00:03:20,980 --> 00:03:23,690
+Pero aquí utilizaremos un decorador de clase.
+
+48
+00:03:23,740 --> 00:03:30,930
+Es el decorador de componentes y los decoradores siempre se adjuntan al agregar y firmar en frente de ellos.
+
+49
+00:03:30,950 --> 00:03:36,640
+Ahora bien, este decorador de componentes no es algo que los tipos conozcan desde el principio.
+
+50
+00:03:36,640 --> 00:03:38,890
+Entonces tenemos que importarlo.
+
+51
+00:03:39,070 --> 00:03:46,990
+Tenemos que agregar la palabra y la importación ahora necesita darnos acceso a los componentes, así que tenemos que importar
+
+52
+00:03:46,990 --> 00:03:52,870
+el componente entre llaves porque a partir del archivo Vamos a importar esto podríamos importar
+
+53
+00:03:52,870 --> 00:03:53,770
+nuestras partes también.
+
+54
+00:03:53,830 --> 00:03:59,670
+Entonces, debemos seleccionar específicamente el componente usando esta sintaxis y luego es de.
+
+55
+00:03:59,890 --> 00:04:06,470
+Y ahora el paquete desde el que importamos el componente está en el núcleo angular.
+
+56
+00:04:06,730 --> 00:04:11,980
+Ahora las naves de pescador con un par de paquetes donde básicamente agrupa sus funcionalidades y el paquete
+
+57
+00:04:11,980 --> 00:04:17,100
+básico como su nombre lo indica nos da acceso a algunas de las funcionalidades básicas de angular.
+
+58
+00:04:17,380 --> 00:04:19,820
+Entonces con eso importamos ese componente.
+
+59
+00:04:19,990 --> 00:04:26,550
+El decorador de Days Africa Borland se conoce a máquina mecanografiada cuando hace una paréntesis de este archivo y se
+
+60
+00:04:26,550 --> 00:04:28,720
+compila para javascript que puede entenderlo.
+
+61
+00:04:28,780 --> 00:04:34,270
+Ahora tenemos que pasarle un objeto de JavaScript al decorador de componentes de Judah para
+
+62
+00:04:34,300 --> 00:04:38,230
+configurarlo, porque sin ninguna configuración no es tan valioso como angular.
+
+63
+00:04:38,230 --> 00:04:44,320
+Pero aquí podemos configurar cierta información importante que se almacenará como metadatos y ofrecerá clase en
+
+64
+00:04:44,320 --> 00:04:49,110
+segundo plano, lo que le dirá a Engler qué hacer con esta clase.
+
+65
+00:04:49,240 --> 00:04:53,310
+Y una pieza de información importante es el selector.
+
+66
+00:04:53,440 --> 00:05:00,730
+Así que, básicamente, la etiqueta HDMI l por la que puede utilizar este componente más adelante en las plantillas de su
+
+67
+00:05:00,730 --> 00:05:01,330
+componente promedio.
+
+68
+00:05:01,330 --> 00:05:03,720
+Veremos acción pronto.
+
+69
+00:05:03,720 --> 00:05:05,670
+Los selectores deben ser una cadena.
+
+70
+00:05:05,820 --> 00:05:12,300
+Y aquí puede configurar cualquier nombre que desee, pero debe asegurarse de que sea un selector
+
+71
+00:05:12,300 --> 00:05:17,290
+único que no anule accidentalmente un elemento extremal predeterminado o algo así.
+
+72
+00:05:17,370 --> 00:05:25,310
+Por lo general, lo prefije con el tablero de la aplicación y luego con un nombre apropiado como servidor porque es un componente del servidor.
+
+73
+00:05:25,320 --> 00:05:30,770
+Este es mi propio selector por el cual ahora puedo usar este componente en mis otros componentes.
+
+74
+00:05:30,780 --> 00:05:32,410
+Archivos HDMI.
+
+75
+00:05:32,820 --> 00:05:39,980
+Entonces, con esa configuración, la pieza más importante que necesitamos tener es la plantilla y aquí Ladd's es una referencia
+
+76
+00:05:40,040 --> 00:05:41,890
+de un archivo externo promedio.
+
+77
+00:05:41,940 --> 00:05:43,360
+Volveré a un número.
+
+78
+00:05:43,370 --> 00:05:49,160
+Alternativa a esto pronto y este archivo externo de curso necesita ser creado.
+
+79
+00:05:49,200 --> 00:05:55,190
+Entonces en la misma carpeta crearé un componente de punto de servidor y ahora ese archivo HVM.
+
+80
+00:05:55,200 --> 00:05:59,710
+Esto mantendrá la plantilla de AGM con todo el código de mi componente aquí.
+
+81
+00:05:59,790 --> 00:06:03,990
+Entonces aquí, ahora puedo básicamente agregar cualquier contenido que desee.
+
+82
+00:06:03,990 --> 00:06:12,050
+Al igual que, por ejemplo, el componente del servidor DS para comenzar de manera simple y volver al archivo de mecanografía, ahora puedo
+
+83
+00:06:12,140 --> 00:06:14,520
+apuntar a este archivo HTML de edad.
+
+84
+00:06:14,570 --> 00:06:17,080
+Necesitamos una ruta relativa para esto.
+
+85
+00:06:17,120 --> 00:06:19,710
+Al final, todos seremos incluidos en la elección web.
+
+86
+00:06:19,790 --> 00:06:22,690
+Entonces, tenemos que decirle dónde encontrar el archivo HTL.
+
+87
+00:06:22,910 --> 00:06:30,680
+Bueno, y en relación con el texto mecanografiado para el componente del punto del servidor Pop slash slash slash
+
+88
+00:06:30,770 --> 00:06:37,670
+punto h él me gusta esto apunta a este archivo con esto creamos nuestro primer componente.
+
+89
+00:06:37,850 --> 00:06:44,420
+Ahora, para usarlo, debemos sumergirnos en el modelo de la aplicación y entender qué hace esto porque necesitamos cambiar
+
+90
+00:06:44,420 --> 00:06:46,980
+algo aquí para usar nuestro propio componente.
+
+91
+00:06:47,090 --> 00:06:49,350
+Hagamos esto en la próxima conferencia.

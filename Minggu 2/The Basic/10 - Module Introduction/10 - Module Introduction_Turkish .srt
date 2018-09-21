@@ -1,0 +1,43 @@
+1
+00:00:02,720 --> 00:00:08,510
+Şimdi, biz, açılışı ve açılışıyla başlıyoruz ve kullanacağımız projemiz ve elbette, sahnenin arkasında
+
+2
+00:00:08,990 --> 00:00:14,840
+ne olup bittiğini anlamak için, bir fenerin ilk olarak nasıl başladığını ve hangisinin ne
+
+3
+00:00:15,110 --> 00:00:21,710
+olduğunu anlayabilmek için açısal olarak daha derine dalma zamanı. Temel yapı taşları bize açısal abs
+
+4
+00:00:21,710 --> 00:00:25,520
+nasıl inşa edebileceğimizi ve bunun için kullanabileceğimiz özellikleri sunmaktadır.
+
+5
+00:00:25,520 --> 00:00:31,400
+Bölümün sonunda temel açısal uygulamanızı nasıl yapacağınızı ve farklı bir
+
+6
+00:00:31,400 --> 00:00:35,690
+sonuca ulaşmak için neleri değiştirmeniz gerektiğini anlayacaksınız.
+
+7
+00:00:35,690 --> 00:00:42,920
+Böylece bununla başlayalım ve başımıza geldiğinde gerçekte ne olduğuna bir göz atalım.
+
+8
+00:00:42,920 --> 00:00:43,230
+&nbsp;
+
+9
+00:00:43,280 --> 00:00:48,090
+Bu sayfa tarayıcıda, yeniden yükleyiciler sayfası öfkenin nasıl başladığını gösterir.
+
+10
+00:00:48,170 --> 00:00:51,760
+Burada aslında hiçbir şeyden başka ne görüyoruz.
+
+11
+00:00:51,790 --> 00:00:54,710
+Çünkü bu sayfaya daha fazla benzeyebilir.

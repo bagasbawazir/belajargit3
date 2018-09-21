@@ -1,0 +1,327 @@
+1
+00:00:03,300 --> 00:00:09,760
+Satış günlerimiz, şu anda gördüğümüz sayfadaki boş sayfamızın son bölümünün sonunda
+
+2
+00:00:10,340 --> 00:00:18,340
+oluşturduğumuz projeyi tamamlamak için yerel ana merkezimize ulaştıracağımız rehberi 4200 gün içerisinde geliştirdiğimiz gelişim
+
+3
+00:00:18,340 --> 00:00:25,650
+sunucumuz Selye veya TACL tarafından eğildi Ben açısal uygulama ev sahipliği yapacak.
+
+4
+00:00:25,750 --> 00:00:32,940
+Artık burada gördüğümüz içerik, uygulama klasörümüzdeki HVM uygulama bileşenine gidip buradaki bazı
+
+5
+00:00:33,640 --> 00:00:40,810
+metinlerin çıktısını alabiliriz. Buradaki uygulamada, yaş etiketinde ve normal HVM Altec'de uygulama
+
+6
+00:00:40,840 --> 00:00:41,730
+bileşeninde söylenebilir.
+
+7
+00:00:41,740 --> 00:00:49,240
+Bu nedenle, eğer bunu kaydedersek, burada göreceğiz ve otomatik olarak tekstil ürününü önyüklemeli ve
+
+8
+00:00:49,240 --> 00:00:52,600
+böylece son bölümün sonunda bootstrap ekledik.
+
+9
+00:00:52,990 --> 00:00:58,630
+Ama evet, burada gördüğümüz belli ki, biraz tuhaf görünebilir.
+
+10
+00:00:58,720 --> 00:01:05,800
+Tarayıcımız veya uygulamamızı barındıran bir sunucu, uygulama bileşeni HVM'nin içeriğini burada
+
+11
+00:01:06,160 --> 00:01:08,450
+oluşturması gerektiğini nasıl biliyor.
+
+12
+00:01:08,530 --> 00:01:13,690
+Şu anda sahip olduğumuz tek bileşen olduğunu ve bileşenlere daha yakından
+
+13
+00:01:13,690 --> 00:01:14,390
+bakacağımızı söyleyebilirdiniz.
+
+14
+00:01:14,740 --> 00:01:16,630
+Ama bu sebep değil.
+
+15
+00:01:16,630 --> 00:01:20,730
+Ve aslında bu sunucu tarafından sunulan dosya değil.
+
+16
+00:01:20,740 --> 00:01:27,120
+servis edilir ve köşeli tek sayfa uygulaması oluşturmanıza izin veren bir çerçeve olduğunu söylediğimi hatırladım.
+
+17
+00:01:27,130 --> 00:01:31,080
+Bunun yerine, burada bulunan indeks HDMI dosyası sunucu tarafından
+
+18
+00:01:31,080 --> 00:01:35,710
+Bu, dizin HDMI dosyasına hizmet veren tek sayfadır.
+
+19
+00:01:35,710 --> 00:01:40,440
+Şimdi bu dosyaya bir göz attığınızda, bunun normal bir HTL dosyası olduğunu görüyoruz.
+
+20
+00:01:40,510 --> 00:01:45,130
+Tarayıcı yılındaki sekmede görebileceğimiz bir başlık belirledik.
+
+21
+00:01:45,700 --> 00:01:48,350
+Ve bu dosyanın gövdesi çok ilginç.
+
+22
+00:01:48,430 --> 00:01:54,580
+Burada bir yükleme nokta nokta nokta ile bu uygulama kaba bir şey olsun.
+
+23
+00:01:54,580 --> 00:01:58,260
+Şimdi açıkça nokta nokta nokta yükleme burada görmüyorum.
+
+24
+00:01:58,660 --> 00:02:07,300
+endeks HVM Ulfar değişmiş gibi görünüyor ve uygulama Rootie yıl tabii ki bir varsayılan yaş HTML öğesi değildir.
+
+25
+00:02:07,300 --> 00:02:09,170
+Yani bir şekilde bu
+
+26
+00:02:09,280 --> 00:02:15,610
+Bunun yerine kendi bileşenlerimizden biri olarak, kendi bileşenlerimizi nasıl yarattığımıza dayacağız ama Seelye bizim
+
+27
+00:02:15,620 --> 00:02:17,650
+için bir tane yarattı.
+
+28
+00:02:17,650 --> 00:02:23,170
+Uygulamamızın tüm bileşenlerini bir bütün olarak bir araya getirecek olan
+
+29
+00:02:23,170 --> 00:02:30,070
+uygulama bileşeninin kök bileşeni ve buradaki uygulama klasöründeki tüm dosyalar kendi adlarına sahip.
+
+30
+00:02:30,100 --> 00:02:33,490
+Yani bu dosyalar bu bileşenle ilgilidir.
+
+31
+00:02:33,490 --> 00:02:37,870
+Bu dosyalar hakkında daha fazla ayrıntıya ve bir sonraki derslerden birine gideceğim.
+
+32
+00:02:37,870 --> 00:02:41,710
+Şimdi bir uygulama dosyasından takip edilen uygulama bileşenine daha yakından bakalım.
+
+33
+00:02:41,710 --> 00:02:47,170
+Burada, bileşen dekoratöründe önemli olduğumuzu görebiliyoruz ama daha önemlisi şu
+
+34
+00:02:47,170 --> 00:02:55,030
+anda, bir dizeyi değer olarak atayan ve dizgeyi tutturan bu seçime veya mülke sahip
+
+35
+00:02:55,030 --> 00:02:56,370
+olduğumuzu göreceksiniz.
+
+36
+00:02:56,480 --> 00:03:01,990
+Uygulama kökü, dizinimizdeki HDMI dosyasındaki gibi aynı metin kadar net değil.
+
+37
+00:03:02,080 --> 00:03:09,340
+Ve bu aslında bu parçayı bu dizide değiştirebilmek için gerekli olan açısal bilgi
+
+38
+00:03:09,340 --> 00:03:16,210
+bu H-2A dizininde bu bileşenle ilgili şablon ile bu bileşenin bulunduğu bileşeni seçer
+
+39
+00:03:16,240 --> 00:03:22,210
+ve bu bileşendeki şablon sadece buradaki içeriktir uygulama bileşeni h dosyası.
+
+40
+00:03:22,210 --> 00:03:28,120
+bunları nasıl yapılandıracağımıza daha çok dalmaya devam edersem, temelde başlangıçta ne olduğu budur.
+
+41
+00:03:28,120 --> 00:03:30,550
+Şimdi, bileşenlerin nasıl oluşturulacağına ve
+
+42
+00:03:30,670 --> 00:03:34,600
+Eksik bilgi, açısal tetiklemedir.
+
+43
+00:03:34,720 --> 00:03:42,060
+Bu endeks HVM dosyasında vücudumuzun üzerinden geçmek için nasıl başlıyor.
+
+44
+00:03:42,460 --> 00:03:49,240
+Ve cevap, dosyanın tarayıcıda sunulmakta olduğu son endeks çağındadır ve bunu kaynak
+
+45
+00:03:49,240 --> 00:03:54,570
+kodu inceleyerek doğrulayabiliriz. Burada bir çift komut dosyası ithalatı var.
+
+46
+00:03:54,730 --> 00:03:57,920
+Bunlar otomatik olarak conta tarafından enjekte edilir.
+
+47
+00:03:57,970 --> 00:04:00,920
+İşte bu yüzden burada ham indekste görmüyoruz.
+
+48
+00:04:00,950 --> 00:04:07,270
+sahip değiliz fakat N-G'nin Burroughs'a ne zaman hizmet verdiğine bakılırsa projemizi yeniden kurar.
+
+49
+00:04:07,300 --> 00:04:10,870
+HD ağız dolusu burada herhangi bir senaryoya
+
+50
+00:04:10,870 --> 00:04:17,530
+Javascript komut dosyası paketleri ve endeks H'ye otomatik olarak türetilmiş ithalatlar ekleyin. T. mouthfull bizim için
+
+51
+00:04:17,620 --> 00:04:19,760
+biraz kolaylık işlevselliği.
+
+52
+00:04:19,930 --> 00:04:28,090
+Bu yüzden DS dosyasında son ithalat dosyasında içe aktarma mevcut ve DS komut dosyası içe aktarma kodlarını içerecek
+
+53
+00:04:28,140 --> 00:04:35,820
+şekilde kendi kodumuzu içerecek şekilde bu betik dosyalarını yürütmek için çalıştırılanlar ve aslında çalıştırılacak ilk kodlar.
+
+54
+00:04:35,860 --> 00:04:42,040
+Ve akılda tutmanız gereken bir şey de ana nokta TS dosyasında yazdığımız koddur.
+
+55
+00:04:42,040 --> 00:04:43,500
+Bu yüzden ana denir.
+
+56
+00:04:43,540 --> 00:04:46,120
+Bu, idam edilen ilk koddur.
+
+57
+00:04:46,360 --> 00:04:48,370
+O zaman ona daha yakından bakalım.
+
+58
+00:04:48,550 --> 00:04:54,670
+Burada bir kaç ithalat aldığımızı görüyoruz, o zaman üretim modunda olup olmadığımızı kontrol ediyoruz.
+
+59
+00:04:54,700 --> 00:04:58,100
+Temelde size söyleyebileceğim bazı uyarı mesajlarını kapatıyorsunuz.
+
+60
+00:04:58,240 --> 00:05:08,090
+Ama en önemlisi, bu satır burada şimdi bootstraps app modülü öğretmenleri geçerek açısal uygulamasına
+
+61
+00:05:08,090 --> 00:05:14,380
+başlıyor Methot ve AB Marchal burada bu dosyaya başvurur.
+
+62
+00:05:14,630 --> 00:05:23,110
+Şimdi bu dosyaya bir bakacak olursak, aslında babamın, bir şekilde, Bileşen gibi bir şeyde burada garip
+
+63
+00:05:23,120 --> 00:05:25,200
+olmak zorunda olduğumuzu görürüz.
+
+64
+00:05:25,220 --> 00:05:28,310
+Buna birkaç derste de katılacağım.
+
+65
+00:05:28,700 --> 00:05:34,970
+Fakat şu an için en önemlisi, temel olarak, Engler’e tanınması gereken tüm bileşenleri
+
+66
+00:05:35,300 --> 00:05:42,800
+listeleyen ve bu sırada dizinini analiz ettiğimiz ve buradaki çemberi kapatan tüm bileşenleri gösteren önyükleme
+
+67
+00:05:42,890 --> 00:05:44,290
+dizisini elde ediyoruz.
+
+68
+00:05:44,340 --> 00:05:47,840
+Çünkü burada uygulama bileşenimize referans veriyoruz.
+
+69
+00:05:48,020 --> 00:05:52,800
+Yani bu şekilde açılışa başlanır veya TS dosyası oradan başlar.
+
+70
+00:05:52,810 --> 00:06:00,620
+Biz bir angler uygulaması bootstrap ve biz bu modülde bir argüman olarak biz bu
+
+71
+00:06:00,740 --> 00:06:06,850
+modülün kendinize ve açılışı başlatmaya çalıştığınızda bildiğiniz bu uygulama bileşeni var.
+
+72
+00:06:06,860 --> 00:06:15,200
+Şimdi bu tiap bileşenini analiz ettik, yılı geçtiğimiz kurumu okur ve bu nedenle seçici EBP rotasıdır.
+
+73
+00:06:15,530 --> 00:06:22,220
+Ve şimdi Eyler, endeks HDMI dosyasında AB kökünü işleyebiliyor ve biliyor.
+
+74
+00:06:22,400 --> 00:06:28,280
+Pekala, bildiğim seçici, bilmeliyim ki bunu bilmeliyim çünkü bu bileşen
+
+75
+00:06:28,280 --> 00:06:31,440
+modülünde bu önyükleme dizisinde listelendi.
+
+76
+00:06:31,460 --> 00:06:37,610
+Bu yüzden şimdi burada uygulama bileşenini eklemem gerektiğini ve uygulama bileşeninin bir HDL kodunun
+
+77
+00:06:37,760 --> 00:06:46,060
+kendisine eklenmiş bir şablona sahip olduğunu ve bunun bir muamele etiketi olduğunu ve Howler uygulamasının nasıl başladığını istediğini biliyorum.
+
+78
+00:06:46,130 --> 00:06:48,970
+Bu yüzden gördüklerimizi görüyoruz.
+
+79
+00:06:49,190 --> 00:06:55,310
+anahtarı, şimdi, bileşenlerin gerçekte nasıl çalıştığımıza ve kendi uygulamalarımızı nasıl oluşturabileceğimize ve bu
+
+80
+00:06:55,730 --> 00:07:01,880
+uygulama modülünün ne olduğuna daha iyi çalışabileceğimize dair daha fazla bilgi edinebiliyor. ayrıntılı olarak.
+
+81
+00:07:01,880 --> 00:07:07,880
+Şimdi bu, uygulamanın başlatılmasıyla ilgili bir bilgi yüküydü, ancak bu bilgilerle nasıl başlayacağının
+
+82
+00:07:08,090 --> 00:07:09,330
+O zaman devam edelim.

@@ -1,0 +1,223 @@
+1
+00:00:03,180 --> 00:00:09,110
+En las últimas conferencias aprendemos mucho sobre cómo podemos usar el enlace de propiedad y el júbilo de stringin para
+
+2
+00:00:09,110 --> 00:00:10,750
+generar datos en la plantilla.
+
+3
+00:00:10,760 --> 00:00:12,160
+Ahora reaccionemos a los eventos.
+
+4
+00:00:12,170 --> 00:00:14,010
+Por ejemplo, tenemos un patrón aquí.
+
+5
+00:00:14,180 --> 00:00:20,090
+Y después de dos segundos esta maldad habilitada sería bueno que pudiéramos hacer algo una vez que hicimos clic
+
+6
+00:00:20,090 --> 00:00:20,890
+en el botón.
+
+7
+00:00:21,200 --> 00:00:27,470
+Ahora, pronto le mostraré cómo podemos agregar un servidor de noticias sobre cómo podemos agregar una nueva réplica de nuestro
+
+8
+00:00:27,560 --> 00:00:30,920
+servidor a un selector de nuestro componente de servidor por año.
+
+9
+00:00:30,980 --> 00:00:35,440
+Por ahora, lo que quiero hacer es generar algo.
+
+10
+00:00:35,450 --> 00:00:41,180
+Eliminaré este texto aquí y, en su lugar, quiero mostrar el valor de una propiedad o
+
+11
+00:00:41,180 --> 00:00:42,060
+crear esta propiedad.
+
+12
+00:00:42,100 --> 00:00:45,680
+Y de nuevo haces más energía en esto, por ahora volveré a esto.
+
+13
+00:00:45,740 --> 00:00:55,660
+Lo nombraré El estado de creación del servidor e inicialmente puedo configurarlo para que no se haya creado un servidor como este.
+
+14
+00:00:55,660 --> 00:01:00,620
+Ahora esta propiedad se puede enviar a una cadena de cables un estado de creación de servidor de tribulación.
+
+15
+00:01:00,640 --> 00:01:03,930
+Y acabo de decirte que no quiero continuar enviando datos.
+
+16
+00:01:03,940 --> 00:01:05,330
+Queremos escuchar eventos
+
+17
+00:01:05,380 --> 00:01:07,720
+Así que le prometí que lo haríamos.
+
+18
+00:01:07,870 --> 00:01:16,360
+Agregaré otro método más abajo aquí y nombraré este método al crear servidor d al principio
+
+19
+00:01:16,360 --> 00:01:20,750
+para aclarar que esto se desencadenará desde mi plantilla.
+
+20
+00:01:20,770 --> 00:01:26,830
+No tiene que nombrarlo en algo, pero de alguna manera hace que sea más fácil entender quién llamará a
+
+21
+00:01:26,830 --> 00:01:27,600
+este método.
+
+22
+00:01:27,790 --> 00:01:33,370
+Bueno, el usuario básicamente hará algo que algún evento llamará y eso es lo que quiero
+
+23
+00:01:33,370 --> 00:01:34,230
+simbolizar con eso.
+
+24
+00:01:34,510 --> 00:01:39,770
+Entonces, si puede establecer el estado de creación del servidor en el servidor, se creó.
+
+25
+00:01:40,270 --> 00:01:43,570
+Entonces, la pieza faltante es llamar a este método.
+
+26
+00:01:43,570 --> 00:01:50,340
+Y ahora aquí es donde, si entra en juego la vinculación, queremos escuchar este evento de clic aquí.
+
+27
+00:01:50,470 --> 00:01:56,740
+Y normalmente tiene el atributo de hacer clic en el elemento HDMI donde ahora puede ejecutar algún código descartado
+
+28
+00:01:56,730 --> 00:01:57,550
+de Chalis.
+
+29
+00:01:57,670 --> 00:01:59,690
+Sin embargo, no lo usaremos con el pescador.
+
+30
+00:01:59,860 --> 00:02:08,800
+Aquí tenemos el angler de Sendak que nos ofrece el enlace de eventos que utiliza paréntesis como el enlace
+
+31
+00:02:08,830 --> 00:02:11,800
+de propiedad utilizado corchetes para eventos.
+
+32
+00:02:11,800 --> 00:02:15,190
+Los paréntesis son una señal que estamos usando cuando vinculamos.
+
+33
+00:02:15,490 --> 00:02:19,630
+Y aquí tenemos que especificar el nombre de DBAN entre paréntesis.
+
+34
+00:02:19,750 --> 00:02:28,090
+Por ejemplo, haga clic y básicamente puede enlazar a todos los eventos disponibles mediante el atributo HDMI.
+
+35
+00:02:28,150 --> 00:02:29,740
+Nos estás poniendo en
+
+36
+00:02:29,800 --> 00:02:37,600
+Por lo tanto, si tiene que hacer clic en el mouse, puede vincularse para hacer clic en el mouse sin ingresar el al principio.
+
+37
+00:02:37,600 --> 00:02:40,000
+Entonces, estamos ciegos al evento click.
+
+38
+00:02:40,090 --> 00:02:45,070
+Y ahora entre las comillas ponemos el código que queremos ejecutar.
+
+39
+00:02:45,160 --> 00:02:50,290
+Una vez que ocurre este evento, no a menudo llamarás a un método aquí.
+
+40
+00:02:50,320 --> 00:02:58,690
+Entonces, hagámoslo, ya que los LED apuntan al método que queremos ejecutar, que está en el servidor de creación con paréntesis.
+
+41
+00:02:58,810 --> 00:03:02,830
+Entonces, este método se ejecutará cada vez que hagamos clic en el botón.
+
+42
+00:03:03,220 --> 00:03:06,390
+Como nota al margen, no es necesario ejecutar un método aquí.
+
+43
+00:03:06,430 --> 00:03:11,140
+También podría colocar el código que desea ejecutar entre comillas.
+
+44
+00:03:11,300 --> 00:03:18,100
+A menudo, esto no es muy bueno porque quieres ejecutar más código si ocurre algún evento.
+
+45
+00:03:18,100 --> 00:03:23,510
+Pero si todo lo que quiere hacer es establecer alguna propiedad booleana en True por ejemplo, así.
+
+46
+00:03:23,620 --> 00:03:30,100
+Definitivamente puede hacer una línea de la plantilla como regla general, aunque no debería poner
+
+47
+00:03:30,130 --> 00:03:32,200
+mucha lógica en sus plantillas.
+
+48
+00:03:32,230 --> 00:03:39,270
+Entonces ahora estamos vinculados al evento click y lo ejecutamos en el método create server cuando ocurre.
+
+49
+00:03:39,270 --> 00:03:42,090
+Entonces, veamos que hay una acción en nuestra aplicación.
+
+50
+00:03:42,100 --> 00:03:43,470
+Vamos a volver a cargar la página.
+
+51
+00:03:43,510 --> 00:03:47,530
+El botón se habilita y ahora mira esta parte aquí.
+
+52
+00:03:47,560 --> 00:03:55,620
+Así que hago clic en el botón que cambia el servidor fue creado porque estamos activando nuestros propios métodos aquí.
+
+53
+00:03:55,720 --> 00:03:58,270
+Y así es como funciona un enlace de evento simple.
+
+54
+00:03:58,270 --> 00:03:59,870
+Usa paréntesis
+
+55
+00:04:00,040 --> 00:04:04,910
+El nombre del evento entre y luego entre las comillas marca el código que desea ejecutar.
+
+56
+00:04:05,020 --> 00:04:06,580
+Cuando ocurre este evento

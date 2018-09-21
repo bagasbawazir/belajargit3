@@ -1,0 +1,363 @@
+1
+00:00:02,560 --> 00:00:04,210
+Bileşenler önemli haklıdır.
+
+2
+00:00:04,240 --> 00:00:09,940
+Bu yüzden biriyle uygulama bileşeniyle başlıyoruz, bir yandan normal bir açısal bileşen ama
+
+3
+00:00:09,970 --> 00:00:14,740
+diğer yandan da özel bir şey çünkü bu bizim temel bileşenimizdir.
+
+4
+00:00:14,800 --> 00:00:20,320
+Laboratuvar modülünde bu listede yer alıyor ve fenerlere özel bir bileşenden nefret ettiğini belirten bu
+
+5
+00:00:20,320 --> 00:00:21,010
+bootstrap dizisi.
+
+6
+00:00:21,100 --> 00:00:26,490
+Tüm uygulamayı, kök bileşeni olan bu bileşenle önyükleme yapmalısınız.
+
+7
+00:00:26,560 --> 00:00:33,460
+Böylece oluşturduğumuz tüm bileşenler indeks ekibine eklenmeyecek veya bir dosya seçmenler
+
+8
+00:00:33,460 --> 00:00:34,600
+buraya eklenmeyecek.
+
+9
+00:00:34,910 --> 00:00:37,900
+Seçiciler uygulama bileşenine eklenir.
+
+10
+00:00:37,900 --> 00:00:43,940
+HDMI tüm düşme çünkü şimdi bizim app diğer parçaları eklediğimiz iyi kök bileşeni var.
+
+11
+00:00:44,110 --> 00:00:47,970
+Bileşen ekleme hakkında yeterli konuşma, bir tane ekleyelim.
+
+12
+00:00:48,130 --> 00:00:53,610
+Bir sunucu hakkında bilgi vermek istediğimizi söyleriz.
+
+13
+00:00:53,710 --> 00:01:00,720
+Sunucu yönetimi uygulamamız için bir arka uç oluşturuyoruz ve bazı sunucu bilgilerini vermek istiyoruz.
+
+14
+00:01:00,820 --> 00:01:07,260
+Bu yüzden saklamak için uygulama klasörünün bir alt klasörü olan yeni bir klasör değil,
+
+15
+00:01:07,260 --> 00:01:13,330
+çünkü genellikle bir angler'in mührü içerisindeyim. Tüm uygulama Rollei'nizi bu uygulama klasörüne gireceğim.
+
+16
+00:01:13,540 --> 00:01:17,210
+Sunucu bileşenimi tutacağım çünkü sunucu bileşenimi tutacağım.
+
+17
+00:01:17,260 --> 00:01:18,730
+Ve bu iyi bir uygulama.
+
+18
+00:01:18,730 --> 00:01:24,910
+Klasör adının bileşen adınıza eşit olması ve her bileşenin genellikle kendi klasörü olması gerekir, ancak
+
+19
+00:01:25,110 --> 00:01:28,280
+bu zor bir kural değildir, ancak genellikle mantıklıdır.
+
+20
+00:01:28,540 --> 00:01:32,690
+Yani burada sunucu klasöründe sunucu bileşenimi ekleyeceğim.
+
+21
+00:01:32,690 --> 00:01:41,110
+Şimdi iyi bir adlandırma kuralı, sunucuların veya bileşeninizin adının ilk önce bir noktaya ve sonra da bileşenlere sahip olmasını
+
+22
+00:01:41,200 --> 00:01:47,200
+sağlamaktır. Daha sonra, bir açıda veya uygulamada herhangi bir yapı bloğu olduğunu öğreneceğiz.
+
+23
+00:01:47,320 --> 00:01:52,030
+Bu şekilde dosya isimlerini kullanarak dosyanın içinde ne olduğunu görmek çok kolay.
+
+24
+00:01:52,270 --> 00:01:55,380
+Ve çok önemli nokta ts eklemeyi unutmayın.
+
+25
+00:01:55,570 --> 00:01:59,780
+Bu yüzden yazı tipleri için bu bileşeni yazacağınız şey var.
+
+26
+00:02:00,190 --> 00:02:03,020
+Şimdi yeni bileşenimiz için boş bir dosya alıyoruz.
+
+27
+00:02:03,160 --> 00:02:04,470
+Bir bileşeni nasıl oluştururuz.
+
+28
+00:02:04,480 --> 00:02:13,370
+Şimdi öncelikle bir bileşen sadece sınıfı gizleyen bir sınıftır, böylece Engler, burada belirleyebileceğimiz
+
+29
+00:02:13,370 --> 00:02:18,010
+plana dayanan nesneler oluşturmak için bunu başlatabilir.
+
+30
+00:02:18,010 --> 00:02:22,030
+Öyleyse, bu sınıfı dışarı çıkaralım, böylece dosyayı dosya dışında da kullanabiliriz.
+
+31
+00:02:22,030 --> 00:02:27,460
+Daha önce de belirttiğim gibi, bileşenimizi uygulama bileşeninde
+
+32
+00:02:27,460 --> 00:02:28,430
+kullanacağız.
+
+33
+00:02:28,870 --> 00:02:35,020
+Bu yüzden burada bir sınıf ekleyeceğiz ve bu sınıf şimdi sunucu bileşeni olarak adlandırılmalı.
+
+34
+00:02:35,020 --> 00:02:41,260
+Yine, adlandırma kuralı, bileşenin ilk sunucusunun ve sonra da açıklama bileşeninin ismine
+
+35
+00:02:41,350 --> 00:02:41,910
+sahiptir.
+
+36
+00:02:41,920 --> 00:02:46,630
+Çünkü daha sonra açısal uygulamada farklı olarak adlandırılabilecek diğer parçaları
+
+37
+00:02:46,630 --> 00:02:47,310
+da öğreneceğiz.
+
+38
+00:02:47,620 --> 00:02:51,340
+Bu bizim sınıfımız ve şu an normal bir artı.
+
+39
+00:02:51,370 --> 00:02:53,110
+Bu konuda özel bir şey yok.
+
+40
+00:02:53,530 --> 00:02:58,100
+Bu fener gibi kullanamayız, gereken tüm bilgilere sahip değiliz.
+
+41
+00:02:58,330 --> 00:03:04,330
+Bu yüzden, bunun sadece normal bir yazı sınıfı değil, bunun yerine özel bir
+
+42
+00:03:04,840 --> 00:03:07,640
+bileşen olduğunu belirten bir şey eklemeliyiz.
+
+43
+00:03:08,050 --> 00:03:10,720
+Bunu özel bir dekoratör ekleyerek yaparız.
+
+44
+00:03:10,720 --> 00:03:18,580
+Dekoratörler, sınıfınızda örneğin kodunuzda kullandığınız Hans elemanlarını ve sınıfınızı geliştirmenize izin veren
+
+45
+00:03:18,580 --> 00:03:19,540
+bir özelliktir.
+
+46
+00:03:19,540 --> 00:03:20,970
+Derslerle sınırlı değil.
+
+47
+00:03:20,980 --> 00:03:23,690
+Ama burada bir sınıf dekoratör kullanacağız.
+
+48
+00:03:23,740 --> 00:03:30,930
+Bileşen dekoratörü ve dekoratörler her zaman önlerine ekleyerek ve imzalayarak eklenirler.
+
+49
+00:03:30,950 --> 00:03:36,640
+Şimdi bu bileşen dekoratörü, türlerin başlangıçtan bildiği bir şey değildir.
+
+50
+00:03:36,640 --> 00:03:38,890
+Yani onu ithal etmeliyiz.
+
+51
+00:03:39,070 --> 00:03:46,990
+Word ve eklentileri eklememiz gerekiyor, şimdi bileşenlere erişim vermemiz gerekiyor.
+
+52
+00:03:46,990 --> 00:03:52,870
+Bu nedenle, dosyadan gelen bileşenleri ithal etmemiz
+
+53
+00:03:52,870 --> 00:03:53,770
+gerekiyor.
+
+54
+00:03:53,830 --> 00:03:59,670
+Bu yüzden bu sözdizimini kullanarak bileşeni seçmeliyiz ve sonradan.
+
+55
+00:03:59,890 --> 00:04:06,470
+Ve şimdi bileşeni ithal ettiğimiz paket açısal çekirdekli.
+
+56
+00:04:06,730 --> 00:04:11,980
+isminden de anlaşılacağı gibi çekirdek paketi, açısal temel işlevselliklerin bazılarına erişim sağlıyor.
+
+57
+00:04:11,980 --> 00:04:17,100
+Şimdi, balıkçıların gemileri, temel olarak fonksiyonelliklerini gruplandıran bir çift paketle ve
+
+58
+00:04:17,380 --> 00:04:19,820
+Yani bu bileşeni biz ithal ediyoruz.
+
+59
+00:04:19,990 --> 00:04:26,550
+Gün Afrika Borland dekoratörü, bu dosyayı ayrıştırdığı ve bunu anlayabilen javascript'i
+
+60
+00:04:26,550 --> 00:04:28,720
+derlediğinde yazdığı yazılarla bilinir.
+
+61
+00:04:28,780 --> 00:04:34,270
+Şimdi yapılandırmak için bir javascript nesnesi olan Judah'ın bileşen dekolayıcısını geçmemiz gerekiyor
+
+62
+00:04:34,300 --> 00:04:38,230
+çünkü herhangi bir konfigürasyon olmadan hala açısal değerde değil.
+
+63
+00:04:38,230 --> 00:04:44,320
+Ama burada, meta veriyi arka planda sınıfsal bir meta veri olarak saklayacak, o
+
+64
+00:04:44,320 --> 00:04:49,110
+zaman Engler'e bu sınıfla ne yapacağını söyleyecek önemli bilgiler oluşturabiliriz.
+
+65
+00:04:49,240 --> 00:04:53,310
+Ve önemli bir bilgi parçası seçici.
+
+66
+00:04:53,440 --> 00:05:00,730
+Temel olarak, bu bileşeni daha sonra ortalama bileşeninizin şablonlarında kullanabileceğiniz HDMI l
+
+67
+00:05:00,730 --> 00:05:01,330
+etiketi.
+
+68
+00:05:01,330 --> 00:05:03,720
+Yakında eylem göreceğiz.
+
+69
+00:05:03,720 --> 00:05:05,670
+Seçiciler bir dize olmalı.
+
+70
+00:05:05,820 --> 00:05:12,300
+Ve burada istediğiniz herhangi bir ismi kurabilirsiniz, ancak yanlışlıkla bir varsayılan ekstrem eleman veya bunun
+
+71
+00:05:12,300 --> 00:05:17,290
+gibi bir şeyi yanlışlıkla geçersiz kılmayan benzersiz bir seçici olduğundan emin olmalısınız.
+
+72
+00:05:17,370 --> 00:05:25,310
+Bu yüzden, genellikle bir sunucu bileşeni olduğundan, uygulama çizgi ve ardından sunucu gibi bir montaj ismiyle öneklenirsiniz.
+
+73
+00:05:25,320 --> 00:05:30,770
+Bu, şimdi bu bileşeni diğer bileşenlerimde kullanabileceğim kendi seçicim.
+
+74
+00:05:30,780 --> 00:05:32,410
+HDMI dosyaları
+
+75
+00:05:32,820 --> 00:05:39,980
+Bu yüzden, sahip olmamız gereken en önemli parçayı kurmamız gerekiyor ve burada Ladd referans olarak
+
+76
+00:05:40,040 --> 00:05:41,890
+bir ortalama harici dosyadır.
+
+77
+00:05:41,940 --> 00:05:43,360
+Bir sayıya geri döneceğim.
+
+78
+00:05:43,370 --> 00:05:49,160
+Yakında bu alternatif ve tabii ki bu harici dosya oluşturulmalıdır.
+
+79
+00:05:49,200 --> 00:05:55,190
+Yani aynı klasörde bir sunucu nokta bileşeni ve şimdi HVM dosyası oluşturacağım.
+
+80
+00:05:55,200 --> 00:05:59,710
+Bu, şablonu AGM'nin tüm bileşenimin kodunu burada tutacaktır.
+
+81
+00:05:59,790 --> 00:06:03,990
+Yani şimdi temelde istediğim içeriği ekleyebilirim.
+
+82
+00:06:03,990 --> 00:06:12,050
+Örneğin DS sunucusu bileşeninin basit ve arkaplan dosyasını yazmaya başlamasının gibi şimdi bu yaş
+
+83
+00:06:12,140 --> 00:06:14,520
+HTML dosyasına işaret edebilirim.
+
+84
+00:06:14,570 --> 00:06:17,080
+Bunun için göreceli bir yola ihtiyacımız var.
+
+85
+00:06:17,120 --> 00:06:19,710
+Sonunda hepimiz web seçerek paketleneceğiz.
+
+86
+00:06:19,790 --> 00:06:22,690
+Bu yüzden, HTL dosyasını nerede bulacağımızı söylememiz gerekiyor.
+
+87
+00:06:22,910 --> 00:06:30,680
+İyi ve pop için s.kartına göre basitçe nokta slash sunucu nokta bileşeni nokta
+
+88
+00:06:30,770 --> 00:06:37,670
+bu şekilde bu dosyaya işaret ederek bunu yaptığımız gibi ilk bileşenimizi oluşturduk.
+
+89
+00:06:37,850 --> 00:06:44,420
+Şimdi onu kullanmak için uygulama modeline dalmamız ve bunun ne anlama geldiğini anlamamız gerekiyor çünkü kendi bileşenimizi
+
+90
+00:06:44,420 --> 00:06:46,980
+kullanmak için burada bir şeyi değiştirmemiz gerekiyor.
+
+91
+00:06:47,090 --> 00:06:49,350
+Bunu bir sonraki derste yapalım.

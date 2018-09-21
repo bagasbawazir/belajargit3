@@ -1,0 +1,255 @@
+1
+00:00:02,680 --> 00:00:08,910
+Burada dizgi yorumlamasına daha yakından bakıp, bir bileşene hizmet ederek başlayalım.
+
+2
+00:00:09,100 --> 00:00:14,770
+Bu yılki çıktısını istediğim gibi yaş molekülünde istemiyorum, buradaki çıktıyı
+
+3
+00:00:14,770 --> 00:00:15,770
+kodlamak istemiyorum.
+
+4
+00:00:15,900 --> 00:00:22,020
+Sunucu bileşenimizin belirli bir sunucu hakkında bilgi içermesi gerçekçi olur.
+
+5
+00:00:22,330 --> 00:00:34,450
+Yani belki burada şablon dosyasında ID ile sunucu çıkışını yapmak istiyoruz ve daha sonra bazı dinamik ID'ler sizin isminiz ve off line
+
+6
+00:00:34,840 --> 00:00:37,020
+gibi bir durum altında.
+
+7
+00:00:37,210 --> 00:00:39,820
+Yani burada iki dinamik alan var.
+
+8
+00:00:40,370 --> 00:00:46,360
+olabilir gerçek bir uygulamada onları ve tür kodlarını tür ve ne tür anlamlıdır.
+
+9
+00:00:46,360 --> 00:00:52,050
+Şimdi bir tür arka plan veya bazı hesaplama yapmak için HGP isteğinden türetilmiş
+
+10
+00:00:52,090 --> 00:00:54,560
+Şimdilik burada kodlanmış olacak.
+
+11
+00:00:54,820 --> 00:01:01,300
+Yani bir sunucu kimliğimize sahip olabiliriz ve ben de 10 değerini yazalım.
+
+12
+00:01:01,330 --> 00:01:11,320
+Yani bir sayı ve aynı zamanda iki farklı tipte bir dizi ve bir sayı olmak üzere bir çizgi dizisi olan statorlarda
+
+13
+00:01:11,380 --> 00:01:13,210
+bir sunucuya sahip olacağım.
+
+14
+00:01:13,570 --> 00:01:19,920
+Ve gerekli olmasa da, özellik adından sonra iki nokta üst üste ekleyerek yazı tipi ve daha
+
+15
+00:01:20,140 --> 00:01:25,500
+sonra otomatik olarak sona erecek türdeki yazı tipleriyle atama yapılarak çok açık olabilirsiniz.
+
+16
+00:01:25,490 --> 00:01:29,710
+Bu gerekli değildir, sadece burada demo amaçlı yapıyorum.
+
+17
+00:01:30,100 --> 00:01:37,020
+Şimdi bu iki özelliği şablonumda çıkardığınızda ve bu bağlantıyı elde etmek için veri veri madenciliğine ihtiyacımız var,
+
+18
+00:01:37,030 --> 00:01:42,020
+çünkü bu sizin türleriniz arasındaki iletişimin kod ve şablon ile ilgili olduğunu öğrendiniz.
+
+19
+00:01:42,370 --> 00:01:49,750
+Yani stringin haydutları genellikle, yer tutucu yerine bu görev için tipik
+
+20
+00:01:50,170 --> 00:01:51,220
+çözümünüzü kullanır.
+
+21
+00:01:51,280 --> 00:01:58,050
+Ben çift kaşlı ayraçlarımı kullanıyorum ve kapatıyorum bu dizge yorumlama
+
+22
+00:01:58,170 --> 00:02:04,440
+sözdizimini yapar ve bu çift küme parantezlerinin arasına yazı yazabilirsiniz.
+
+23
+00:02:04,810 --> 00:02:12,670
+Bu nedenle, en kolay ifade, sunucu kimliği gibi bir özelliğe başvurmaktır ve bu
+
+24
+00:02:12,670 --> 00:02:19,340
+yalnızca mülkü buraya veya mülkün değerine çıkış yaptığınız yaygın kullanım durumudur.
+
+25
+00:02:19,360 --> 00:02:22,630
+Ancak tek kullanım durumu değildir.
+
+26
+00:02:22,630 --> 00:02:30,790
+Aynı zamanda sunucu için örnek yıl olabilir, sadece bir kod, sonunda bir dizeye çözülebilecek herhangi
+
+27
+00:02:30,790 --> 00:02:33,190
+bir ifadede bir dize.
+
+28
+00:02:33,190 --> 00:02:37,910
+Burada bir dizi tükenme söz dizimi için tek şart bu.
+
+29
+00:02:37,940 --> 00:02:43,640
+Yani sonunda parantezler arasında ne varsa, bir şekilde bir ip atmak zorunda.
+
+30
+00:02:43,720 --> 00:02:50,530
+Böylece, burada bir dizge döndüren bir yöntemi çağırabilirdiniz. Burada sadece çok
+
+31
+00:02:50,710 --> 00:02:52,910
+satırlı ifadeler yazabilirsiniz.
+
+32
+00:02:52,960 --> 00:03:00,410
+Burada blok ifadeleri yazamazsınız, böylece bir veya sizin için kontrol yapısı ekleyemezsiniz.
+
+33
+00:03:00,550 --> 00:03:03,120
+Gerçi üçlü bir ifade kullanabilirsiniz.
+
+34
+00:03:03,490 --> 00:03:06,230
+Yani yapabileceğin bu.
+
+35
+00:03:06,250 --> 00:03:12,400
+Şimdi son yer tutucuyu da değiştirelim ve işte tekrar sunucuya bir
+
+36
+00:03:12,400 --> 00:03:14,250
+özellik referans göstereceğim.
+
+37
+00:03:14,260 --> 00:03:20,280
+Şimdi bu sizin aranızda dize bir yorumlamadır ve bir dizenin kendisinin bir ifadesi
+
+38
+00:03:20,280 --> 00:03:21,240
+olduğunu göreceksiniz.
+
+39
+00:03:21,430 --> 00:03:25,090
+Ve sonra, basitçe özelliklere işaret eden iki Abrego baskısı.
+
+40
+00:03:25,150 --> 00:03:28,690
+Ve yine bir dize döndüren bir yöntem de diyebilirsiniz.
+
+41
+00:03:28,690 --> 00:03:30,270
+Şimdi ilginç.
+
+42
+00:03:30,270 --> 00:03:33,720
+Sunucu kimliği bir dize değil, bir sayıdır.
+
+43
+00:03:33,760 --> 00:03:41,200
+Ve ben sadece dedikodu dizesinin bir dizeye çözülmesini ve sonunda bir ipin sonunda bir ip atması
+
+44
+00:03:41,200 --> 00:03:41,930
+gerektiğini söyledim.
+
+45
+00:03:42,070 --> 00:03:46,800
+Öyleyse şunu görelim, eğer bunu devam ettirirsek, hala çalışıyor.
+
+46
+00:03:46,960 --> 00:03:52,170
+Bu çalışmayı tekrar yapmak için gözlemciyi gözlemcilere geri götürelim.
+
+47
+00:03:52,240 --> 00:03:58,420
+her bileşeninde aynı bileşeni tekrarlıyoruz çünkü bu bileşeni tekrar tekrar aynı içeriğe sahip oluyoruz ama
+
+48
+00:03:58,420 --> 00:04:04,600
+biz bu dizilerin işleyişini görüyoruz ve özellikle de bizim numaramız için bir çalışma yılı.
+
+49
+00:04:05,080 --> 00:04:09,130
+ID 10 isimli sunucunun çevrimdışı olduğunu görüyoruz, çünkü bu bileşenin
+
+50
+00:04:09,160 --> 00:04:16,090
+Bu yüzden 10 veri, iyi çalışan bir sorun değil, çünkü bir sayı kolayca bir
+
+51
+00:04:16,090 --> 00:04:17,130
+dizeye dönüştürülebilir.
+
+52
+00:04:17,140 --> 00:04:24,190
+Öyleyse, sonunda bir dize almanız ya da bir dizeye dönüştürülebilen bir şeyin gerçekten
+
+53
+00:04:24,190 --> 00:04:25,810
+doğru olması gerekiyor.
+
+54
+00:04:25,870 --> 00:04:28,230
+Dize yetersizliğini bu şekilde kullanabilirsiniz.
+
+55
+00:04:28,450 --> 00:04:35,620
+Ve şimdi gerçekten örnek tamamlayalım diyelim ki buradaki sunucu durumu bir şekilde Meffert'e geri döndüyse get
+
+56
+00:04:35,770 --> 00:04:38,970
+to get server statüsü metot ismi olabilir.
+
+57
+00:04:39,010 --> 00:04:41,680
+Bu, yazı tipindeki bir yöntemi nasıl tanımlarsınız.
+
+58
+00:04:41,680 --> 00:04:45,730
+Bu yüzden dilimizden Matha tanımını biliyor olabilirsiniz.
+
+59
+00:04:45,940 --> 00:04:51,430
+Ve burada sadece bu sunucu durumunu döndürüyoruz.
+
+60
+00:04:51,520 --> 00:04:58,180
+Bu yüzden mülkiyeti iade ediyoruz ya da zaten yaptığımız gibi doğrudan erişebildik ama
+
+61
+00:04:58,210 --> 00:05:00,500
+sadece bir yöntemi arayabileceğinizi gösterdik.
+
+62
+00:05:00,610 --> 00:05:08,140
+Burada bir metod çağırıyorum tabii ki tablonun servis durumu aynı çıktıya yol açar, çünkü tekrar
+
+63
+00:05:08,140 --> 00:05:14,470
+tüm bu matematik, sonunda bir dize veya eylemde dize interpellation olan bir dizeye
+
+64
+00:05:14,470 --> 00:05:17,050
+dönüştürülemeyen bir şey olarak döndürülür.

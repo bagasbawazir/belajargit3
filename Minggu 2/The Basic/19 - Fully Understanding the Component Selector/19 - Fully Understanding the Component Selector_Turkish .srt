@@ -1,0 +1,167 @@
+1
+00:00:02,730 --> 00:00:05,440
+Şimdi zaten bir bileşen ninja'sın.
+
+2
+00:00:05,640 --> 00:00:12,820
+Öğelerdeki seçeneklerimizle ilgili olarak ve istediğim stillerle ilgili olarak bu
+
+3
+00:00:12,820 --> 00:00:17,480
+bileşen dekoratöründe gördüğümüz son özelliklere odaklandık.
+
+4
+00:00:17,670 --> 00:00:26,310
+Seçmiş olduğum seçici, bunun benzersiz bir seçici olması gerektiğinden, yanlışlıkla mevcut bir öğeyi
+
+5
+00:00:26,550 --> 00:00:33,450
+veya projenizde kullandığınız bir dizi üçüncü taraf paketi tarafından sağlanan
+
+6
+00:00:33,450 --> 00:00:35,790
+bir bileşeni geçersiz kılmazsınız.
+
+7
+00:00:35,790 --> 00:00:38,000
+Seçici hakkında başka bir bilgi parçası var.
+
+8
+00:00:38,000 --> 00:00:47,430
+bu tür seçici kullanmak zorunda olmasa da, bizim seçicimiz, C'de kullandığımızla aynı seçicidir.
+
+9
+00:00:47,430 --> 00:00:48,840
+Şu anda Öğe seçerken, bu
+
+10
+00:00:48,870 --> 00:00:57,210
+yıl eleman olarak uygulama sunucusuna sahibiz ve bu, seçtiğimiz seçici uygulama sunucuları olduğundan ve bu temel
+
+11
+00:00:57,600 --> 00:01:04,050
+olarak C S S'de seçme elemanlarını nasıl kullandığınızı göreceğinden, açısal olarak tanınır.
+
+12
+00:01:04,050 --> 00:01:05,490
+Sadece burada Atri yazarak yaş ağacı öğesini seçiyoruz.
+
+13
+00:01:05,490 --> 00:01:09,950
+Sadece uygulama servisini yazarak uygulama servis elemanını seçiyoruz.
+
+14
+00:01:10,110 --> 00:01:17,460
+Yani bu aslında Legacy'nin selector'u olarak çalışır ve bu nedenle elementle seçim yapmakla sınırlı değilsiniz.
+
+15
+00:01:17,820 --> 00:01:26,840
+Nitelik seçiciyi kullanmak için bunu köşeli parantez içine koyabilirsiniz.
+
+16
+00:01:27,120 --> 00:01:33,620
+Bu yüzden Zia'da, bu niteliği köşeli parantez içine alarak özniteliğe göre öğeleri seçebilirsiniz.
+
+17
+00:01:33,690 --> 00:01:40,190
+Ve şimdi bunu kaydederseniz, uygulamanızın gerçekten kırıldığını görürsünüz çünkü hata
+
+18
+00:01:40,650 --> 00:01:48,150
+mesajı uygulama sunucularına bir göz atabiliriz, çünkü bilinmeyen bir öğe çünkü
+
+19
+00:01:48,150 --> 00:01:56,670
+artık bizim kod açıcımız artık uygulama servisini tanımıyor çünkü bizler bir özellik.
+
+20
+00:01:56,700 --> 00:02:02,330
+Bu yüzden bu işi tekrar yapmak için bunu yorumlamak ya da kaldırmak zorundayız ve belki şimdi uygulama
+
+21
+00:02:02,400 --> 00:02:08,220
+sunucuları özniteliğine sahip normal bir yaşlı insan öğesi olan bir div ya da başka bir öğe ekleyebiliriz.
+
+22
+00:02:08,220 --> 00:02:15,120
+Şimdi günlerle özel özellik eklendi.
+
+23
+00:02:15,120 --> 00:02:18,240
+ve Navier alternatifi tarafından seçim yapılacağını
+
+24
+00:02:18,300 --> 00:02:25,170
+ve sadece bunu yorumlayacağım, böylece kod hala referans için orada sınıfa göre seç.
+
+25
+00:02:25,200 --> 00:02:33,630
+Şimdi Eberts tekrar, çünkü şimdi angler'in elementi seçerek değil, elementin kendisi tarafından seçtiğini ve seçiciyi değiştirdiğimizi
+
+26
+00:02:33,630 --> 00:02:38,630
+Böylece uygulama sunucularının başında bir nokta tekrar C S'de olduğu gibi.
+
+27
+00:02:38,640 --> 00:02:44,120
+Yani şimdi derse göre seçebiliriz.
+
+28
+00:02:44,160 --> 00:02:48,120
+Bu yüzden, şimdi de stil oluşturabileceğimiz bir
+
+29
+00:02:48,120 --> 00:02:54,600
+uygulama sunucuları sınıfına sahip olan yılın yeni bir gününü de ekleyelim.
+
+30
+00:02:54,630 --> 00:02:55,380
+Ama bunun yanında Engler tarafından bir seçici olarak da tanındı, bu yüzden hala uygulamayı görüyoruz.
+
+31
+00:02:55,410 --> 00:03:02,240
+Şimdi bunlar sahip olduğunuz tüm seçeneklerdir.
+
+32
+00:03:02,490 --> 00:03:04,460
+tipik olarak buradaki elemanlar stilini kullanırsınız.
+
+33
+00:03:04,740 --> 00:03:12,330
+Kimlik tarafından seçerek bir yan not, açısal tarafından desteklenmez ve vurgulu gibi tüm sözde seçiciler gibi işe yaramaz ve bu yüzden de işe yaramaz ve
+
+34
+00:03:12,390 --> 00:03:19,170
+Bileşenler için uygulama sunucuları.
+
+35
+00:03:19,310 --> 00:03:21,750
+Yakında direktifleri öğreneceğiz.
+
+36
+00:03:21,780 --> 00:03:23,820
+Bunun farklı olduğu başka bir özellik.
+
+37
+00:03:23,830 --> 00:03:25,920
+Ancak, bileşenler için genellikle
+
+38
+00:03:26,100 --> 00:03:33,360
+kendi öğelerinizi yaratırsınız ve bu nedenle bu stili kullanmazsınız ve öznitelik stilini kullanmazsınız.
+
+39
+00:03:33,360 --> 00:03:36,140
+Bunun yerine, Cirus benzeri
+
+40
+00:03:36,180 --> 00:03:43,530
+bir öğe kullanıyorsunuz, ancak bununla sınırlı olmadığını anlamak önemlidir.
+
+41
+00:03:43,530 --> 00:03:43,840
+Ve farklı bir seçici kullanmak istediğiniz durumlar olabilir
+
+42
+00:03:43,860 --> 00:03:47,750
+&nbsp;

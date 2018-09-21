@@ -1,0 +1,343 @@
+1
+00:00:02,660 --> 00:00:07,900
+Nell'ultima lezione abbiamo esaminato l'interpellanza di Stringer, che è un ottimo strumento per l'output di
+
+2
+00:00:07,900 --> 00:00:09,280
+dati in un modello.
+
+3
+00:00:09,340 --> 00:00:11,730
+Ora voglio dare un'occhiata alla corretta combinazione di tasti.
+
+4
+00:00:11,770 --> 00:00:14,110
+Ora una formazione importante subito.
+
+5
+00:00:14,290 --> 00:00:20,680
+Ci sono molte volte in cui puoi usare l'associazione di proprietà o l'interpellanza di stringhe.
+
+6
+00:00:20,680 --> 00:00:22,790
+E mostrerò cosa intendo in un secondo.
+
+7
+00:00:23,080 --> 00:00:29,710
+Andiamo al nostro componente di servizio in cui gestiamo tutti i server e voglio consentire all'utente di aggiungere
+
+8
+00:00:29,710 --> 00:00:31,380
+nuovi servizi almeno a breve.
+
+9
+00:00:31,390 --> 00:00:32,750
+Voglio permetterlo.
+
+10
+00:00:33,010 --> 00:00:37,690
+Quindi non abbiamo bisogno di un pulsante in cui dico ad server di annunci su di esso.
+
+11
+00:00:37,690 --> 00:00:42,680
+E vorrei aggiungere solo US come pulsante di classe e Button primary per rendere questa parte piacevole.
+
+12
+00:00:42,820 --> 00:00:49,400
+Questo è tutto usando normali bootstraps come classi anche se nulla ha a che fare con angular e per riflettere
+
+13
+00:00:49,400 --> 00:00:51,820
+questo cambiamento nel mio componente di servizio qui.
+
+14
+00:00:51,910 --> 00:00:56,620
+Voglio anche commentare il modello in linea e puntare nuovamente al modello esterno.
+
+15
+00:00:56,800 --> 00:01:06,380
+Quindi il modello o altro dovrebbe puntare al mio componente server verso l'invecchiamento o cadere così.
+
+16
+00:01:06,450 --> 00:01:12,510
+grado di fare clic su questo pulsante perché non fa nulla che non abbiamo ancora imparato a reagire a un clic del pulsante.
+
+17
+00:01:12,510 --> 00:01:18,460
+Ora con questo se ho salvato come vediamo quel pulsante qui in questo momento non ha alcun senso che io sia in
+
+18
+00:01:18,810 --> 00:01:26,250
+Quindi aggiungerò una nuova proprietà nel mio codice dattiloscritto che assegnerà il nome al news server e
+
+19
+00:01:26,280 --> 00:01:27,930
+lo imposterà su false.
+
+20
+00:01:27,930 --> 00:01:31,370
+Quindi ora questa è tutta una proprietà numero che ha un valore booleano.
+
+21
+00:01:31,390 --> 00:01:37,050
+Quindi vero o falso in questo caso falso perché non voglio permettere all'utente di creare un nuovo server e
+
+22
+00:01:37,050 --> 00:01:40,850
+potresti ancora immaginare che questi siano in qualche modo deprivati ​​in modo dinamico.
+
+23
+00:01:40,920 --> 00:01:48,460
+Lavoreremo presto con alcuni dati dinamici quindi qualsiasi file HMO qui voglio disabilitare il pulsante.
+
+24
+00:01:48,630 --> 00:01:55,050
+c'è un attributo disabilitato che puoi aggiungere come giorni che ora salviamo con i pulsanti disabilitati. Posso cliccarlo.
+
+25
+00:01:55,100 --> 00:01:56,660
+E come probabilmente sai,
+
+26
+00:01:56,790 --> 00:01:59,990
+È carino, ma è difficile da codificare in HVM L.
+
+27
+00:02:00,000 --> 00:02:04,440
+Ora forse questo permette al codice di news server di cambiare qui.
+
+28
+00:02:04,470 --> 00:02:07,980
+Tuttavia forse non è detto di fare tutto il tempo.
+
+29
+00:02:08,190 --> 00:02:10,170
+Quindi non saremmo in grado di reagire a questo.
+
+30
+00:02:10,170 --> 00:02:15,840
+E posso effettivamente dimostrarlo per ora nel costruttore che è semplicemente un metodo eseguito nel
+
+31
+00:02:15,840 --> 00:02:22,200
+momento in cui questo componente viene creato dal pescatore dal loro timeout di set di chiamate.
+
+32
+00:02:22,230 --> 00:02:24,280
+Una normale funzione javascript.
+
+33
+00:02:24,600 --> 00:02:29,900
+E qui definisco dopo quale periodo di tempo o dopo quanti millisecondi dovrebbe accadere qualcosa.
+
+34
+00:02:29,940 --> 00:02:35,080
+Quindi dopo 2000 millisecondi che sono due secondi voglio eseguire una funzione.
+
+35
+00:02:35,160 --> 00:02:38,400
+E qui sto usando la funzione di 6 frecce.
+
+36
+00:02:38,400 --> 00:02:40,320
+Questa sintassi potrebbe sembrare strana.
+
+37
+00:02:40,350 --> 00:02:48,390
+È quasi la stessa di una funzione come questa, con qualche differenza quando si tratta di gestire questa parola chiave.
+
+38
+00:02:48,390 --> 00:02:53,670
+Ma alla fine qui hai passato gli argomenti e qui hai il corpo della funzione più importante
+
+39
+00:02:53,670 --> 00:02:54,420
+nel tuo.
+
+40
+00:02:54,510 --> 00:03:00,120
+non funzionerebbe nella sintassi media perché questo si riferirebbe a qualcos'altro che può impostarlo su true.
+
+41
+00:03:00,120 --> 00:03:03,320
+Posso impostare consenti il ​​server delle news e questo
+
+42
+00:03:03,330 --> 00:03:08,610
+Quindi, dopo due secondi passeremo a True e dato che abbiamo codificato questo ovviamente per
+
+43
+00:03:08,640 --> 00:03:12,030
+il fatto che il nostro pulsante qui rimane disattivato.
+
+44
+00:03:12,090 --> 00:03:19,740
+Quindi voglio legarlo per consentire al server di notizie in modo che ora rendiamo dinamica questa
+
+45
+00:03:19,740 --> 00:03:26,580
+funzionalità disabilitata che possiamo accecarla racchiudendola tra parentesi quadre. Le parentesi quadre indicano angolare
+
+46
+00:03:26,580 --> 00:03:35,160
+che stiamo usando il legame di proprietà che vogliamo associare dinamicamente alcune proprietà e disabilitato l'attributo HMO alla
+
+47
+00:03:35,160 --> 00:03:35,490
+fine.
+
+48
+00:03:35,490 --> 00:03:42,390
+Nella normale HVM tutto imposta solo una proprietà specifica sull'elemento Dom sottostante.
+
+49
+00:03:42,420 --> 00:03:48,870
+Potresti notare che ogni elemento HVM che usi viene analizzato dal browser e il tipo di traduzione in
+
+50
+00:03:48,870 --> 00:03:51,420
+un elemento sul modello di oggetto documento.
+
+51
+00:03:51,420 --> 00:03:54,080
+Questo è totalmente estraneo a quello angolare.
+
+52
+00:03:54,270 --> 00:04:00,480
+E quindi abbiamo un elemento in questa forma e questo elemento ha un paio di proprietà.
+
+53
+00:04:00,690 --> 00:04:05,350
+Molti di questi non possono nemmeno essere impostati per l'elemento trans.
+
+54
+00:04:05,700 --> 00:04:11,300
+Bene, una delle proprietà è disabilitare la proprietà ed è possibile impostare l'attributo disabilitato.
+
+55
+00:04:11,310 --> 00:04:18,240
+Ma qui non stiamo usando per disabilitare l'attributo più con le parentesi quadre che stiamo
+
+56
+00:04:18,520 --> 00:04:22,190
+vincolando direttamente alla proprietà disabilitata nativa di Tudor.
+
+57
+00:04:22,190 --> 00:04:24,350
+Questo elemento HDMI ha.
+
+58
+00:04:24,630 --> 00:04:27,040
+Quindi ora possiamo impostare questo uguale a.
+
+59
+00:04:27,150 --> 00:04:34,730
+E ora con virgolette qui sopra un'espressione che per questa proprietà si risolve in un booleano.
+
+60
+00:04:34,740 --> 00:04:41,760
+Ma per le nostre proprietà e il numero Taieb potrebbe essere richiesto perché ancora una volta è possibile legarsi
+
+61
+00:04:41,940 --> 00:04:46,220
+a molte proprietà sostanzialmente a tutte le proprietà dell'elemento h l.
+
+62
+00:04:46,230 --> 00:04:50,020
+Presto scopriremo che ci sono anche proprietà Amur in cui puoi comprare.
+
+63
+00:04:50,310 --> 00:04:53,350
+Quindi per ora posso semplicemente passare al server delle news qui.
+
+64
+00:04:53,640 --> 00:04:58,500
+Il mio nome di proprietà perché questo si risolverà in Vero o falso.
+
+65
+00:04:58,520 --> 00:05:04,170
+Esattamente svalutate la proprietà di cui ha bisogno perché deve decidere se debba essere disabilitata
+
+66
+00:05:04,170 --> 00:05:04,840
+o meno.
+
+67
+00:05:05,040 --> 00:05:08,940
+Così ora con quello se invertiamo questo.
+
+68
+00:05:09,010 --> 00:05:14,110
+Quindi aggiungendo un punto esclamativo abbiamo fatto in modo che questo sia disabilitato solo se questo è per.
+
+69
+00:05:14,100 --> 00:05:17,520
+Quindi se permettiamo un nuovo server non è vero.
+
+70
+00:05:17,520 --> 00:05:20,040
+Altrimenti faresti esattamente il contrario.
+
+71
+00:05:20,190 --> 00:05:24,130
+Quindi ora con il punto esclamativo se torniamo all'APAC è disabilitato.
+
+72
+00:05:24,430 --> 00:05:26,770
+Ma dopo due secondi fammi ricaricare questo.
+
+73
+00:05:26,820 --> 00:05:34,020
+Diventa abilitato perché ora leghiamo a questa proprietà disabilitata questa proprietà di elemento nativo che ci stiamo
+
+74
+00:05:34,400 --> 00:05:41,730
+legando alla nostra proprietà di dattiloscritto e convochiamo la cosa e questo è ciò che il pescatore
+
+75
+00:05:41,760 --> 00:05:45,030
+ha a che fare con l'aggiornamento dinamico.
+
+76
+00:05:45,150 --> 00:05:52,270
+Quindi, una volta che le modifiche al server delle news sono cambiate nei dormitori poiché il pulsante viene abilitato.
+
+77
+00:05:52,350 --> 00:05:54,960
+Uno dei motivi principali per cui usi l'angolare.
+
+78
+00:05:54,960 --> 00:06:02,370
+Rende molto facile per te interagire con il tuo dormitorio per cambiare qualcosa in fase di runtime
+
+79
+00:06:02,370 --> 00:06:03,530
+come facciamo qui.
+
+80
+00:06:03,830 --> 00:06:06,040
+Questo è proprietà vincolante in
+
+81
+00:06:06,080 --> 00:06:13,070
+Ora, come ho già detto, oltre al legame con le proprietà dell'elemento HVM, come facciamo qui, puoi anche estrarre
+
+82
+00:06:13,070 --> 00:06:17,390
+le nostre proprietà per esempio di direttive che non abbiamo ancora appreso.
+
+83
+00:06:17,630 --> 00:06:21,090
+E i tuoi componenti personali ti mostrerò anche in seguito.
+
+84
+00:06:21,140 --> 00:06:23,300
+Quindi questa proprietà è vincolante.
+
+85
+00:06:23,300 --> 00:06:26,100
+Prima di passare alle altre due forme di associazione dei dati.
+
+86
+00:06:26,180 --> 00:06:31,810
+Scopriamo dove potresti effettivamente usare l'interpellazione a stringhe invece del binding di proprietà.

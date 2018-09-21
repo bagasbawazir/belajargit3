@@ -1,0 +1,43 @@
+1
+00:00:02,720 --> 00:00:08,510
+Quindi ora iniziamo con il discorso e con angolare e il nostro progetto che useremo e,
+
+2
+00:00:08,990 --> 00:00:14,840
+naturalmente, è il momento di immergerci sempre più in profondità per capire cosa fa realmente ciò
+
+3
+00:00:15,110 --> 00:00:21,710
+che accade dietro le quinte come un pescatore inizia in primo luogo e quali blocchi base ci offre come
+
+4
+00:00:21,710 --> 00:00:25,520
+possiamo costruire abs angolari e quali caratteristiche possiamo usare per questo.
+
+5
+00:00:25,520 --> 00:00:31,400
+Alla fine della sezione capirai come puoi costruire la tua applicazione angolare di base, cosa
+
+6
+00:00:31,400 --> 00:00:35,690
+fa allora e cosa devi modificare per raggiungere un risultato diverso.
+
+7
+00:00:35,690 --> 00:00:42,920
+Quindi con questo ci tuffiamo dentro e iniziamo dando un'occhiata a cosa succede realmente quando ci
+
+8
+00:00:42,920 --> 00:00:43,230
+siamo.
+
+9
+00:00:43,280 --> 00:00:48,090
+Questa pagina nel browser quando la pagina dei reloaders come fa iniziare la rabbia.
+
+10
+00:00:48,170 --> 00:00:51,760
+Cosa vediamo in realtà qui oltre a nulla.
+
+11
+00:00:51,790 --> 00:00:54,710
+Perché c'è molto di più in questa pagina di quanto potrebbe sembrare.

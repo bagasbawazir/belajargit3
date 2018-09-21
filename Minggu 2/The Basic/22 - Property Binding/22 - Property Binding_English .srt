@@ -1,0 +1,343 @@
+1
+00:00:02,660 --> 00:00:07,900
+In the last lecture we had a look at Stringer interpellation which is a great tool for outputting data
+
+2
+00:00:07,900 --> 00:00:09,280
+in a template.
+
+3
+00:00:09,340 --> 00:00:11,730
+Now I want to have a look at proper keybinding.
+
+4
+00:00:11,770 --> 00:00:14,110
+Now one important formation right away.
+
+5
+00:00:14,290 --> 00:00:20,680
+There are a lot of times where you can either use property binding or string interpellation.
+
+6
+00:00:20,680 --> 00:00:22,790
+And I will show what I mean in a second.
+
+7
+00:00:23,080 --> 00:00:29,710
+Let's go to our service component where we manage all the servers and I want to allow the user to add
+
+8
+00:00:29,710 --> 00:00:31,380
+new service at least soon.
+
+9
+00:00:31,390 --> 00:00:32,750
+I want to allow that.
+
+10
+00:00:33,010 --> 00:00:37,690
+So we don't need a button where I say ad server on it.
+
+11
+00:00:37,690 --> 00:00:42,680
+And I would just add some US as classis button and Button primary to make this part look nice.
+
+12
+00:00:42,820 --> 00:00:49,400
+This is all using normal bootstraps as classes though nothing to do with angular and to reflect this
+
+13
+00:00:49,400 --> 00:00:51,820
+change in my service component here.
+
+14
+00:00:51,910 --> 00:00:56,620
+I also want to comment out the inline template and point to the external template again.
+
+15
+00:00:56,800 --> 00:01:06,380
+So template or else should point to my server component toward aged him or fall like this.
+
+16
+00:01:06,450 --> 00:01:12,510
+Now with this if I saved as we see that button here right now it doesn't make any sense that I'm able
+
+17
+00:01:12,510 --> 00:01:18,460
+to click this button because it doesn't do anything we haven't learned to react to a button click yet.
+
+18
+00:01:18,810 --> 00:01:26,250
+So I will add a new property in my typescript code here which will name allow news server and set it
+
+19
+00:01:26,280 --> 00:01:27,930
+to false.
+
+20
+00:01:27,930 --> 00:01:31,370
+So now this is all a number property holding a boolean value.
+
+21
+00:01:31,390 --> 00:01:37,050
+So true or false in this case false because I don't want to allow the user to create a new server and
+
+22
+00:01:37,050 --> 00:01:40,850
+you could again imagine that these are somehow deprived dynamically.
+
+23
+00:01:40,920 --> 00:01:48,460
+We will soon work with some dynamic data so any HMO file here I now want to disable the button.
+
+24
+00:01:48,630 --> 00:01:55,050
+And as you probably know there is a disabled attribute you can add like days we now save as the buttons
+
+25
+00:01:55,100 --> 00:01:56,660
+disabled I can click it.
+
+26
+00:01:56,790 --> 00:01:59,990
+That's nice but that's hard coded into HVM L.
+
+27
+00:02:00,000 --> 00:02:04,440
+Now maybe this allows news server code here changes.
+
+28
+00:02:04,470 --> 00:02:07,980
+However maybe it's not said to does all the time.
+
+29
+00:02:08,190 --> 00:02:10,170
+So then we wouldn't be able to react to this.
+
+30
+00:02:10,170 --> 00:02:15,840
+And I can actually demonstrate this by for now in the constructor which is simply a method executed
+
+31
+00:02:15,840 --> 00:02:22,200
+at the point of time this component is created by angler by their calling set timeout.
+
+32
+00:02:22,230 --> 00:02:24,280
+A normal javascript function.
+
+33
+00:02:24,600 --> 00:02:29,900
+And here I define after which period of time or after how many milliseconds something should happen.
+
+34
+00:02:29,940 --> 00:02:35,080
+So after 2000 milliseconds which are two seconds I want to execute a function.
+
+35
+00:02:35,160 --> 00:02:38,400
+And here I'm using as 6 arrow function.
+
+36
+00:02:38,400 --> 00:02:40,320
+This syntax might look strange.
+
+37
+00:02:40,350 --> 00:02:48,390
+It's almost the same as function like this with some difference when it comes to handling this key word.
+
+38
+00:02:48,390 --> 00:02:53,670
+But in the end here you passed the arguments and here you have the function body more importantly in
+
+39
+00:02:53,670 --> 00:02:54,420
+your.
+
+40
+00:02:54,510 --> 00:03:00,120
+I can set allow news server and no this would not work in the average syntax because this would then
+
+41
+00:03:00,120 --> 00:03:03,320
+be referring to something else can set it to true.
+
+42
+00:03:03,330 --> 00:03:08,610
+So after two seconds does we'll be switch to True and since we hardcoded this of course to the fact
+
+43
+00:03:08,640 --> 00:03:12,030
+our button here at all it stays disabled.
+
+44
+00:03:12,090 --> 00:03:19,740
+So I want to bind it to allow news server so now to make this disabled functionality dynamic we can
+
+45
+00:03:19,740 --> 00:03:26,580
+blind to it by enclosing it in square brackets square brackets indicate to angular that we're using
+
+46
+00:03:26,580 --> 00:03:35,160
+property binding that we want to dynamically bind some property and disabled the HMO attribute in the
+
+47
+00:03:35,160 --> 00:03:35,490
+end.
+
+48
+00:03:35,490 --> 00:03:42,390
+In normal HVM all only sets a specific property on the underlying Dom element.
+
+49
+00:03:42,420 --> 00:03:48,870
+You might note that each HVM l element you use is parsed by the browser and kind of translated into
+
+50
+00:03:48,870 --> 00:03:51,420
+an element on the document object model.
+
+51
+00:03:51,420 --> 00:03:54,080
+This is totally unrelated to angular.
+
+52
+00:03:54,270 --> 00:04:00,480
+And therefore we have an element in this form and this element has a couple of properties.
+
+53
+00:04:00,690 --> 00:04:05,350
+A lot of these can't even be set frou attributes on th shemale element.
+
+54
+00:04:05,700 --> 00:04:11,300
+Well one of the properties is to disable property and you can set the disabled attribute.
+
+55
+00:04:11,310 --> 00:04:18,240
+But here we're not using to disable attribute anymore with the square brackets we are directly binding
+
+56
+00:04:18,520 --> 00:04:22,190
+Tudor's native disabled property.
+
+57
+00:04:22,190 --> 00:04:24,350
+This HDMI element has.
+
+58
+00:04:24,630 --> 00:04:27,040
+So now we can set this equal to.
+
+59
+00:04:27,150 --> 00:04:34,730
+And now with windy quotation marks here an expression which for this property resolves to a boolean.
+
+60
+00:04:34,740 --> 00:04:41,760
+But for our properties and number Taieb might be required because again you can bind to a lot of properties
+
+61
+00:04:41,940 --> 00:04:46,220
+basically to all the h l element properties.
+
+62
+00:04:46,230 --> 00:04:50,020
+We'll soon learn that there are also Amur properties you can buy into.
+
+63
+00:04:50,310 --> 00:04:53,350
+So for now I can simply pass allow news server here.
+
+64
+00:04:53,640 --> 00:04:58,500
+My property name because this will resolve to True or false.
+
+65
+00:04:58,520 --> 00:05:04,170
+Exactly devalue the same the property needs because it has to decide whether it should be disabled or
+
+66
+00:05:04,170 --> 00:05:04,840
+not.
+
+67
+00:05:05,040 --> 00:05:08,940
+So now with that if we reverse this.
+
+68
+00:05:09,010 --> 00:05:14,110
+So by adding an exclamation mark we made sure that this is only disabled if this is for.
+
+69
+00:05:14,100 --> 00:05:17,520
+So if we allow a new server it's not true.
+
+70
+00:05:17,520 --> 00:05:20,040
+Otherwise you would do exactly the opposite.
+
+71
+00:05:20,190 --> 00:05:24,130
+So now with the exclamation mark if we go back to the APAC it's disabled.
+
+72
+00:05:24,430 --> 00:05:26,770
+But after two seconds let me reload this.
+
+73
+00:05:26,820 --> 00:05:34,020
+It becomes enabled because now we're binding to this disabled property this native element property
+
+74
+00:05:34,400 --> 00:05:41,730
+we're binding us to our own typescript property here and to convene the thing is and this is what angler's
+
+75
+00:05:41,760 --> 00:05:45,030
+all about that this will update dynamically.
+
+76
+00:05:45,150 --> 00:05:52,270
+So once allow news server changes is a change in the dorms since the button gets enabled.
+
+77
+00:05:52,350 --> 00:05:54,960
+One of the main reasons why you use angular.
+
+78
+00:05:54,960 --> 00:06:02,370
+It makes it very easy for you to interact with your dorm to change something stare at runtime like we
+
+79
+00:06:02,370 --> 00:06:03,530
+do here.
+
+80
+00:06:03,830 --> 00:06:06,040
+That is property binding in.
+
+81
+00:06:06,080 --> 00:06:13,070
+Now as I mentioned besides binding to HVM element properties like we do here you can also mine to our
+
+82
+00:06:13,070 --> 00:06:17,390
+properties for example of directives something we haven't learned about yet.
+
+83
+00:06:17,630 --> 00:06:21,090
+And your own components something I will also show you later.
+
+84
+00:06:21,140 --> 00:06:23,300
+So does this property binding.
+
+85
+00:06:23,300 --> 00:06:26,100
+Before moving on the other two forms of data binding.
+
+86
+00:06:26,180 --> 00:06:31,810
+Let's find out where you could actually use string interpellation instead of property binding.

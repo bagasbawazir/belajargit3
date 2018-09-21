@@ -1,0 +1,167 @@
+1
+00:00:02,890 --> 00:00:05,720
+In the last lecture we learned about property binding.
+
+2
+00:00:05,770 --> 00:00:12,400
+Now if we had to use case that we also want to output the current value of ALLOW YOU news server we
+
+3
+00:00:12,400 --> 00:00:17,890
+could of course use string installation to simply output allow news server and the Boullion can also
+
+4
+00:00:17,890 --> 00:00:19,660
+be cast into a string.
+
+5
+00:00:20,110 --> 00:00:25,500
+So now we see falles here and after two seconds you see just change to true because we changed the code.
+
+6
+00:00:25,660 --> 00:00:26,980
+Nice.
+
+7
+00:00:26,980 --> 00:00:32,320
+Now this is one of the cases you're right you can easily use property binding instead of string and
+
+8
+00:00:32,320 --> 00:00:33,410
+depletion.
+
+9
+00:00:33,580 --> 00:00:43,560
+So you could simply bind to a property of this element the inner Text property and set this equal to
+
+10
+00:00:43,560 --> 00:00:45,210
+allow a news server.
+
+11
+00:00:45,210 --> 00:00:50,940
+Now I can remove the stringin jubilation here inside of the tax and what it might look empty now.
+
+12
+00:00:51,030 --> 00:00:56,520
+Well we set in our text so we get the same behavior as before because the inner Text property of an
+
+13
+00:00:56,520 --> 00:01:00,000
+element is just what's between the opening and closing tag.
+
+14
+00:01:00,000 --> 00:01:05,990
+So in this case we were able to easily replace string interpolation with property binding.
+
+15
+00:01:06,000 --> 00:01:08,630
+So when should you use which of the two.
+
+16
+00:01:08,910 --> 00:01:14,880
+Well basically if you want to output something in your template print some text to it use string interpellation
+
+17
+00:01:15,330 --> 00:01:21,990
+if you want to change some property be that of an aged female element or as you will later learn of
+
+18
+00:01:21,990 --> 00:01:23,560
+a directive or a component.
+
+19
+00:01:23,730 --> 00:01:25,740
+Typically use property binding.
+
+20
+00:01:25,740 --> 00:01:31,080
+That is how you can differentiated and you will get a feeling for this once you work your way through
+
+21
+00:01:31,080 --> 00:01:33,280
+the course project and so on.
+
+22
+00:01:33,510 --> 00:01:41,680
+So there's still one important note I want to make is don't mix property binding and string interpolation.
+
+23
+00:01:41,850 --> 00:01:48,750
+You might notice that here we have disabled equals and then we have quotation marks and then directly
+
+24
+00:01:48,830 --> 00:01:55,410
+our property name there are no curly braces between these current quotation marks and there shouldn't
+
+25
+00:01:55,410 --> 00:01:55,830
+be.
+
+26
+00:01:55,950 --> 00:01:57,430
+Because that will break the app.
+
+27
+00:01:57,450 --> 00:02:02,050
+This will not work between the quotation marks or property binding.
+
+28
+00:02:02,130 --> 00:02:09,270
+You can and you must already write types of code so to say a typescript expression which will return
+
+29
+00:02:09,270 --> 00:02:11,100
+the value this property expects.
+
+30
+00:02:11,100 --> 00:02:14,360
+So for disabled some expression which returns true or false.
+
+31
+00:02:14,400 --> 00:02:20,580
+So just like with string interpolation You may also call a method there but you must not add curly braces
+
+32
+00:02:20,580 --> 00:02:21,540
+in there.
+
+33
+00:02:21,630 --> 00:02:25,110
+What's that might look we simply use HVM attribute.
+
+34
+00:02:25,140 --> 00:02:26,420
+There we aren't.
+
+35
+00:02:26,490 --> 00:02:30,650
+This whole syntax year is a syntax recognized by angular.
+
+36
+00:02:30,780 --> 00:02:37,360
+So this is why between the quotation marks you can already and you have already you have to ride typescript
+
+37
+00:02:37,370 --> 00:02:43,770
+code because again this whole expression is evaluated by angular mixing in string of tribulation will
+
+38
+00:02:43,800 --> 00:02:44,540
+break it.
+
+39
+00:02:44,580 --> 00:02:51,750
+String interpellation only works in the normal template not with in and Navier expression of that template
+
+40
+00:02:51,870 --> 00:02:55,770
+not within a property binding or something like this.
+
+41
+00:02:55,950 --> 00:03:03,090
+With that enough about property binding and generally about outputting data in the template Let's see
+
+42
+00:03:03,240 --> 00:03:05,730
+how we can react to events

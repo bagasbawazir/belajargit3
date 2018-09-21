@@ -1,0 +1,343 @@
+1
+00:00:02,660 --> 00:00:07,900
+Son derste, bir şablonda veri çıkışı için harika bir araç olan
+
+2
+00:00:07,900 --> 00:00:09,280
+Stringer interpellation'a baktık.
+
+3
+00:00:09,340 --> 00:00:11,730
+Şimdi doğru tuşlara bir göz atmak istiyorum.
+
+4
+00:00:11,770 --> 00:00:14,110
+Şimdi önemli bir oluşum hemen.
+
+5
+00:00:14,290 --> 00:00:20,680
+Mülk bağlayıcı veya string interpellation kullanabileceğiniz birçok kez vardır.
+
+6
+00:00:20,680 --> 00:00:22,790
+Ve bir saniyede ne demek istediğimi göstereceğim.
+
+7
+00:00:23,080 --> 00:00:29,710
+Tüm sunucuları yönetdiğimiz servis bileşenimize gidelim ve en azından en kısa sürede yeni servis
+
+8
+00:00:29,710 --> 00:00:31,380
+eklememize izin vermek istiyorum.
+
+9
+00:00:31,390 --> 00:00:32,750
+Buna izin vermek istiyorum.
+
+10
+00:00:33,010 --> 00:00:37,690
+Bu yüzden, üzerinde reklam sunucusu dediğim bir düğmeye ihtiyacımız yok.
+
+11
+00:00:37,690 --> 00:00:42,680
+Ve bu parçayı güzel kılmak için bazı ABD'yi classis düğmesi ve Button primer olarak eklerim.
+
+12
+00:00:42,820 --> 00:00:49,400
+Bu, normal önyükleme işlemlerini, açısal ile hiçbir ilgisi olmamakla birlikte sınıflar olarak kullanıyor ve bu
+
+13
+00:00:49,400 --> 00:00:51,820
+değişikliği hizmet bileşenimde de yansıtıyor.
+
+14
+00:00:51,910 --> 00:00:56,620
+Ayrıca inline şablonunu açıklamak ve harici şablona tekrar işaret etmek istiyorum.
+
+15
+00:00:56,800 --> 00:01:06,380
+Yani şablon veya başka bir şekilde sunucu bileşenimi ona doğru yönlendirmeli veya böyle düşünmeliyiz.
+
+16
+00:01:06,450 --> 00:01:12,510
+anlam ifade etmiyor çünkü henüz bir butona tıklamaya karar vermediğimiz bir şey yapmadı.
+
+17
+00:01:12,510 --> 00:01:18,460
+Şimdi bu butonu şimdi gördüğümüz gibi kaydettiysem, bu butona tıklayabileceğimi hiç bir
+
+18
+00:01:18,810 --> 00:01:26,250
+Bu yüzden, benim haber kodumda yeni bir özellik ekleyeceğim, bu da haber sunucusuna izin verecek ve
+
+19
+00:01:26,280 --> 00:01:27,930
+onu yanlış olarak ayarlayacak.
+
+20
+00:01:27,930 --> 00:01:31,370
+Yani şimdi bu hepsi bir boole değeri tutan bir sayı özelliğidir.
+
+21
+00:01:31,390 --> 00:01:37,050
+Bu durumda doğru ya da yanlış yanlış, çünkü kullanıcının yeni bir sunucu oluşturmasına izin vermek istemiyorum
+
+22
+00:01:37,050 --> 00:01:40,850
+ve bunların bir şekilde dinamik olarak yoksun olduklarını hayal edebiliyordunuz.
+
+23
+00:01:40,920 --> 00:01:48,460
+Yakında bazı dinamik verilerle çalışacağız, böylece şimdi herhangi bir HMO dosyası şimdi düğmeyi devre dışı bırakmak istiyorum.
+
+24
+00:01:48,630 --> 00:01:55,050
+engelli bir öznitelik ekleyebileceğiniz günler gibi ekleyebileceğiniz düğmeler engelli olarak tıklayabilirim.
+
+25
+00:01:55,100 --> 00:01:56,660
+Muhtemelen bildiğiniz gibi
+
+26
+00:01:56,790 --> 00:01:59,990
+Bu güzel ama HVM L'ye kodlanmış.
+
+27
+00:02:00,000 --> 00:02:04,440
+Şimdi belki bu haber sunucu kodu burada değiştirir.
+
+28
+00:02:04,470 --> 00:02:07,980
+Ancak belki de her zaman olduğu söylenmez.
+
+29
+00:02:08,190 --> 00:02:10,170
+Öyleyse buna tepki gösteremeyiz.
+
+30
+00:02:10,170 --> 00:02:15,840
+Ve aslında bunu yapabilmem için basit bir yöntem olan kurucuda, bu
+
+31
+00:02:15,840 --> 00:02:22,200
+bileşenin çağıran set zaman aşımına uğramasıyla bu bileşen tarafından yaratılan bir yöntemdir.
+
+32
+00:02:22,230 --> 00:02:24,280
+Normal bir javascript işlevi.
+
+33
+00:02:24,600 --> 00:02:29,900
+Ve burada hangi süreden sonra veya kaç milisaniyeden sonra bir şey olması gerektiğini tanımlarım.
+
+34
+00:02:29,940 --> 00:02:35,080
+Yani iki saniye olan 2000 milisaniyeden sonra bir işlevi yürütmek istiyorum.
+
+35
+00:02:35,160 --> 00:02:38,400
+Ve burada 6 ok işlevi olarak kullanıyorum.
+
+36
+00:02:38,400 --> 00:02:40,320
+Bu sözdizimi garip görünebilir.
+
+37
+00:02:40,350 --> 00:02:48,390
+Bu anahtar kelimeyi ele aldığımızda biraz farkla bunun gibi işlevlerle neredeyse aynı.
+
+38
+00:02:48,390 --> 00:02:53,670
+Ama sonunda burada argümanları geçtin ve işte vücudun daha da önemli bir
+
+39
+00:02:53,670 --> 00:02:54,420
+işlevi var.
+
+40
+00:02:54,510 --> 00:03:00,120
+sözdiziminde işe yaramazdı, çünkü bu, başka bir şeye atıfta bulunarak bunun doğruya ayarlanabileceğini gösterir.
+
+41
+00:03:00,120 --> 00:03:03,320
+Haber sunucusuna izin vermeyi ayarlayabilirim ve bu, ortalama
+
+42
+00:03:03,330 --> 00:03:08,610
+Bu yüzden iki saniyeden sonra True'a geçeceğiz ve bunu
+
+43
+00:03:08,640 --> 00:03:12,030
+elbette kodladığımızdan buradaki düğmemize engelli kaldık.
+
+44
+00:03:12,090 --> 00:03:19,740
+Yani ben şimdi bu devre dışı bırakılmış işlevsellik dinamik yapmak için
+
+45
+00:03:19,740 --> 00:03:26,580
+haber sunucusuna izin vermek istiyorum bağlamak için köşebent köşeli parantez
+
+46
+00:03:26,580 --> 00:03:35,160
+içine kapatarak köşeli parantez bazı özellikler ve Sonunda HMO özniteliğini devre dışı
+
+47
+00:03:35,160 --> 00:03:35,490
+bıraktı.
+
+48
+00:03:35,490 --> 00:03:42,390
+Normal HVM'de sadece alttaki Dom elemanında belirli bir özellik belirlenir.
+
+49
+00:03:42,420 --> 00:03:48,870
+Kullandığınız her bir HVM l öğesinin tarayıcı tarafından ayrıştırıldığını ve belge nesne
+
+50
+00:03:48,870 --> 00:03:51,420
+modelindeki bir öğeye dönüştürüldüğünü unutmayın.
+
+51
+00:03:51,420 --> 00:03:54,080
+Bu tamamen açısal ile ilgisi yoktur.
+
+52
+00:03:54,270 --> 00:04:00,480
+Ve bu nedenle bu formda bir elementimiz var ve bu elementin birkaç özelliği var.
+
+53
+00:04:00,690 --> 00:04:05,350
+Bunların çoğu, transeksüel unsur üzerinde frou nitelikleri ayarlanamaz.
+
+54
+00:04:05,700 --> 00:04:11,300
+Özelliklerden biri özelliği devre dışı bırakmak ve engellenmiş özniteliği ayarlayabilirsiniz.
+
+55
+00:04:11,310 --> 00:04:18,240
+Ancak burada, Tudor'un yerel engelli özelliğini doğrudan bağladığımız köşeli parantezler ile artık
+
+56
+00:04:18,520 --> 00:04:22,190
+özelliği devre dışı bırakmak için kullanmıyoruz.
+
+57
+00:04:22,190 --> 00:04:24,350
+Bu HDMI elemanı vardır.
+
+58
+00:04:24,630 --> 00:04:27,040
+Yani şimdi bunu eşit olarak ayarlayabiliriz.
+
+59
+00:04:27,150 --> 00:04:34,730
+Ve şimdi rüzgarlı tırnak işaretleri burada bu özellik için bir boole için çözen bir ifade.
+
+60
+00:04:34,740 --> 00:04:41,760
+Ancak özelliklerimiz ve Taieb numaramız için gerekli olabilir, çünkü bir çok özelliği
+
+61
+00:04:41,940 --> 00:04:46,220
+temel olarak tüm hL eleman özelliklerine bağlayabilirsiniz.
+
+62
+00:04:46,230 --> 00:04:50,020
+Yakında satın alabileceğiniz Amur özelliklerinin de olduğunu öğreneceğiz.
+
+63
+00:04:50,310 --> 00:04:53,350
+Bu yüzden şimdilik haber sunucusuna buradan izin verebilirim.
+
+64
+00:04:53,640 --> 00:04:58,500
+Mülk adımı, çünkü bu doğru veya yanlış olarak çözülecektir.
+
+65
+00:04:58,520 --> 00:05:04,170
+Mülkün aynı şeyi tamamen değersizleştirmesi çünkü devre dışı bırakılıp bırakılmayacağına karar vermek
+
+66
+00:05:04,170 --> 00:05:04,840
+zorundadır.
+
+67
+00:05:05,040 --> 00:05:08,940
+Yani şimdi bunun tersini yaparsak.
+
+68
+00:05:09,010 --> 00:05:14,110
+Bu yüzden bir ünlem işareti ekleyerek, bunun yalnızca bunun için geçerli olduğundan emin olduk.
+
+69
+00:05:14,100 --> 00:05:17,520
+Yani yeni bir sunucuya izin verirsek, bu doğru değildir.
+
+70
+00:05:17,520 --> 00:05:20,040
+Aksi halde tam tersini yaparsın.
+
+71
+00:05:20,190 --> 00:05:24,130
+Yani şimdi APAC'a geri dönersek ünlem işareti ile devre dışı.
+
+72
+00:05:24,430 --> 00:05:26,770
+Ama iki saniye sonra bunu yeniden yüklememe izin ver.
+
+73
+00:05:26,820 --> 00:05:34,020
+Bu özellik etkinleştirildi çünkü şu anda bu devre dışı bırakılmış mülkiyete bağlanıyoruz, buradaki özel element
+
+74
+00:05:34,400 --> 00:05:41,730
+özelliği bizi kendi typescript mülkümüze bağlıyoruz ve bir şeyleri toplamak için budur ve bu da
+
+75
+00:05:41,760 --> 00:05:45,030
+bu şeyin dinamik olarak güncelleneceği hakkında.
+
+76
+00:05:45,150 --> 00:05:52,270
+Bu yüzden haber sunucusunun değiştirmesine izin verdiğinizde, düğme etkinleştirildiği için yurtlarda bir değişiklik olur.
+
+77
+00:05:52,350 --> 00:05:54,960
+Açısal kullanmanın ana sebeplerinden biri.
+
+78
+00:05:54,960 --> 00:06:02,370
+Burada yaptığımız gibi çalışma zamanındaki bir şeyi değiştirmek için yurtunuzla etkileşimde bulunmanızı
+
+79
+00:06:02,370 --> 00:06:03,530
+çok kolaylaştırıyor.
+
+80
+00:06:03,830 --> 00:06:06,040
+Bu özellik bağlayıcıdır.
+
+81
+00:06:06,080 --> 00:06:13,070
+Şimdi, burada yaptığımız gibi HVM eleman özelliklerine bağlanmanın yanı sıra, henüz bizim hakkında henüz
+
+82
+00:06:13,070 --> 00:06:17,390
+öğrenemediğimiz direktifler gibi bizim mülklerimize de madencilik yapabilirsiniz.
+
+83
+00:06:17,630 --> 00:06:21,090
+Ve kendi bileşenlerin de size daha sonra göstereceğim bir şey.
+
+84
+00:06:21,140 --> 00:06:23,300
+Yani bu özellik bağlayıcı.
+
+85
+00:06:23,300 --> 00:06:26,100
+Diğer iki veri bağlama formuna geçmeden önce.
+
+86
+00:06:26,180 --> 00:06:31,810
+Özellik bağlaması yerine aslında dizgi yorumlamasını nerede kullanabileceğinizi öğrenelim.

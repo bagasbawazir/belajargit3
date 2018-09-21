@@ -1,0 +1,327 @@
+1
+00:00:03,300 --> 00:00:09,760
+Vendi giorni è la pagina come la vediamo ora nel progetto che abbiamo creato alla
+
+2
+00:00:10,340 --> 00:00:18,340
+fine dell'ultima sezione della pagina vuota dell'anno per completare la guida che raggiungiamo presso l'host locale 4200 giorni è
+
+3
+00:00:18,340 --> 00:00:25,650
+dove il nostro server di sviluppo ospitato dal Selye o costruito da TACL ospiterò la nostra applicazione angolare.
+
+4
+00:00:25,750 --> 00:00:32,940
+Ora il contenuto che vediamo qui può essere modificato andando al componente app HVM del file nella nostra cartella
+
+5
+00:00:33,640 --> 00:00:40,810
+app e poi qui possiamo produrre un testo che diciamo nel componente app qui nel tag free age e
+
+6
+00:00:40,840 --> 00:00:41,730
+normale HVM Altec.
+
+7
+00:00:41,740 --> 00:00:49,240
+Quindi se salviamo questo lo vedremo qui e automaticamente dovrà riavviare il tessile e così via perché abbiamo
+
+8
+00:00:49,240 --> 00:00:52,600
+aggiunto il bootstrap anche alla fine dell'ultima sezione.
+
+9
+00:00:52,990 --> 00:00:58,630
+Ma sì, potrebbe sembrare ovvio che lo vediamo qui è anche un po 'strano.
+
+10
+00:00:58,720 --> 00:01:05,800
+In che modo il nostro browser o in che modo un server che ospita la nostra app sa che dovrebbe visualizzare tutti
+
+11
+00:01:06,160 --> 00:01:08,450
+i contenuti del componente di app HVM.
+
+12
+00:01:08,530 --> 00:01:13,690
+Potresti obiettare che è l'unico componente che abbiamo adesso e daremo un'occhiata più da vicino al componente al
+
+13
+00:01:13,690 --> 00:01:14,390
+più presto.
+
+14
+00:01:14,740 --> 00:01:16,630
+Ma non è questo il motivo.
+
+15
+00:01:16,630 --> 00:01:20,730
+E in realtà questo non è il file servito dal server.
+
+16
+00:01:20,740 --> 00:01:27,120
+ricordato che ti ho detto che angular è un framework che ti permette di creare un'applicazione a singola pagina.
+
+17
+00:01:27,130 --> 00:01:31,080
+Invece il file indice HDMI qui è servito dal server e
+
+18
+00:01:31,080 --> 00:01:35,710
+Questa è la singola pagina che ha servito il file HDMI dell'indice.
+
+19
+00:01:35,710 --> 00:01:40,440
+Ora se dai un'occhiata a questo file vediamo che questo è un normale file HTL.
+
+20
+00:01:40,510 --> 00:01:45,130
+Abbiamo definito un titolo che potremmo vedere sulla scheda nell'anno del browser.
+
+21
+00:01:45,700 --> 00:01:48,350
+E il corpo di questo file è molto interessante.
+
+22
+00:01:48,430 --> 00:01:54,580
+Qui otteniamo questa app maleducata con un punto di punto di carico in mezzo.
+
+23
+00:01:54,580 --> 00:01:58,260
+Ora chiaramente non lo vediamo caricare punto punto punto qui.
+
+24
+00:01:58,660 --> 00:02:07,300
+questo indice HVM Ulfar sembra essere cambiato e l'app Rootie naturalmente non è un elemento HTML di default.
+
+25
+00:02:07,300 --> 00:02:09,170
+Quindi in qualche modo
+
+26
+00:02:09,280 --> 00:02:15,610
+Invece come uno dei nostri componenti ci immergeremo presto nel modo in cui creiamo i nostri componenti, ma il Seelye
+
+27
+00:02:15,620 --> 00:02:17,650
+ne ha creato uno per noi.
+
+28
+00:02:17,650 --> 00:02:23,170
+Il componente radice della nostra applicazione al componente che collegherà tutta la nostra applicazione
+
+29
+00:02:23,170 --> 00:02:30,070
+alla fine e tutti i file nella cartella dell'app qui che hanno un componente nel loro nome.
+
+30
+00:02:30,100 --> 00:02:33,490
+Quindi questi file sono correlati a questo componente.
+
+31
+00:02:33,490 --> 00:02:37,870
+Entrerò più nel dettaglio su questi file e una delle prossime lezioni per ora diamo uno sguardo più
+
+32
+00:02:37,870 --> 00:02:41,710
+da vicino al componente dell'app che si pensa t seguito da un file dattiloscritto qui.
+
+33
+00:02:41,710 --> 00:02:47,170
+Qui puoi vedere che dobbiamo al decoratore di componenti sembra essere importante,
+
+34
+00:02:47,170 --> 00:02:55,030
+ma soprattutto ora vedrai che c'è questa selezione o proprietà che assegna una stringa come valore e
+
+35
+00:02:55,030 --> 00:02:56,370
+mantiene la stringa.
+
+36
+00:02:56,480 --> 00:03:01,990
+App root non chiaramente come lo stesso testo del nostro indice HDMI file.
+
+37
+00:03:02,080 --> 00:03:09,340
+E questo in realtà è l'informazione angolare necessaria per essere in grado di sostituire questa parte qui in questo
+
+38
+00:03:09,340 --> 00:03:16,210
+indice H-2A I file con questo modello fuori da questo componente il componente che ha questo selettore e
+
+39
+00:03:16,240 --> 00:03:22,210
+il modello su questo componente è semplicemente il contenuto qui in questo file componente h app.
+
+40
+00:03:22,210 --> 00:03:28,120
+cui creare i componenti e come configurarli, questo è ciò che accade fondamentalmente all'avvio.
+
+41
+00:03:28,120 --> 00:03:30,550
+Ora, mentre approfondirò il modo in
+
+42
+00:03:30,670 --> 00:03:34,600
+Le informazioni mancanti sono le modalità di attivazione angolare.
+
+43
+00:03:34,720 --> 00:03:42,060
+Come è iniziato a correre sul nostro corpo qui di questi file HVM indice.
+
+44
+00:03:42,460 --> 00:03:49,240
+E la risposta è nell'ultima parte dell'indice del file che viene pubblicato nel browser e possiamo verificarlo
+
+45
+00:03:49,240 --> 00:03:54,570
+controllando il codice sorgente qui abbiamo un paio di importazioni di script alla fine.
+
+46
+00:03:54,730 --> 00:03:57,920
+Questi vengono iniettati automaticamente dal sigillo.
+
+47
+00:03:57,970 --> 00:04:00,920
+Ecco perché non lo vediamo qui nell'indice grezzo.
+
+48
+00:04:00,950 --> 00:04:07,270
+ma ogni volta che N-G serve le ricostruzioni di Burroughs, il nostro progetto creerà bundle.
+
+49
+00:04:07,300 --> 00:04:10,870
+Mente HD qui non abbiamo alcuna importazione di script,
+
+50
+00:04:10,870 --> 00:04:17,530
+Bundle di script Javascript e aggiunta automatica delle importazioni derivate nell'indice H. T. mouthfull un po 'di funzionalità
+
+51
+00:04:17,620 --> 00:04:19,760
+di convenienza per noi.
+
+52
+00:04:19,930 --> 00:04:28,090
+Quindi nel file finale le importazioni di script DS sono presenti e le importazioni di script DS conterranno il nostro codice per
+
+53
+00:04:28,140 --> 00:04:35,820
+vendere questi file di script che sono lì per essere eseguiti e in realtà sono il primo codice da eseguire.
+
+54
+00:04:35,860 --> 00:04:42,040
+E questo è solo qualcosa che devi tenere a mente è di scrivere codice nel nostro file TS dot principale.
+
+55
+00:04:42,040 --> 00:04:43,500
+Questo è il motivo per cui è chiamato Main.
+
+56
+00:04:43,540 --> 00:04:46,120
+Questo è il primo codice che viene eseguito.
+
+57
+00:04:46,360 --> 00:04:48,370
+Diamo un'occhiata più da vicino allora.
+
+58
+00:04:48,550 --> 00:04:54,670
+Qui vedi che otteniamo un paio di importazioni, quindi controlliamo se siamo in modalità produzione o no.
+
+59
+00:04:54,700 --> 00:04:58,100
+In pratica, spegni alcuni messaggi di avviso che posso dirti.
+
+60
+00:04:58,240 --> 00:05:08,090
+Ma la cosa più importante qui in questa linea è che i bootstrap iniziano la nostra applicazione angolare passando i tutors
+
+61
+00:05:08,090 --> 00:05:14,380
+dei moduli app Methot e AB Marchal si riferisce a questo file qui.
+
+62
+00:05:14,630 --> 00:05:23,110
+Ora, se guardiamo questo file, in realtà vediamo che papà in qualche modo ci piace che Component abbia
+
+63
+00:05:23,120 --> 00:05:25,200
+qualcosa di strano qui.
+
+64
+00:05:25,220 --> 00:05:28,310
+Mi immergerò in questo anche in un paio di conferenze.
+
+65
+00:05:28,700 --> 00:05:34,970
+Ma per ora è molto importante ottenere questo array di bootstrap che elenca in pratica tutti i componenti
+
+66
+00:05:35,300 --> 00:05:42,800
+che dovrebbero essere noti a Engler al momento in cui analizza il nostro indice con l'età di un file e qui
+
+67
+00:05:42,890 --> 00:05:44,290
+il cerchio si chiude.
+
+68
+00:05:44,340 --> 00:05:47,840
+Perché qui facciamo riferimento al nostro componente dell'app.
+
+69
+00:05:48,020 --> 00:05:52,800
+Così angolare viene avviato questo fatto o il file TS viene avviato lì.
+
+70
+00:05:52,810 --> 00:06:00,620
+Effettuiamo il bootstrap di un'applicazione per il pescatore e passiamo questo modulo come argomento in questo modulo, diciamo angular
+
+71
+00:06:00,740 --> 00:06:06,850
+hey, c'è questa componente dell'app che sai quando provi ad iniziare te stesso e angolare.
+
+72
+00:06:06,860 --> 00:06:15,200
+Ora analizza questo componente tiap legge il set up passiamo l'anno e quindi è il percorso EBP selector.
+
+73
+00:06:15,530 --> 00:06:22,220
+E ora Eyler è in grado di gestire la radice AB nel file HDMI dell'indice e lo sa.
+
+74
+00:06:22,400 --> 00:06:28,280
+Va bene è il selezionatore che so che mi hai detto che dovevo saperlo perché era elencato
+
+75
+00:06:28,280 --> 00:06:31,440
+in questo array di bootstrap nel modulo questo componente.
+
+76
+00:06:31,460 --> 00:06:37,610
+Così ora so che qui dovrei inserire il componente app e il componente app avrà un
+
+77
+00:06:37,760 --> 00:06:46,060
+codice HDL a cui è collegato un modello, che è un tag di trattamento e desidera che l'applicazione howdie Engler abbia inizio.
+
+78
+00:06:46,130 --> 00:06:48,970
+Questo è il motivo per cui vediamo ciò che vediamo.
+
+79
+00:06:49,190 --> 00:06:55,310
+informazioni che ora possiamo procedere e approfondire il modo in cui i componenti funzionano effettivamente come sono
+
+80
+00:06:55,730 --> 00:07:01,880
+in grado di crearne di propri e cosa è questo modulo di app qui fa in dettaglio.
+
+81
+00:07:01,880 --> 00:07:07,880
+Questo è stato un carico di informazioni sull'avvio dell'app, ma è fondamentale capire come inizia con queste
+
+82
+00:07:08,090 --> 00:07:09,330
+Quindi andiamo avanti.

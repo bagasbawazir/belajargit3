@@ -1,0 +1,163 @@
+1
+00:00:03,270 --> 00:00:10,320
+Até agora, sempre usamos o arquivo de modelo externo e não fizemos nada em relação ao estilo
+
+2
+00:00:10,320 --> 00:00:11,310
+dos componentes.
+
+3
+00:00:11,340 --> 00:00:13,110
+Hora de mudar os dois.
+
+4
+00:00:13,530 --> 00:00:21,170
+Agora, em vez de usar um arquivo de modelo externo, você também pode usar um modelo in-line, o que significa que você
+
+5
+00:00:21,230 --> 00:00:22,110
+define o DHT.
+
+6
+00:00:22,130 --> 00:00:25,680
+Todo o código nos hypes o código soa estranho.
+
+7
+00:00:25,710 --> 00:00:33,520
+Embora seja possível, podemos fazer isso simplesmente acessando nossos componentes de serviço aqui, por exemplo, e
+
+8
+00:00:33,540 --> 00:00:37,210
+agora apontamos para este arquivo HDMI aqui.
+
+9
+00:00:37,260 --> 00:00:40,500
+Agora podemos alterar o modelo Eurail para o modelo.
+
+10
+00:00:40,710 --> 00:00:47,250
+Um dos dois tem que estar presente Ebro vinculado a um modelo externo ou apenas modelo para
+
+11
+00:00:47,250 --> 00:00:48,240
+defini-lo neste arquivo.
+
+12
+00:00:48,270 --> 00:00:50,750
+Mas cada componente precisa ter um modelo.
+
+13
+00:00:50,750 --> 00:00:55,160
+Esta é a única propriedade que você tem que ter em todos os momentos.
+
+14
+00:00:55,650 --> 00:00:58,600
+Então agora eu mudei para template.
+
+15
+00:00:58,740 --> 00:01:01,790
+Agora podemos escrever nosso código de modelo aqui.
+
+16
+00:01:01,950 --> 00:01:07,560
+Então aqui nós poderíamos replicar o servidor de aplicativos como este.
+
+17
+00:01:08,420 --> 00:01:14,810
+Talvez duas vezes tenhamos de nos certificar de que não encerramos essa linha porque ela não é suportada em
+
+18
+00:01:15,050 --> 00:01:16,700
+uma string de datilografia padrão.
+
+19
+00:01:16,820 --> 00:01:21,200
+E se eu salvar agora, vemos o mesmo resultado de antes.
+
+20
+00:01:21,380 --> 00:01:23,120
+Então parece que nada mudou.
+
+21
+00:01:23,120 --> 00:01:23,780
+E isso é bom.
+
+22
+00:01:23,780 --> 00:01:26,760
+Neste caso, porque tentamos fazer com que pareça assim.
+
+23
+00:01:26,990 --> 00:01:31,280
+Mas na verdade nós mudamos a maneira como montamos nosso modelo aqui.
+
+24
+00:01:31,280 --> 00:01:35,370
+Agora estamos definindo o código VHDL nesse mesmo arquivo.
+
+25
+00:01:35,600 --> 00:01:41,120
+E, na verdade, se você quiser escrever strings de múltiplas linhas aqui, o que provavelmente
+
+26
+00:01:41,120 --> 00:01:49,520
+quer se você adicionar mais HVM ou código a ele, você pode alternar de uma cadeia normal de aspas simples para usar
+
+27
+00:01:49,520 --> 00:01:55,540
+táticas para usar expressões de modelo javascript para poder escrever strings modeline em entre lá agora.
+
+28
+00:01:55,790 --> 00:02:03,390
+Então, agora, entre a abertura e o fechamento de volta Tig você pode realmente quebrar a linha e agora escrever o seu
+
+29
+00:02:03,440 --> 00:02:10,070
+código HMO como este que você deve usar se você usar este ano abordagem de usar um modelo ou
+
+30
+00:02:10,070 --> 00:02:10,880
+um arquivo externo.
+
+31
+00:02:10,880 --> 00:02:17,960
+Depende se você não tem tanto código nem tanto que ele envelheceu o código usando um modelo in-line como este
+
+32
+00:02:17,960 --> 00:02:19,130
+pode ser bom.
+
+33
+00:02:19,130 --> 00:02:23,550
+Então você tem toda a lógica do código typescript e isso é absolutamente OK.
+
+34
+00:02:23,750 --> 00:02:29,300
+Mas assim que você disser que mais de três linhas de código na parte do HCM
+
+35
+00:02:29,510 --> 00:02:35,420
+aqui no modelo usando um arquivo externo é uma boa idéia para facilitar o acompanhamento e a compreensão.
+
+36
+00:02:35,450 --> 00:02:42,560
+No entanto, é importante ter em mente que você pode usar essa abordagem para que você possa alinhar seus
+
+37
+00:02:42,680 --> 00:02:48,290
+modelos e muito importante que você precise ter pelo menos um modelo em um componente.
+
+38
+00:02:48,500 --> 00:02:54,500
+Você pode omitir o seletor que, mais tarde, na seção de roteamento, aprenderá uma maneira diferente de
+
+39
+00:02:54,500 --> 00:03:01,880
+componentes flutuantes sem usar o seletor e não será necessário adicionar estilos, mas os modelos deverão estar presentes para que os
+
+40
+00:03:01,880 --> 00:03:03,200
+modelos do Word.
+
+41
+00:03:03,200 --> 00:03:06,480
+Agora vamos dar uma olhada nos estilos da próxima aula.

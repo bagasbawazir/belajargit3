@@ -1,0 +1,363 @@
+1
+00:00:02,560 --> 00:00:04,210
+I componenti sono importanti, giusto.
+
+2
+00:00:04,240 --> 00:00:09,940
+Questo è il motivo per cui iniziamo con uno con il componente app che da un lato è un
+
+3
+00:00:09,970 --> 00:00:14,740
+componente angolare normale ma dall'altro è anche un po 'speciale perché funge da componente root.
+
+4
+00:00:14,800 --> 00:00:20,320
+È nella lista degli arruolati qui nel modulo lab e in questo array di bootstrap che dice al pescatore di odiare
+
+5
+00:00:20,320 --> 00:00:21,010
+un componente speciale.
+
+6
+00:00:21,100 --> 00:00:26,490
+Dovresti eseguire il bootstrap dell'intera applicazione con quel componente come componente root.
+
+7
+00:00:26,560 --> 00:00:33,460
+Quindi tutti i nostri componenti che creiamo non verranno aggiunti al team index h o un file, i selettori non
+
+8
+00:00:33,460 --> 00:00:34,600
+verranno aggiunti qui.
+
+9
+00:00:34,910 --> 00:00:37,900
+I selettori verranno aggiunti al componente dell'app.
+
+10
+00:00:37,900 --> 00:00:43,940
+Tutti i cavi HDMI cadono perché esistono ora il componente bene radice della nostra app in cui aggiungiamo le altre parti.
+
+11
+00:00:44,110 --> 00:00:47,970
+Basta parlare di aggiungere componenti per aggiungerne uno.
+
+12
+00:00:48,130 --> 00:00:53,610
+Diciamo che vogliamo produrre alcune informazioni su un server.
+
+13
+00:00:53,710 --> 00:01:00,720
+Stiamo creando un back-end per la nostra applicazione per la gestione dei server e vogliamo produrre alcune informazioni sul server.
+
+14
+00:01:00,820 --> 00:01:07,260
+Quindi memorizzerò non una nuova cartella che è una sottocartella della cartella dell'app perché generalmente nel sigillo di
+
+15
+00:01:07,260 --> 00:01:13,330
+un pescatore proietto tutta la tua app Rollei che il contenuto andrà in questa cartella app.
+
+16
+00:01:13,540 --> 00:01:17,210
+Chiamerò il server perché manterrà il mio componente server.
+
+17
+00:01:17,260 --> 00:01:18,730
+E questa è una buona pratica.
+
+18
+00:01:18,730 --> 00:01:24,910
+Avendo il nome della cartella uguale al nome del componente e ogni componente in genere dovrebbe avere la propria cartella anche
+
+19
+00:01:25,110 --> 00:01:28,280
+se non è una regola difficile, ma in generale ha senso.
+
+20
+00:01:28,540 --> 00:01:32,690
+Quindi qui nella cartella del server aggiungerò il mio componente server.
+
+21
+00:01:32,690 --> 00:01:41,110
+Ora una buona convenzione di denominazione è quella di avere server o il nome del componente prima di un punto e poi di un
+
+22
+00:01:41,200 --> 00:01:47,200
+componente, in seguito impareremo che ci sono sempre blocchi di costruzione in un angolo o in un'applicazione.
+
+23
+00:01:47,320 --> 00:01:52,030
+Quindi, usando nomi di file come questo, è molto facile vedere cosa c'è dentro il file.
+
+24
+00:01:52,270 --> 00:01:55,380
+E molto importante non dimenticare di aggiungere punti.
+
+25
+00:01:55,570 --> 00:01:59,780
+Quindi per dattiloscritto perché c'è quello in cui scriverai questo componente.
+
+26
+00:02:00,190 --> 00:02:03,020
+Quindi ora otteniamo un file vuoto per il nostro nuovo componente.
+
+27
+00:02:03,160 --> 00:02:04,470
+Come creiamo un componente.
+
+28
+00:02:04,480 --> 00:02:13,370
+Ora, prima di tutto, un componente è semplicemente una classe che nasconde la classe in modo che Engler sia in grado di creare un'istanza
+
+29
+00:02:13,370 --> 00:02:18,010
+per creare oggetti basati sul progetto che abbiamo creato qui, si potrebbe dire.
+
+30
+00:02:18,010 --> 00:02:22,030
+Esportiamo quindi questa classe in modo che possiamo usarla anche al di fuori del file.
+
+31
+00:02:22,030 --> 00:02:27,460
+Perché, come ho detto prima, utilizzeremo il nostro componente nel componente app, ad esempio
+
+32
+00:02:27,460 --> 00:02:28,430
+per aggiungerlo lì.
+
+33
+00:02:28,870 --> 00:02:35,020
+Quindi aggiungeremo una classe qui e questa classe dovrebbe ora essere denominata componente server.
+
+34
+00:02:35,020 --> 00:02:41,260
+Anche qui la convenzione di denominazione ha il nome del primo server del componente e quindi anche il componente
+
+35
+00:02:41,350 --> 00:02:41,910
+della descrizione.
+
+36
+00:02:41,920 --> 00:02:46,630
+Perché in seguito impareremo anche su altre parti che potrebbero quindi essere denominate in modo diverso
+
+37
+00:02:46,630 --> 00:02:47,310
+nell'app angolare.
+
+38
+00:02:47,620 --> 00:02:51,340
+Questa è la nostra classe e in questo momento è un normale tipo di vantaggio.
+
+39
+00:02:51,370 --> 00:02:53,110
+Niente di speciale.
+
+40
+00:02:53,530 --> 00:02:58,100
+Non possiamo usarlo come questo pescatore non ha tutte le informazioni che richiede.
+
+41
+00:02:58,330 --> 00:03:04,330
+Quindi dovremmo aggiungere qualcosa che richiami il pescatore che questa non è solo una normale classe
+
+42
+00:03:04,840 --> 00:03:07,640
+di dattiloscritto, ma piuttosto qualcosa di speciale.
+
+43
+00:03:08,050 --> 00:03:10,720
+Lo facciamo aggiungendo un decoratore speciale.
+
+44
+00:03:10,720 --> 00:03:18,580
+I decoratori sono una funzionalità di tipo che ti consente di migliorare le tue classi ad esempio e gli elementi di Hans che usi
+
+45
+00:03:18,580 --> 00:03:19,540
+nel tuo codice.
+
+46
+00:03:19,540 --> 00:03:20,970
+Non è limitato alle classi.
+
+47
+00:03:20,980 --> 00:03:23,690
+Ma qui useremo un decoratore di classe.
+
+48
+00:03:23,740 --> 00:03:30,930
+È il decoratore di componenti e i decoratori sono sempre collegati aggiungendo e firmando di fronte a loro.
+
+49
+00:03:30,950 --> 00:03:36,640
+Ora questo decoratore di componenti non è qualcosa che i tipi conoscono fin dall'inizio.
+
+50
+00:03:36,640 --> 00:03:38,890
+Quindi dobbiamo importarlo.
+
+51
+00:03:39,070 --> 00:03:46,990
+Dobbiamo aggiungere parola e disimportare ora ha bisogno di darci accesso ai componenti, quindi dobbiamo importare il componente
+
+52
+00:03:46,990 --> 00:03:52,870
+tra parentesi graffe, perché dal file che stiamo per importare, potremmo importare anche le
+
+53
+00:03:52,870 --> 00:03:53,770
+nostre parti.
+
+54
+00:03:53,830 --> 00:03:59,670
+Quindi dobbiamo scegliere specificamente il componente usando questa sintassi e poi da.
+
+55
+00:03:59,890 --> 00:04:06,470
+E ora il pacchetto da cui importiamo i componenti è a core angolare.
+
+56
+00:04:06,730 --> 00:04:11,980
+e il pacchetto base come suggerisce il nome ci dà accesso ad alcune delle funzionalità principali di angolare.
+
+57
+00:04:11,980 --> 00:04:17,100
+Ora le navi del pescatore con un paio di pacchetti in cui fondamentalmente raggruppa le sue funzionalità
+
+58
+00:04:17,380 --> 00:04:19,820
+Quindi con questo importiamo quel componente.
+
+59
+00:04:19,990 --> 00:04:26,550
+Giorni decoratore di Africa Borland è noto per dattiloscritto quando paresis questo file e compila per javascript
+
+60
+00:04:26,550 --> 00:04:28,720
+che è in grado di capirlo.
+
+61
+00:04:28,780 --> 00:04:34,270
+Ora abbiamo bisogno di passare un decoratore di componenti di Judah per elementi javascript per configurarlo
+
+62
+00:04:34,300 --> 00:04:38,230
+perché senza alcuna configurazione non è ancora così prezioso per l'angolare.
+
+63
+00:04:38,230 --> 00:04:44,320
+Ma qui possiamo impostare alcune informazioni importanti che verranno memorizzate come dati meta in classe
+
+64
+00:04:44,320 --> 00:04:49,110
+in fondo che diranno a Engler cosa fare con questa classe.
+
+65
+00:04:49,240 --> 00:04:53,310
+E un importante pezzo informativo è il selezionatore.
+
+66
+00:04:53,440 --> 00:05:00,730
+Quindi, in pratica, il tag HDMI l con cui è possibile utilizzare questo componente in un secondo momento nei modelli del
+
+67
+00:05:00,730 --> 00:05:01,330
+componente medio.
+
+68
+00:05:01,330 --> 00:05:03,720
+Vedremo presto l'azione.
+
+69
+00:05:03,720 --> 00:05:05,670
+I selettori dovrebbero essere una stringa.
+
+70
+00:05:05,820 --> 00:05:12,300
+E qui puoi impostare qualsiasi nome tu voglia ma devi assicurarti che sia un selettore unico che
+
+71
+00:05:12,300 --> 00:05:17,290
+non si sovrappone accidentalmente ad un elemento estremale predefinito o qualcosa del genere.
+
+72
+00:05:17,370 --> 00:05:25,310
+Quindi tipicamente lo prefissi con un trattino app e poi un nome appropriato come server perché è un componente server.
+
+73
+00:05:25,320 --> 00:05:30,770
+Questo è il mio selettore con il quale ora posso utilizzare in seguito questo componente nei miei altri componenti.
+
+74
+00:05:30,780 --> 00:05:32,410
+File HDMI
+
+75
+00:05:32,820 --> 00:05:39,980
+Quindi con quello impostato il pezzo sempre più importante che dobbiamo avere è il modello e qui Ladd è un riferimento
+
+76
+00:05:40,040 --> 00:05:41,890
+per un file esterno medio.
+
+77
+00:05:41,940 --> 00:05:43,360
+Tornerò su un numero.
+
+78
+00:05:43,370 --> 00:05:49,160
+Alternativa a questo presto e questo file esterno, naturalmente, deve essere creato.
+
+79
+00:05:49,200 --> 00:05:55,190
+Quindi nella stessa cartella creerò un componente punto server e ora quel file HVM.
+
+80
+00:05:55,200 --> 00:05:59,710
+Questo terrà il modello AGM tutto il codice del mio componente qui.
+
+81
+00:05:59,790 --> 00:06:03,990
+Quindi ora posso aggiungere praticamente tutto il contenuto che voglio.
+
+82
+00:06:03,990 --> 00:06:12,050
+Come per esempio il componente server DS per iniziare in modo semplice e tornare al file dattiloscritto, ora posso puntare a
+
+83
+00:06:12,140 --> 00:06:14,520
+questo file HTML di questa età.
+
+84
+00:06:14,570 --> 00:06:17,080
+Abbiamo bisogno di un percorso relativo per questo.
+
+85
+00:06:17,120 --> 00:06:19,710
+Alla fine saremo tutti raggruppati per scelta web.
+
+86
+00:06:19,790 --> 00:06:22,690
+Quindi abbiamo bisogno di dirgli dove trovare il file HTL.
+
+87
+00:06:22,910 --> 00:06:30,680
+Bene e relativo al dattiloscritto per il Pop semplicemente punto dot server puntino componente punto h
+
+88
+00:06:30,770 --> 00:06:37,670
+come questo fa riferimento a questo file con questo abbiamo creato il nostro primo componente.
+
+89
+00:06:37,850 --> 00:06:44,420
+Ora per utilizzarlo dobbiamo immergerci nel modello di app e capire cosa fa questo perché abbiamo bisogno di cambiare
+
+90
+00:06:44,420 --> 00:06:46,980
+qualcosa qui per usare il nostro componente.
+
+91
+00:06:47,090 --> 00:06:49,350
+Facciamolo nella prossima lezione.

@@ -1,0 +1,163 @@
+1
+00:00:03,270 --> 00:00:10,320
+Şimdiye kadar her zaman harici şablon dosyasını kullandık ve bileşenlerin şekillendirilmesiyle ilgili hiçbir
+
+2
+00:00:10,320 --> 00:00:11,310
+şey yapmadık.
+
+3
+00:00:11,340 --> 00:00:13,110
+İkisini de değiştirme zamanı.
+
+4
+00:00:13,530 --> 00:00:21,170
+Artık harici bir şablon dosyası kullanmak yerine, DHT'yi tanımladığınız bir satır içi şablon
+
+5
+00:00:21,230 --> 00:00:22,110
+da kullanabilirsiniz.
+
+6
+00:00:22,130 --> 00:00:25,680
+Hipnozdaki tüm kodlar kod garip geliyor.
+
+7
+00:00:25,710 --> 00:00:33,520
+Mümkün olsa da, bunu sadece bizim servis bileşenlerine gidip burada yapabiliriz ve şu anda
+
+8
+00:00:33,540 --> 00:00:37,210
+burada bu HDMI dosyasına işaret ediyoruz.
+
+9
+00:00:37,260 --> 00:00:40,500
+Şimdi şablon Eurail'i şablona dönüştürebiliriz.
+
+10
+00:00:40,710 --> 00:00:47,250
+Bunlardan bir tanesinin, bu dosyada tanımlamak için harici bir şablona veya sadece şablona bağlı Ebro
+
+11
+00:00:47,250 --> 00:00:48,240
+olması gerekir.
+
+12
+00:00:48,270 --> 00:00:50,750
+Ancak her bileşenin bir şablona sahip olması gerekir.
+
+13
+00:00:50,750 --> 00:00:55,160
+Bu her zaman sahip olmanız gereken tek özellik.
+
+14
+00:00:55,650 --> 00:00:58,600
+Böylece şimdi onu şablona değiştirdim.
+
+15
+00:00:58,740 --> 00:01:01,790
+Şimdi şablon kodumuzu buraya yazabiliriz.
+
+16
+00:01:01,950 --> 00:01:07,560
+Yani şimdi uygulama sunucusunu bu şekilde çoğaltabiliriz.
+
+17
+00:01:08,420 --> 00:01:14,810
+Belki de bu satırı sarmalamıyoruz, çünkü varsayılan bir yazı
+
+18
+00:01:15,050 --> 00:01:16,700
+dizgisinde desteklenmiyor.
+
+19
+00:01:16,820 --> 00:01:21,200
+Ve şimdi bunu kaydedersem, daha önce olduğu gibi aynı sonucu görürüz.
+
+20
+00:01:21,380 --> 00:01:23,120
+Yani hiçbir şey değişmemiş gibi görünüyor.
+
+21
+00:01:23,120 --> 00:01:23,780
+Ve bu iyi.
+
+22
+00:01:23,780 --> 00:01:26,760
+Bu durumda, bunun böyle görünmesini sağlamaya çalışırız.
+
+23
+00:01:26,990 --> 00:01:31,280
+Ama aslında şablonumuzu burada belirleme şeklimizi değiştirdik.
+
+24
+00:01:31,280 --> 00:01:35,370
+Şimdi aynı dosyada VHDL kodunu tanımlıyoruz.
+
+25
+00:01:35,600 --> 00:01:41,120
+Ve eğer gerçekten daha fazla HVM veya kod ekleyecekseniz çok
+
+26
+00:01:41,120 --> 00:01:49,520
+satırlı dizeleri buraya yazmak isterseniz, tek bir tırnak işaretinden normal bir dizgeden javascript şablon ifadeleri
+
+27
+00:01:49,520 --> 00:01:55,540
+kullanmak için modelleme dizgilerini yazabilmek için taktikleri kullanmaya geçebilirsiniz. şimdi orada.
+
+28
+00:01:55,790 --> 00:02:03,390
+Şimdi, açılış ve kapanış TIG arasında aslında çizgiyi sarabilirsiniz ve şimdi bu şekilde
+
+29
+00:02:03,440 --> 00:02:10,070
+HMO kodunuzu yazınız, bu yaklaşımı şablon veya harici bir dosya kullanmanız
+
+30
+00:02:10,070 --> 00:02:10,880
+durumunda kullanmalısınız.
+
+31
+00:02:10,880 --> 00:02:17,960
+Bu kadar kodunuz olmasa da, bu kadar fazla kod
+
+32
+00:02:17,960 --> 00:02:19,130
+içermez.
+
+33
+00:02:19,130 --> 00:02:23,550
+Öyleyse, kod dizisinin tüm mantığına sahipsiniz ve kesinlikle sorun yok.
+
+34
+00:02:23,750 --> 00:02:29,300
+Ancak HCM kısmındaki şablonda harici bir dosya kullanarak üç satırdan fazla kod
+
+35
+00:02:29,510 --> 00:02:35,420
+yazabildiğiniz anda, izlemeyi daha kolay ve daha kolay anlamanız iyi bir fikirdir.
+
+36
+00:02:35,450 --> 00:02:42,560
+Bu yaklaşımı, şablonlarınızı çizebileceğiniz ve bir bileşenin en az şablonuna
+
+37
+00:02:42,680 --> 00:02:48,290
+sahip olmanızın çok önemli olduğunu aklınızda bulundurmanız önemlidir.
+
+38
+00:02:48,500 --> 00:02:54,500
+Seçici'yi daha sonra yönlendirme bölümünde kullanacağınız seçiciyi, seçicilerini kullanmadan farklı bir yüzer
+
+39
+00:02:54,500 --> 00:03:01,880
+bilgi yolu öğrenebilir ve stil eklemek zorunda değilsiniz, ancak şablonların mevcut olması gerekir, böylece Word
+
+40
+00:03:01,880 --> 00:03:03,200
+şablonlarının bulunması gerekir.
+
+41
+00:03:03,200 --> 00:03:06,480
+Şimdi bir sonraki derste stillere bir bakalım.

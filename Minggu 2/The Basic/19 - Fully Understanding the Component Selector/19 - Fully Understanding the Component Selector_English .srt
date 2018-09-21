@@ -1,0 +1,167 @@
+1
+00:00:02,730 --> 00:00:05,440
+Now are you already a component ninja.
+
+2
+00:00:05,640 --> 00:00:12,820
+We learned a lot about components about the templates options we have there and about the styles I want
+
+3
+00:00:12,820 --> 00:00:17,480
+and focus on the last property we see in this component decorator for now.
+
+4
+00:00:17,670 --> 00:00:26,310
+The selector I already mentioned that this has to be a unique selector so that you don't override accidentally
+
+5
+00:00:26,550 --> 00:00:33,450
+an already existing element or maybe a component made available by a number of third party package you
+
+6
+00:00:33,450 --> 00:00:35,790
+use in your project.
+
+7
+00:00:35,790 --> 00:00:38,000
+There's one other piece of information about the selector.
+
+8
+00:00:38,000 --> 00:00:47,430
+Though you don't have to use this type of selector right now our selector is the same selector as we
+
+9
+00:00:47,430 --> 00:00:48,840
+use it in C..
+
+10
+00:00:48,870 --> 00:00:57,210
+As for selecting element so we have app server this year as the element and this is recognized by angular
+
+11
+00:00:57,600 --> 00:01:04,050
+because the selector we chose is app servers and this basically just looks how you use select elements
+
+12
+00:01:04,050 --> 00:01:05,490
+in C S S right.
+
+13
+00:01:05,490 --> 00:01:09,950
+We select the age tree element by just typing Atri here.
+
+14
+00:01:10,110 --> 00:01:17,460
+We select the app service element by just typing app service here.
+
+15
+00:01:17,820 --> 00:01:26,840
+So that actually works Legacy's as selector and therefore you are not limited to selecting by element.
+
+16
+00:01:27,120 --> 00:01:33,620
+You could put this into square brackets to use the attribute selector.
+
+17
+00:01:33,690 --> 00:01:40,190
+So in Zia's as you can select elements by attribute by enclosing that attribute in square brackets.
+
+18
+00:01:40,650 --> 00:01:48,150
+And now if you save this you would see that our app actually is broken because if we have a look at
+
+19
+00:01:48,150 --> 00:01:56,670
+the error message app servers it's an unknown element because now our code angler doesn't recognize
+
+20
+00:01:56,700 --> 00:02:02,330
+app service anymore because we changed the selector to be an attribute.
+
+21
+00:02:02,400 --> 00:02:08,220
+So to make this work again we would have to comment this out or remove it and maybe add a div or any
+
+22
+00:02:08,220 --> 00:02:15,120
+other element a normal aged human element which has the app servers attribute now.
+
+23
+00:02:15,120 --> 00:02:18,240
+Now with days custom attribute added now.
+
+24
+00:02:18,300 --> 00:02:25,170
+Now the Eberts again because now angler's selects the element by attribute and not by the element itself
+
+25
+00:02:25,200 --> 00:02:33,630
+because we changed the selector and Navier alternative is to select by and I'm just going to comment
+
+26
+00:02:33,630 --> 00:02:38,630
+this out so that the code is still there for reference to select by class.
+
+27
+00:02:38,640 --> 00:02:44,120
+So with a dot at the beginning app servers again just like in C S S.
+
+28
+00:02:44,160 --> 00:02:48,120
+So here we can now select by class.
+
+29
+00:02:48,120 --> 00:02:54,600
+So let's add a new day of the year which has a class of app servers which we of course could now also
+
+30
+00:02:54,630 --> 00:02:55,380
+style.
+
+31
+00:02:55,410 --> 00:03:02,240
+But besides that it's also recognized by Engler as a selector which is why we still see the app.
+
+32
+00:03:02,490 --> 00:03:04,460
+Now these are all options you have.
+
+33
+00:03:04,740 --> 00:03:12,330
+As a side note selecting by ID won't work that's not supported by angular and all those pseudo selectors
+
+34
+00:03:12,390 --> 00:03:19,170
+like hover and so on also don't work and you typically use the elements style here.
+
+35
+00:03:19,310 --> 00:03:21,750
+App servers for components.
+
+36
+00:03:21,780 --> 00:03:23,820
+We will soon learn about directives.
+
+37
+00:03:23,830 --> 00:03:25,920
+Another feature where this is different.
+
+38
+00:03:26,100 --> 00:03:33,360
+But for components you typically create your own elements and therefore you don't use that style and
+
+39
+00:03:33,360 --> 00:03:36,140
+you don't use the attribute style.
+
+40
+00:03:36,180 --> 00:03:43,530
+Instead you use app Cirus like element but it is important to understand that you are not limited to
+
+41
+00:03:43,530 --> 00:03:43,840
+this.
+
+42
+00:03:43,860 --> 00:03:47,750
+And there might be use cases where you want to use a different selector

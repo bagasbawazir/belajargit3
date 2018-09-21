@@ -1,0 +1,23 @@
+
+<!-- <p>The Server Component</p> -->
+
+<!-- servers works! -->
+
+<!-- video 16 -->
+
+<label>Server Name</label>
+<input 
+type="text"
+class="form-control"
+(input)='onUpdateServerName($event)'>
+<p>{{ serverName }}</p>
+ <button 
+ class="btn btn-primary"
+ [disable]="allowNewServer"
+ (click)="onCreateServer()">Add Server</button>
+
+ <!-- <p [innerText]="allowNewServer"></p> -->
+ <p>{{ serverCreateStatus }}</p>
+ <!-- <p [innerText]="allowNewServer"></p> -->
+ <app-server></app-server>
+ <app-server></app-server>

@@ -1,0 +1,167 @@
+1
+00:00:02,730 --> 00:00:05,440
+Ora sei già un componente ninja.
+
+2
+00:00:05,640 --> 00:00:12,820
+Abbiamo imparato molto sui componenti delle opzioni dei modelli che abbiamo lì e sugli stili che desidero e ci
+
+3
+00:00:12,820 --> 00:00:17,480
+concentriamo sull'ultima proprietà che vediamo in questo decoratore di componenti per ora.
+
+4
+00:00:17,670 --> 00:00:26,310
+Il selettore ho già detto che questo deve essere un selettore unico in modo da non ignorare accidentalmente un elemento
+
+5
+00:00:26,550 --> 00:00:33,450
+già esistente o magari un componente reso disponibile da un numero di pacchetti di terze parti
+
+6
+00:00:33,450 --> 00:00:35,790
+che utilizzi nel tuo progetto.
+
+7
+00:00:35,790 --> 00:00:38,000
+C'è un'altra informazione sul selettore.
+
+8
+00:00:38,000 --> 00:00:47,430
+devi usare questo tipo di selettore in questo momento il nostro selettore è lo stesso selettore che usiamo in C.
+
+9
+00:00:47,430 --> 00:00:48,840
+Anche se non Per quanto riguarda la
+
+10
+00:00:48,870 --> 00:00:57,210
+selezione dell'elemento, quest'anno abbiamo l'app server come elemento e questo è riconosciuto da angular perché il selettore che abbiamo scelto è app server
+
+11
+00:00:57,600 --> 00:01:04,050
+e questo in pratica guarda solo come usi gli elementi selezionati in C S S a destra.
+
+12
+00:01:04,050 --> 00:01:05,490
+Selezioniamo l'elemento dell'albero dell'età semplicemente digitando Atri qui.
+
+13
+00:01:05,490 --> 00:01:09,950
+Selezioniamo l'elemento del servizio app semplicemente digitando il servizio app qui.
+
+14
+00:01:10,110 --> 00:01:17,460
+In questo modo, Legacy funziona come selettore e quindi non sei limitato alla selezione per elemento.
+
+15
+00:01:17,820 --> 00:01:26,840
+Puoi metterlo tra parentesi quadre per usare il selettore degli attributi.
+
+16
+00:01:27,120 --> 00:01:33,620
+Quindi in Zia è possibile selezionare gli elementi per attributo racchiudendo quell'attributo tra parentesi quadre.
+
+17
+00:01:33,690 --> 00:01:40,190
+E ora se salvi questo, vedresti che la nostra app è in realtà rotta
+
+18
+00:01:40,650 --> 00:01:48,150
+perché se guardiamo i server di app dei messaggi di errore è un elemento sconosciuto perché
+
+19
+00:01:48,150 --> 00:01:56,670
+ora il nostro pescatore di codice non riconosce più il servizio app perché abbiamo cambiato il selettore un attributo.
+
+20
+00:01:56,700 --> 00:02:02,330
+Quindi, per fare in modo che funzioni di nuovo, dovremmo commentarlo o rimuoverlo e magari aggiungere un div
+
+21
+00:02:02,400 --> 00:02:08,220
+o qualsiasi altro elemento a un normale elemento umano invecchiato che ha ora l'attributo dei server delle app.
+
+22
+00:02:08,220 --> 00:02:15,120
+Ora con attributo personalizzato giorni aggiunto ora.
+
+23
+00:02:15,120 --> 00:02:18,240
+e l'alternativa di Navier è selezionare e sto
+
+24
+00:02:18,300 --> 00:02:25,170
+solo andando a commentare questo in modo che il codice sia ancora lì per riferimento a seleziona per classe.
+
+25
+00:02:25,200 --> 00:02:33,630
+Ora di nuovo gli Eberts perché ora il pescatore seleziona l'elemento in base all'attributo e non all'elemento stesso perché abbiamo cambiato il selettore
+
+26
+00:02:33,630 --> 00:02:38,630
+Quindi, con un punto all'inizio dei server di app, proprio come in C S S.
+
+27
+00:02:38,640 --> 00:02:44,120
+Quindi qui possiamo ora selezionare per classe.
+
+28
+00:02:44,160 --> 00:02:48,120
+Quindi aggiungiamo un nuovo giorno dell'anno che ha
+
+29
+00:02:48,120 --> 00:02:54,600
+una classe di server di applicazioni che, ovviamente, ora possiamo anche modellare.
+
+30
+00:02:54,630 --> 00:02:55,380
+Ma oltre a questo è anche riconosciuto da Engler come un selettore, motivo per cui vediamo ancora l'app.
+
+31
+00:02:55,410 --> 00:03:02,240
+Ora queste sono tutte le opzioni che hai.
+
+32
+00:03:02,490 --> 00:03:04,460
+genere utilizzi lo stile degli elementi qui.
+
+33
+00:03:04,740 --> 00:03:12,330
+Come nota a margine, selezionando per ID non funzionerà che non è supportato da angolare e tutti quegli pseudo selettori come hover e così via non funzionano e in
+
+34
+00:03:12,390 --> 00:03:19,170
+App server per componenti.
+
+35
+00:03:19,310 --> 00:03:21,750
+Presto scopriremo le direttive.
+
+36
+00:03:21,780 --> 00:03:23,820
+Un'altra caratteristica in cui questo è diverso.
+
+37
+00:03:23,830 --> 00:03:25,920
+Ma per i componenti in
+
+38
+00:03:26,100 --> 00:03:33,360
+genere crei i tuoi elementi e quindi non usi quello stile e non usi lo stile dell'attributo.
+
+39
+00:03:33,360 --> 00:03:36,140
+Invece si usa l'elemento Cirus
+
+40
+00:03:36,180 --> 00:03:43,530
+app ma è importante capire che non si è limitati a questo.
+
+41
+00:03:43,530 --> 00:03:43,840
+E potrebbero esserci casi d'uso in cui si desidera utilizzare un altro selettore
+
+42
+00:03:43,860 --> 00:03:47,750
+&nbsp;

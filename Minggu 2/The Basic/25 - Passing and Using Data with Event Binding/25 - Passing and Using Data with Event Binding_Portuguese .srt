@@ -1,0 +1,199 @@
+1
+00:00:02,670 --> 00:00:05,090
+Na última palestra, analisamos a vinculação de eventos.
+
+2
+00:00:05,120 --> 00:00:09,190
+Número quatro, concentrando-se em ligações bidirecionais e explicando o que é isso.
+
+3
+00:00:09,200 --> 00:00:12,360
+Há uma outra coisa importante que você precisa saber sobre a ligação.
+
+4
+00:00:12,710 --> 00:00:17,210
+Digamos que antes do botão disburden também tenhamos um nome de servidor de etiquetas.
+
+5
+00:00:17,240 --> 00:00:24,110
+E então, mais importante, temos a entrada que nós talvez damos classe de bootstrap de controle de formulário aqui e
+
+6
+00:00:24,180 --> 00:00:29,040
+queremos permitir que o usuário digite o nome do servidor que deve ser criado.
+
+7
+00:00:29,360 --> 00:00:31,300
+Então aqui nós poderíamos ouvir o evento de entrada.
+
+8
+00:00:31,330 --> 00:00:37,600
+Este é um evento dormitório normal que fornece o elemento de entrada que é o fogo e o usuário digita.
+
+9
+00:00:38,000 --> 00:00:44,820
+E podemos executar o nome do servidor de atualização porque ele será disparado em cada pressionamento de tecla.
+
+10
+00:00:45,260 --> 00:00:53,390
+Então, vamos adicionar este método ao nosso componente aqui e agora eu de alguma forma quero dar saída ao que o usuário digitou.
+
+11
+00:00:53,390 --> 00:01:01,140
+Agora, qual o valor deste campo é que podemos fazer isso passando o evento cifrão aqui e Thaller atribuir
+
+12
+00:01:01,140 --> 00:01:05,970
+eventos super importantes é o tipo de nosso nome de variável reservado.
+
+13
+00:01:06,020 --> 00:01:13,220
+Você pode usar o modelo ao usar vinculação de evento para esse evento, portanto, apenas
+
+14
+00:01:13,220 --> 00:01:20,170
+entre essas aspas seu evento de cifrão será simplesmente os dados emitidos com esse evento.
+
+15
+00:01:20,540 --> 00:01:24,890
+Então, entrada e clique são eventos padrão fornecidos pelo dormitório que você poderia dizer.
+
+16
+00:01:25,220 --> 00:01:30,560
+E eles enviam alguns dados quando são acionados. O evento click nos dá um objeto que por
+
+17
+00:01:30,560 --> 00:01:35,540
+exemplo armazena as coordenadas onde clicamos e o evento também nos fornece alguns dados ou alguma
+
+18
+00:01:35,540 --> 00:01:42,410
+informação sobre o evento que podemos capturar esses dados com o evento Dollar Sign passado como um argumento para o método que
+
+19
+00:01:42,410 --> 00:01:48,530
+estamos chamando ou usado em qualquer lugar entre essas aspas em seu evento de cifrão de Kolgrim, algo para manter
+
+20
+00:01:48,620 --> 00:01:52,910
+em mente e reservar a palavra que nos dá acesso aos dados do evento.
+
+21
+00:01:53,330 --> 00:01:56,550
+Então agora passamos isso para um nome de servidor de atualização.
+
+22
+00:01:56,630 --> 00:02:02,040
+Então, aqui sabemos que vamos receber este evento e isso será do tipo any for now.
+
+23
+00:02:02,450 --> 00:02:08,450
+Então, vamos simplesmente fazer o log no console para que possamos vê-lo neste log de depuração.
+
+24
+00:02:09,170 --> 00:02:17,610
+Se fizermos isso e eu agora digitar algo aqui assisti um console à direita um par de saídas estavam lá quatro
+
+25
+00:02:17,730 --> 00:02:22,880
+para ser preciso porque eu digitei quatro caracteres fez quatro pressionamentos de tecla.
+
+26
+00:02:22,920 --> 00:02:25,880
+Então a banda de entrada foi disparada quatro vezes.
+
+27
+00:02:25,890 --> 00:02:29,170
+E se você der uma olhada neste evento, teremos algumas informações aqui.
+
+28
+00:02:29,220 --> 00:02:36,510
+Por exemplo, o alvo e o alvo são simplesmente o elemento HDMI em que esse evento ocorreu.
+
+29
+00:02:36,510 --> 00:02:48,550
+Então, aqui no alvo, desde o elemento de entrada de rolagem para baixo, também temos o teste de valor e é isso que o
+
+30
+00:02:48,550 --> 00:02:49,830
+usuário digitou.
+
+31
+00:02:50,020 --> 00:02:57,130
+Então, o que podemos fazer agora em nosso código datilografado é que podemos definir uma propriedade de nome de servidor que é
+
+32
+00:02:57,130 --> 00:02:58,670
+uma string vazia por padrão.
+
+33
+00:02:59,050 --> 00:03:06,490
+E então aqui em nosso nome de servidor de atualização em vez de registrar nós poderíamos dizer este nome de
+
+34
+00:03:06,490 --> 00:03:14,650
+servidor e nós apenas aprendemos que no evento que é um evento de tipo como sabemos também vimos aqui nós temos um
+
+35
+00:03:14,650 --> 00:03:22,440
+alvo e no alvo nós temos um valor e está disponível apenas porque o destino é do tipo input element.
+
+36
+00:03:22,460 --> 00:03:25,220
+Então é por isso que meu ID não gosta disso.
+
+37
+00:03:25,290 --> 00:03:31,220
+Podemos explicitamente informá-lo sobre o tipo no typescript, adicionando o elemento de entrada HDMI aqui.
+
+38
+00:03:32,580 --> 00:03:35,280
+Na frente disto assim.
+
+39
+00:03:35,510 --> 00:03:43,190
+E mais uma vez, isso é necessário apenas para informar ao typescript que sabemos que o tipo do elemento HDMI desse
+
+40
+00:03:43,190 --> 00:03:45,790
+evento será um elemento de entrada HMO.
+
+41
+00:03:45,800 --> 00:03:52,670
+Fazemos essa conversão explícita com esse texto com a tag de abertura e fechamento do menor e maior que
+
+42
+00:03:52,670 --> 00:03:54,920
+o sinal e para digitar entre.
+
+43
+00:03:55,340 --> 00:04:03,050
+Então, com isso, atribuímos este valor ao nosso nome de servidor, onde agora podemos fazer está na AGM do arquivo, aqui podemos
+
+44
+00:04:04,080 --> 00:04:05,670
+produzir isso por enquanto.
+
+45
+00:04:05,670 --> 00:04:11,070
+Então, uma interpelação estrita que poderia produzir o nome do servidor de entrada Melodia.
+
+46
+00:04:11,310 --> 00:04:18,390
+Se salvarmos isso e voltarmos para este aplicativo e eu digitar servidor de teste, você verá que isso
+
+47
+00:04:18,390 --> 00:04:20,440
+atualiza dinamicamente a porta melodeon.
+
+48
+00:04:20,580 --> 00:04:27,480
+É assim que você pode usar esse objeto de evento de cifrão para buscar os dados do evento.
+
+49
+00:04:27,480 --> 00:04:34,560
+Agora, com isso, vamos passar para a ligação de dados bidirecional para o tipo de terminar como pequeno exemplo eppi
+
+50
+00:04:34,560 --> 00:04:35,230
+por enquanto.

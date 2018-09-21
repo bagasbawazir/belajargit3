@@ -1,0 +1,259 @@
+1
+00:00:02,800 --> 00:00:03,860
+Son derste.
+
+2
+00:00:03,900 --> 00:00:07,710
+Kendi bileşenimizi burada sunucu bileşenini oluşturduk.
+
+3
+00:00:07,710 --> 00:00:15,240
+Neredeyse kullanılmaya hazır ama kullanmaya devam etmek için uygulama modülümüzle ilgili bir şeyi
+
+4
+00:00:15,250 --> 00:00:25,200
+değiştirmemiz gerekiyor. HAVA eski açılı, web sayfaları oluşturmak için bileşenleri kullanıyor ve farklı parçaları, örneğin uygulamanızın bileşenleri
+
+5
+00:00:25,260 --> 00:00:29,390
+için paketler halinde paketlemek için modüller kullanıyor.
+
+6
+00:00:29,550 --> 00:00:34,320
+gelişmiş bir özellik olduğunu biliyorsunuz ama daha sonra bu dersin büyük
+
+7
+00:00:34,320 --> 00:00:40,920
+bir kısmı için modüllerle ilgili tam bir bölümüm olacak. Sadece çok büyük projeler için kesinlikle
+
+8
+00:00:40,920 --> 00:00:46,080
+çok iyi olan uygulama modülünü kullanacağız. Uygulamanızı çoklu aapke modüllerine ayırmayı düşünün.
+
+9
+00:00:46,160 --> 00:00:47,340
+Bunun bir tür
+
+10
+00:00:47,580 --> 00:00:51,170
+Ama bu uygulama bir modülün ne yapacağını o zaman yapar.
+
+11
+00:00:51,600 --> 00:00:58,890
+Eh, bizim app işlevselliği demetleri dediğim gibi ve temelde İngiltere'ye
+
+12
+00:00:59,010 --> 00:01:05,850
+hangi özellikleri uygulamasının sahip olduğu ve ne olduğunu görebildiğim
+
+13
+00:01:06,060 --> 00:01:12,900
+gibi kullanabildiğim gibi bilgiler verir. Burada bir dekoratör ekleyerek.
+
+14
+00:01:13,020 --> 00:01:19,300
+Ayrıca açısal çekirdekten ithal edilen Engy modül dekoratörü.
+
+15
+00:01:19,320 --> 00:01:27,450
+Şimdi orada biz modül beyanları ithalat sağlayıcıları ve bootstrap size geçirdiğimiz nesne üzerinde kurduğumuz
+
+16
+00:01:27,450 --> 00:01:29,350
+dört özellik görüyoruz.
+
+17
+00:01:29,430 --> 00:01:35,640
+Bootstrap'e bir göz attık, bu, tüm uygulamanın başladığı zaman noktasında farkında olmanız gereken
+
+18
+00:01:35,640 --> 00:01:39,240
+hangi bileşen bileşeninin tazeleyici nefreti tazelemekten sorumluydu.
+
+19
+00:01:39,240 --> 00:01:43,050
+Yani, temel olarak endeksofillerin endeksinde hangi bileşeni tanırdınız.
+
+20
+00:01:43,200 --> 00:01:45,330
+Ve bu uygulama bileşeni oldu.
+
+21
+00:01:45,360 --> 00:01:51,020
+Şimdi daha önce bir sonraki HDMI dosyasına daha fazla bileşen seçicisi eklemeyeceğimizi belirttim.
+
+22
+00:01:51,030 --> 00:01:53,040
+Bu sadece böyle değil.
+
+23
+00:01:53,160 --> 00:01:56,010
+Bu nedenle aslında önyükleme yapmak istiyoruz.
+
+24
+00:01:56,340 --> 00:02:03,360
+bileşenin var olduğunu biliyor ve Engler bu kadar önemliydi çünkü tüm dosyalar burada taranmayacak.
+
+25
+00:02:03,360 --> 00:02:10,500
+Yine de yeni bir bileşeni açısal olarak ekledik ve bu yeni bileşenin şimdi modülde kayıtlı
+
+26
+00:02:10,530 --> 00:02:13,410
+olması gerekiyordu, bu nedenle angler bu
+
+27
+00:02:13,680 --> 00:02:20,510
+Yani eğer sunucu bileşeninin var olduğunu söylemezseniz, bunu bilmiyor.
+
+28
+00:02:20,550 --> 00:02:23,430
+Sadece dosyayı oluşturmak yeterli değil.
+
+29
+00:02:23,490 --> 00:02:30,750
+İşte bu yüzden NGI modülünde bu modüle Engler Hey'in bir parçası olduğunu ve burada sadece
+
+30
+00:02:30,750 --> 00:02:36,390
+bu modülün sunucu bileşeni olduğu için tüm uygulamamızın burada olduğunu söylemek zorundayız.
+
+31
+00:02:36,900 --> 00:02:41,490
+Bu deklarasyon dizisinde yeni bileşenler kayıt ediyoruz.
+
+32
+00:02:41,730 --> 00:02:47,010
+kaydettik çünkü aynı zamanda Bootstrap'da da kullanılmasına rağmen, uygulamanızın bir parçası.
+
+33
+00:02:47,010 --> 00:02:48,660
+Uygulama bileşenini zaten
+
+34
+00:02:48,660 --> 00:02:52,880
+Şimdi de sunucu bileşenini buraya eklememiz gerekiyor.
+
+35
+00:02:53,790 --> 00:02:59,310
+Buna benzer bir şey eklemek yeterli değildir, çünkü şimdi fener bu uygulamanın bir parçası
+
+36
+00:02:59,310 --> 00:03:04,850
+olduğunu bilecektir, ancak bu yazı tipinin sunucu bileşenini bulmak için nerede bulacağını bilmemesi gerekir.
+
+37
+00:03:04,860 --> 00:03:12,990
+Yani kodumuzu bir araya getirmeye çalıştığımızda bir hata alırdık, ancak bu yeniden tetiklemeyi tetiklediğini
+
+38
+00:03:12,990 --> 00:03:14,380
+gerçekten görebilirsiniz.
+
+39
+00:03:14,430 --> 00:03:20,110
+Terminalde, sunucu bileşenini bulamadığı için bir hata aldığımızı göreceksiniz.
+
+40
+00:03:20,180 --> 00:03:22,130
+Ve bu değil angler bu tip okşadı yapar.
+
+41
+00:03:22,200 --> 00:03:25,800
+Bu dosyanın nerede bu yeri bulacağını bilmiyor.
+
+42
+00:03:26,010 --> 00:03:30,710
+Bu yüzden, en üstte, buna işaret eden içe aktarma eklememiz gerekiyor.
+
+43
+00:03:30,840 --> 00:03:41,340
+Bu yüzden, sunucu bileşenleri nokta eğik sunucusundan içe aktardıkça buraya ekleriz ve burada sunucu
+
+44
+00:03:41,520 --> 00:03:48,110
+bileşeninde ve noktayı kabul edersiniz. T eklediğiniz noktaya ts
+
+45
+00:03:48,110 --> 00:03:55,110
+eklemezsiniz. Projemizi otomatik olarak paketleyen web çantası ile eklenmiştir.
+
+46
+00:03:55,110 --> 00:03:57,030
+Yani bu ve sadece çok önemli.
+
+47
+00:03:57,030 --> 00:04:01,790
+Bu bitmez veya bitmez bir yazı tipi özelliği artık bu yazı tipini nerede bulacağını bilir.
+
+48
+00:04:01,830 --> 00:04:08,580
+şimdi çalıştırıldığında Engler bir sunucu bileşenine sahip olduğumuzu biliyor ve bizim uygulamanızın bir parçası.
+
+49
+00:04:08,580 --> 00:04:11,030
+Bu nedenle her şey paketlenebildiğinden,
+
+50
+00:04:11,190 --> 00:04:14,390
+Ve bununla birlikte şimdi bileşenimizi nihayet kullanabiliriz.
+
+51
+00:04:14,670 --> 00:04:16,190
+Bunu bir sonraki derste yapacağız.
+
+52
+00:04:16,200 --> 00:04:21,530
+Ama belki de modülde bize hangi ithalatçıların ve sağlayıcıların bize geldiğini merak ediyorsunuzdur.
+
+53
+00:04:21,600 --> 00:04:28,260
+Daha sonra servisler bölümüne geri döneceğim. Hizmetler bölümündeki ithalat sadece bazı Alber modüllerini eklememize
+
+54
+00:04:28,260 --> 00:04:29,180
+izin veriyor.
+
+55
+00:04:29,220 --> 00:04:34,500
+Judas Marchal, size uygulamanızı birçok modüle ayırabileceğinizi ve daha sonra bu modüler bitleri biraz
+
+56
+00:04:34,530 --> 00:04:40,710
+daha akıcı hale getirmek ve bazı şeyleri başka bir modüle vermek için bu modülleri içe aktarabilirsiniz.
+
+57
+00:04:40,710 --> 00:04:43,550
+Şimdi size sadece bir modül kullanacağımızı söyledim.
+
+58
+00:04:43,590 --> 00:04:45,450
+Öyleyse burada ne ithal ediyoruz?
+
+59
+00:04:45,450 --> 00:04:51,630
+Bazı modüller açısal olarak modüllere ayrıldıkları için açılmışlardır. Bu sayede
+
+60
+00:04:51,630 --> 00:04:58,280
+tarayıcı modülü, uygulama veya formları ve HTP modülünü başlatmak için ihtiyaç
+
+61
+00:04:58,270 --> 00:05:02,210
+duyduğumuz tüm temel işlevleri bize verir. kurs.
+
+62
+00:05:02,220 --> 00:05:07,890
+Bu nedenle, bu yürüyüşle ilgili temeller tekrar netleşince, daha sonra bu derste daha
+
+63
+00:05:07,890 --> 00:05:08,530
+derinlere ineceğiz.
+
+64
+00:05:08,700 --> 00:05:11,160
+Ayrıca kendi bileşenimizi de kaydediyoruz.
+
+65
+00:05:11,280 --> 00:05:13,500
+Şimdi bir sonraki derste kullanalım.

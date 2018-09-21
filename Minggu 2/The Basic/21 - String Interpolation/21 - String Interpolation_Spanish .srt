@@ -1,0 +1,255 @@
+1
+00:00:02,680 --> 00:00:08,910
+Comencemos por ver más de cerca la interpelación de cadenas aquí y sirva un componente.
+
+2
+00:00:09,100 --> 00:00:14,770
+No quiero su producción este año en la molécula de la edad como esta. No quiero codificar
+
+3
+00:00:14,770 --> 00:00:15,770
+la salida aquí.
+
+4
+00:00:15,900 --> 00:00:22,020
+Sería realista que nuestro componente de servidor contiene información sobre un servidor específico.
+
+5
+00:00:22,330 --> 00:00:34,450
+Entonces, tal vez aquí, en el archivo de plantilla, queremos generar el servidor con ID y, luego, algunos ID dinámicos, su estado y bajo un
+
+6
+00:00:34,840 --> 00:00:37,020
+estado como fuera de línea.
+
+7
+00:00:37,210 --> 00:00:39,820
+Entonces tenemos dos campos dinámicos aquí.
+
+8
+00:00:40,370 --> 00:00:46,360
+Ahora, ¿qué sentido tiene derivarlos y el código de mecanografía en una aplicación real que podría
+
+9
+00:00:46,360 --> 00:00:52,050
+derivarse de la solicitud de HGP para realizar algún tipo de respaldo o algún cálculo?
+
+10
+00:00:52,090 --> 00:00:54,560
+Por ahora estará codificado aquí.
+
+11
+00:00:54,820 --> 00:01:01,300
+Entonces podríamos tener una identificación de servidor y asignaré un valor de digamos 10.
+
+12
+00:01:01,330 --> 00:01:11,320
+Entonces un número y yo también tendríamos un servidor en los estatores, que es una cadena de líneas para dos tipos diferentes de
+
+13
+00:01:11,380 --> 00:01:13,210
+cuerda y un número.
+
+14
+00:01:13,570 --> 00:01:19,920
+Y aunque no es necesario, también puede ser muy explícito al asignar el tipo con la función de escritura de tipo de
+
+15
+00:01:20,140 --> 00:01:25,500
+caracteres al agregar dos puntos después del nombre de la propiedad y luego el tipo que terminará automáticamente.
+
+16
+00:01:25,490 --> 00:01:29,710
+Esos no son necesarios. Solo estoy haciendo esto aquí para propósitos de demostración.
+
+17
+00:01:30,100 --> 00:01:37,020
+Así que ahora cuando muestre estas dos propiedades en mi plantilla y para obtener esta conexión, necesitamos minería de datos porque
+
+18
+00:01:37,030 --> 00:01:42,020
+aprendió que todo se trata de la comunicación entre los tipos que codificaría y la plantilla.
+
+19
+00:01:42,370 --> 00:01:49,750
+Así que las tribulaciones de stringin suelen utilizar el caso de su solución típica para esta tarea aquí en lugar del
+
+20
+00:01:50,170 --> 00:01:51,220
+marcador de posición.
+
+21
+00:01:51,280 --> 00:01:58,050
+Uso mis llaves dobles para abrir y cerrar, esta es la sintaxis de la interpelación
+
+22
+00:01:58,170 --> 00:02:04,440
+de cuerdas y entre estas llaves dobles ahora puedes escribir expresiones de mecanografía.
+
+23
+00:02:04,810 --> 00:02:12,670
+Así que la expresión más sencilla es simplemente hacer referencia a una propiedad como la identificación del servidor y este es el
+
+24
+00:02:12,670 --> 00:02:19,340
+caso de uso común en el que solo se muestran propiedades aquí o el valor de la propiedad.
+
+25
+00:02:19,360 --> 00:02:22,630
+Sin embargo, no es el único caso de uso.
+
+26
+00:02:22,630 --> 00:02:30,790
+También podría, por ejemplo, año para el servidor simplemente codificar una cadena con una expresión que puede resolverse
+
+27
+00:02:30,790 --> 00:02:33,190
+en una cadena al final.
+
+28
+00:02:33,190 --> 00:02:37,910
+Esa es la única condición para una cadena de sintaxis de agotamiento aquí.
+
+29
+00:02:37,940 --> 00:02:43,640
+Entonces, sea lo que sea que tengas entre llaves, al final tiene que devolver una cuerda.
+
+30
+00:02:43,720 --> 00:02:50,530
+Entonces puede llamar a un método aquí que devuelve una cadena al final la única restricción que
+
+31
+00:02:50,710 --> 00:02:52,910
+puede escribir aquí expresiones multilínea.
+
+32
+00:02:52,960 --> 00:03:00,410
+No puede escribir expresiones de bloques aquí, por lo que no puede agregar una estructura de control si o para.
+
+33
+00:03:00,550 --> 00:03:03,120
+Aunque podrías usar una expresión ternaria.
+
+34
+00:03:03,490 --> 00:03:06,230
+Entonces esto es lo que puedes hacer.
+
+35
+00:03:06,250 --> 00:03:12,400
+Ahora reemplacemos el último marcador de posición y aquí volveré a hacer referencia a una
+
+36
+00:03:12,400 --> 00:03:14,250
+propiedad del estado del servidor.
+
+37
+00:03:14,260 --> 00:03:20,280
+Ahora bien, esta es la interpelación de cadenas en tu búsqueda y verás que tenemos una expresión que es una cadena
+
+38
+00:03:20,280 --> 00:03:21,240
+en sí misma.
+
+39
+00:03:21,430 --> 00:03:25,090
+Y luego dos opresiones de Abrego que simplemente apuntan a las propiedades.
+
+40
+00:03:25,150 --> 00:03:28,690
+Y de nuevo también puede llamar a un método aquí que devuelve una cadena.
+
+41
+00:03:28,690 --> 00:03:30,270
+Ahora interesante.
+
+42
+00:03:30,270 --> 00:03:33,720
+La identificación del servidor no es una cadena, sino un número.
+
+43
+00:03:33,760 --> 00:03:41,200
+Y acabo de decir que la cadena de júbilo tiene que resolverse con una cuerda y al final tiene que obtener una cuerda
+
+44
+00:03:41,200 --> 00:03:41,930
+al final.
+
+45
+00:03:42,070 --> 00:03:46,800
+Así que vamos a ver si esto funciona si guardamos esto con el fin de la ejecución.
+
+46
+00:03:46,960 --> 00:03:52,170
+Cambiemos también el observador a los observadores para hacer que esto funcione de nuevo.
+
+47
+00:03:52,240 --> 00:03:58,420
+Vemos que el servidor con ID 10 está fuera de línea, lo vemos dos veces porque repetimos
+
+48
+00:03:58,420 --> 00:04:04,600
+este componente en cada componente, por supuesto, tiene el mismo contenido, pero vemos que la tribulación está
+
+49
+00:04:05,080 --> 00:04:09,130
+funcionando y que es especialmente un año de trabajo para nuestro número.
+
+50
+00:04:09,160 --> 00:04:16,090
+Así que hice 10 datos que no es un problema que funciona bien porque un número se puede convertir fácilmente
+
+51
+00:04:16,090 --> 00:04:17,130
+en una cadena.
+
+52
+00:04:17,140 --> 00:04:24,190
+Así que sí, tienes que obtener una cadena al final o algo que se pueda convertir en una cadena para
+
+53
+00:04:24,190 --> 00:04:25,810
+ser realmente correcto aquí.
+
+54
+00:04:25,870 --> 00:04:28,230
+Así es como puedes usar la subpoblación de cuerdas.
+
+55
+00:04:28,450 --> 00:04:35,620
+Y ahora, para completar realmente el ejemplo, digamos que el estado del servidor aquí se devuelve de alguna manera en un estado
+
+56
+00:04:35,770 --> 00:04:38,970
+del servidor Meffert get, podría ser el nombre del método.
+
+57
+00:04:39,010 --> 00:04:41,680
+Así es como defines un método en mecanografiado.
+
+58
+00:04:41,680 --> 00:04:45,730
+Entonces, quizás conozcas una especie de definición de Matha de nuestro idioma.
+
+59
+00:04:45,940 --> 00:04:51,430
+Y aquí simplemente devolvemos el estado de este servidor.
+
+60
+00:04:51,520 --> 00:04:58,180
+Así que devolvemos la propiedad o podríamos, por supuesto, haber accedido tan directamente como lo hicimos anteriormente, pero solo
+
+61
+00:04:58,210 --> 00:05:00,500
+demostrar que puede llamar a un método.
+
+62
+00:05:00,610 --> 00:05:08,140
+Aquí estoy llamando a un método para obtener el estado del servicio del curso que conduce al mismo resultado porque de nuevo todo
+
+63
+00:05:08,140 --> 00:05:14,470
+lo que hace es devolver como una cadena al final o algo que no se puede convertir a una cadena
+
+64
+00:05:14,470 --> 00:05:17,050
+que sea una interpelación de cadenas en acción.

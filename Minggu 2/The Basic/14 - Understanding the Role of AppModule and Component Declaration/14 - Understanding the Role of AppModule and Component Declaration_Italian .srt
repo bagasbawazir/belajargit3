@@ -1,0 +1,259 @@
+1
+00:00:02,800 --> 00:00:03,860
+Nell'ultima lezione.
+
+2
+00:00:03,900 --> 00:00:07,710
+Abbiamo creato il nostro componente il componente server qui.
+
+3
+00:00:07,710 --> 00:00:15,240
+È quasi pronto per essere utilizzato, ma per utilizzarlo è necessario modificare qualcosa sul nostro modulo di
+
+4
+00:00:15,250 --> 00:00:25,200
+app CHE COSA È AIR old angular utilizza i componenti per costruire pagine web e utilizza i moduli per raggruppare fondamentalmente pezzi
+
+5
+00:00:25,260 --> 00:00:29,390
+diversi, ad esempio componenti della tua app in pacchetti.
+
+6
+00:00:29,550 --> 00:00:34,320
+specie di funzionalità avanzata, ma più avanti nel corso avrò un'intera sezione sui moduli per
+
+7
+00:00:34,320 --> 00:00:40,920
+la maggior parte di questo corso useremo solo il modulo app che è assolutamente valido per molti progetti solo in
+
+8
+00:00:40,920 --> 00:00:46,080
+progetti più grandi che potresti pensa a suddividere la tua app in più moduli di aapke.
+
+9
+00:00:46,160 --> 00:00:47,340
+Sai che è una
+
+10
+00:00:47,580 --> 00:00:51,170
+Ma cosa farà questa app per fare ciò che è un modulo.
+
+11
+00:00:51,600 --> 00:00:58,890
+Beh, è ​​come ho detto un pacchetto di funzionalità della nostra app e in pratica fornisce all'Inghilterra
+
+12
+00:00:59,010 --> 00:01:05,850
+le informazioni che la mia app ha e utilizza come potete vedere è solo la classe
+
+13
+00:01:06,060 --> 00:01:12,900
+dattiloscritto vuota come componente e componente chiesto che la trasformiamo in qualcos'altro aggiungendo un decoratore qui.
+
+14
+00:01:13,020 --> 00:01:19,300
+È il decoratore del modulo Engy, anch'esso importato da un nucleo angolare.
+
+15
+00:01:19,320 --> 00:01:27,450
+Ora in là vediamo quattro proprietà che impostiamo sull'oggetto che abbiamo passato alle dichiarazioni dei
+
+16
+00:01:27,450 --> 00:01:29,350
+moduli importatori e bootstrap.
+
+17
+00:01:29,430 --> 00:01:35,640
+Abbiamo dato un'occhiata al bootstrap che era responsabile del conteggio del pescatore odio di quale componente dovresti
+
+18
+00:01:35,640 --> 00:01:39,240
+essere a conoscenza al momento in cui inizia l'intera applicazione.
+
+19
+00:01:39,240 --> 00:01:43,050
+Quindi quale componente riconoscerai fondamentalmente negli estremofili dell'indice.
+
+20
+00:01:43,200 --> 00:01:45,330
+E quella era la componente dell'app.
+
+21
+00:01:45,360 --> 00:01:51,020
+Ora ho già detto che non aggiungeremo altri selettori di componenti al prossimo file HDMI.
+
+22
+00:01:51,030 --> 00:01:53,040
+Questo non è esattamente come funziona.
+
+23
+00:01:53,160 --> 00:01:56,010
+Quindi vogliamo veramente fare il bootstrap.
+
+24
+00:01:56,340 --> 00:02:03,360
+perché e questo è importante per impostazione predefinita Engler non eseguirà la scansione di tutti i tuoi file qui.
+
+25
+00:02:03,360 --> 00:02:10,500
+Ancora abbiamo aggiunto un nuovo componente ad angolare e questo nuovo componente doveva ora essere registrato qui nel modulo
+
+26
+00:02:10,530 --> 00:02:13,410
+così il pescatore sa che questo componente esiste
+
+27
+00:02:13,680 --> 00:02:20,510
+Quindi se non lo dici che il componente server esiste non lo sa.
+
+28
+00:02:20,550 --> 00:02:23,430
+Basta creare il file non è abbastanza.
+
+29
+00:02:23,490 --> 00:02:30,750
+Questo è il motivo per cui dobbiamo registrarlo qui nel modulo NGI per dire a Engler Hey parte di questo modulo e sono
+
+30
+00:02:30,750 --> 00:02:36,390
+proprio qui la nostra intera app dal momento che abbiamo solo questo modulo è il componente server.
+
+31
+00:02:36,900 --> 00:02:41,490
+Registriamo nuovi componenti in questo array di dichiarazioni.
+
+32
+00:02:41,730 --> 00:02:47,010
+dell'app perché, anche se è utilizzato anche in Bootstrap, fa parte della nostra app.
+
+33
+00:02:47,010 --> 00:02:48,660
+Registriamo già qui il componente
+
+34
+00:02:48,660 --> 00:02:52,880
+Ora dobbiamo anche aggiungere il componente server qui.
+
+35
+00:02:53,790 --> 00:02:59,310
+Aggiungerlo in questo modo non è abbastanza però perché ora il pescatore potrebbe sapere che questo fa
+
+36
+00:02:59,310 --> 00:03:04,850
+parte dell'app ma il dattiloscritto non saprebbe dove trovare questo tipo dove trovare il componente del server.
+
+37
+00:03:04,860 --> 00:03:12,990
+Quindi, quando proviamo a raggruppare il nostro codice, otterremmo un errore, ma in realtà puoi vedere se hai salvato questo
+
+38
+00:03:12,990 --> 00:03:14,380
+attivando la ricompilazione.
+
+39
+00:03:14,430 --> 00:03:20,110
+Vedrai che abbiamo un errore nel terminale laggiù che non riesce a trovare il componente del server perché.
+
+40
+00:03:20,180 --> 00:03:22,130
+E questo non è il pescatore di questo tipo.
+
+41
+00:03:22,200 --> 00:03:25,800
+Non sa dove questo file è dove trovare questa classe.
+
+42
+00:03:26,010 --> 00:03:30,710
+Quindi abbiamo bisogno di aggiungere import in cima manualmente puntando a questo.
+
+43
+00:03:30,840 --> 00:03:41,340
+Quindi aggiungiamo qui i componenti del server mentre importano dal server della barra dei punti e poi qui nel componente del server e ammetti il ​​punto TS
+
+44
+00:03:41,520 --> 00:03:48,110
+Non aggiungi punti alla tua importazione è il componente del punto del server di shust quindi il
+
+45
+00:03:48,110 --> 00:03:55,110
+nome del file senza l'estensione l'estensione viene aggiunto dalla web bag che raggruppa automaticamente il nostro progetto.
+
+46
+00:03:55,110 --> 00:03:57,030
+Quindi con questo ed è così importante.
+
+47
+00:03:57,030 --> 00:04:01,790
+Questo non finisce o non è una caratteristica dattiloscritto ora dattiloscritto sa dove trovarlo.
+
+48
+00:04:01,830 --> 00:04:08,580
+che quindi ora Engler, quando viene eseguito, sappia che abbiamo un componente server e fa parte della nostra app.
+
+49
+00:04:08,580 --> 00:04:11,030
+Quindi tutto può essere raggruppato in modo
+
+50
+00:04:11,190 --> 00:04:14,390
+E con questo possiamo finalmente usare il nostro componente.
+
+51
+00:04:14,670 --> 00:04:16,190
+Lo faremo nella prossima lezione.
+
+52
+00:04:16,200 --> 00:04:21,530
+Ma forse ti stai anche chiedendo quali importazioni e fornitori ci siano nel modulo.
+
+53
+00:04:21,600 --> 00:04:28,260
+Tornerò ai provider più avanti nella sezione servizi, le importazioni ci permetteranno semplicemente di aggiungere alcuni moduli
+
+54
+00:04:28,260 --> 00:04:29,180
+di Alber.
+
+55
+00:04:29,220 --> 00:04:34,500
+Judas Marchal perché ti ho detto che puoi dividere la tua app in più moduli e quindi
+
+56
+00:04:34,530 --> 00:04:40,710
+puoi importare questi moduli per rendere questo elemento un po 'più snello ed esternalizzare alcune cose in un altro modulo.
+
+57
+00:04:40,710 --> 00:04:43,550
+Ora ti ho detto che useremo solo un modulo.
+
+58
+00:04:43,590 --> 00:04:45,450
+Quindi cosa stiamo importando qui.
+
+59
+00:04:45,450 --> 00:04:51,630
+Alcuni moduli sono costruiti in angolari perché l'angolare stesso è diviso in moduli in modo che il modulo del browser, ad
+
+60
+00:04:51,630 --> 00:04:58,280
+esempio, ci fornisca tutte le funzionalità di base necessarie per avviare la nostra app e moduli e il modulo HTP che è
+
+61
+00:04:58,270 --> 00:05:02,210
+qualcosa che torno da te per la sua sezione HTP o il corso.
+
+62
+00:05:02,220 --> 00:05:07,890
+Quindi, con i giorni in cui le basi di questa marcia saranno chiare di nuovo, ci concentreremo più a fondo su questo più
+
+63
+00:05:07,890 --> 00:05:08,530
+avanti nel corso.
+
+64
+00:05:08,700 --> 00:05:11,160
+Registriamo anche il nostro componente.
+
+65
+00:05:11,280 --> 00:05:13,500
+Usiamolo ora nella prossima lezione.

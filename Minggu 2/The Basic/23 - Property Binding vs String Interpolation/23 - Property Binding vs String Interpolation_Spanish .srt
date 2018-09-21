@@ -1,0 +1,167 @@
+1
+00:00:02,890 --> 00:00:05,720
+En la última conferencia aprendimos sobre el enlace de propiedades.
+
+2
+00:00:05,770 --> 00:00:12,400
+Ahora bien, si tuviéramos que usar el caso de que también queremos generar el valor actual del servidor de noticias PERMITIRNOS,
+
+3
+00:00:12,400 --> 00:00:17,890
+podríamos utilizar la instalación de cadenas para simplemente generar el servidor de noticias y el Boullion también
+
+4
+00:00:17,890 --> 00:00:19,660
+se puede convertir en una cadena.
+
+5
+00:00:20,110 --> 00:00:25,500
+Entonces ahora vemos fallas aquí y después de dos segundos ves que cambias a verdadero porque cambiamos el código.
+
+6
+00:00:25,660 --> 00:00:26,980
+Bonito.
+
+7
+00:00:26,980 --> 00:00:32,320
+Este es uno de los casos en los que tiene razón, puede usar fácilmente el enlace de propiedad en lugar
+
+8
+00:00:32,320 --> 00:00:33,410
+de cadena y agotamiento.
+
+9
+00:00:33,580 --> 00:00:43,560
+Entonces, simplemente podría vincular a una propiedad de este elemento la propiedad de texto interna y configurarla para permitir un
+
+10
+00:00:43,560 --> 00:00:45,210
+servidor de noticias.
+
+11
+00:00:45,210 --> 00:00:50,940
+Ahora puedo eliminar la júbilo de stringin aquí dentro del impuesto y lo que podría parecer vacío ahora.
+
+12
+00:00:51,030 --> 00:00:56,520
+Bueno, lo configuramos en nuestro texto para que tengamos el mismo comportamiento que antes porque la propiedad de texto interno de un
+
+13
+00:00:56,520 --> 00:01:00,000
+elemento es exactamente lo que hay entre la etiqueta de apertura y de cierre.
+
+14
+00:01:00,000 --> 00:01:05,990
+Entonces, en este caso, pudimos reemplazar fácilmente la interpolación de cadenas con el enlace de propiedades.
+
+15
+00:01:06,000 --> 00:01:08,630
+Entonces, ¿cuándo deberías usar cuál de los dos?
+
+16
+00:01:08,910 --> 00:01:14,880
+Bueno, básicamente, si desea imprimir algo en su plantilla, imprima un texto con la interpolación de
+
+17
+00:01:15,330 --> 00:01:21,990
+cadenas si desea cambiar alguna propiedad de un elemento femenino envejecido o, como posteriormente, aprenderá sobre una
+
+18
+00:01:21,990 --> 00:01:23,560
+directiva o un componente.
+
+19
+00:01:23,730 --> 00:01:25,740
+Normalmente usa enlaces de propiedad.
+
+20
+00:01:25,740 --> 00:01:31,080
+Así es como puede diferenciarse y tendrá una sensación de esto una vez que trabaje en
+
+21
+00:01:31,080 --> 00:01:33,280
+el proyecto del curso, y así sucesivamente.
+
+22
+00:01:33,510 --> 00:01:41,680
+Entonces, todavía hay una nota importante que quiero hacer es que no mezcle el enlace de propiedades y la interpolación de cadenas.
+
+23
+00:01:41,850 --> 00:01:48,750
+Puede observar que aquí hemos desactivado iguales y luego tenemos comillas y luego directamente el
+
+24
+00:01:48,830 --> 00:01:55,410
+nombre de nuestra propiedad, no hay llaves entre estas comillas actuales y no debería
+
+25
+00:01:55,410 --> 00:01:55,830
+haberlas.
+
+26
+00:01:55,950 --> 00:01:57,430
+Porque eso romperá la aplicación.
+
+27
+00:01:57,450 --> 00:02:02,050
+Esto no funcionará entre las comillas o el enlace de propiedad.
+
+28
+00:02:02,130 --> 00:02:09,270
+Puede y ya debe escribir tipos de código para decir una expresión de mecanografía que devolverá el valor
+
+29
+00:02:09,270 --> 00:02:11,100
+que esta propiedad espera.
+
+30
+00:02:11,100 --> 00:02:14,360
+Entonces, para desactivar alguna expresión que devuelva verdadero o falso.
+
+31
+00:02:14,400 --> 00:02:20,580
+Al igual que con la interpolación de cadenas También puede llamar a un método allí, pero no
+
+32
+00:02:20,580 --> 00:02:21,540
+debe agregar llaves.
+
+33
+00:02:21,630 --> 00:02:25,110
+¿Qué aspecto tiene eso? Simplemente usamos el atributo HVM.
+
+34
+00:02:25,140 --> 00:02:26,420
+Ahí no estamos.
+
+35
+00:02:26,490 --> 00:02:30,650
+Este año de sintaxis completa es una sintaxis reconocida por angular.
+
+36
+00:02:30,780 --> 00:02:37,360
+Entonces, esta es la razón por la cual entre las comillas ya puede y ya tiene que usar el
+
+37
+00:02:37,370 --> 00:02:43,770
+código de mecanografía porque de nuevo esta expresión completa se evalúa mezclando angulares en una cadena de tribulación que
+
+38
+00:02:43,800 --> 00:02:44,540
+la romperá.
+
+39
+00:02:44,580 --> 00:02:51,750
+La interpelación de cadenas solo funciona en la plantilla normal que no está dentro y la expresión de Navier de esa
+
+40
+00:02:51,870 --> 00:02:55,770
+plantilla no está dentro de un enlace de propiedad o algo así.
+
+41
+00:02:55,950 --> 00:03:03,090
+Con eso basta sobre el enlace de propiedades y, en general, sobre la salida de datos en la plantilla
+
+42
+00:03:03,240 --> 00:03:05,730
+Veamos cómo podemos reaccionar a los eventos

@@ -1,0 +1,255 @@
+1
+00:00:02,680 --> 00:00:08,910
+Iniziamo esaminando l'interpellazione delle stringhe qui e servendo un componente.
+
+2
+00:00:09,100 --> 00:00:14,770
+Non voglio la tua produzione quest'anno nella molecola dell'età come questa, non voglio codificare
+
+3
+00:00:14,770 --> 00:00:15,770
+l'output qui.
+
+4
+00:00:15,900 --> 00:00:22,020
+Sarebbe realistico che il nostro componente server contenga informazioni su un server specifico.
+
+5
+00:00:22,330 --> 00:00:34,450
+Quindi forse qui nel file di modello vogliamo generare un server con ID e poi alcuni ID dinamici come sei e in uno
+
+6
+00:00:34,840 --> 00:00:37,020
+stato come off line.
+
+7
+00:00:37,210 --> 00:00:39,820
+Quindi abbiamo qui due campi dinamici.
+
+8
+00:00:40,370 --> 00:00:46,360
+una vera app che potrebbe essere derivata dalla richiesta HGP per fare un back-end o qualche calcolo.
+
+9
+00:00:46,360 --> 00:00:52,050
+Ora, ciò che ha senso è il tipo di derivare loro e il codice dattiloscritto in
+
+10
+00:00:52,090 --> 00:00:54,560
+Per ora sarà codificato qui.
+
+11
+00:00:54,820 --> 00:01:01,300
+Quindi potremmo avere un ID server e assegnerò un valore di diciamo 10.
+
+12
+00:01:01,330 --> 00:01:11,320
+Quindi un numero e avrei anche un server agli stadi che è una stringa di linea, quindi due diversi tipi di
+
+13
+00:01:11,380 --> 00:01:13,210
+stringa e un numero.
+
+14
+00:01:13,570 --> 00:01:19,920
+E sebbene non sia necessario, potresti anche essere molto esplicito assegnando il tipo con la funzione script di tipo
+
+15
+00:01:20,140 --> 00:01:25,500
+dell'aggiunta di due punti dopo il nome della proprietà e poi il tipo che terminerà automaticamente.
+
+16
+00:01:25,490 --> 00:01:29,710
+Questi non sono necessari, lo sto facendo solo qui per scopi dimostrativi.
+
+17
+00:01:30,100 --> 00:01:37,020
+Così ora quando uscite queste due proprietà nel mio modello e per ottenere questa connessione abbiamo bisogno del data mining dei
+
+18
+00:01:37,030 --> 00:01:42,020
+dati perché hai imparato che è tutto sulla comunicazione tra i tuoi tipi e il modello.
+
+19
+00:01:42,370 --> 00:01:49,750
+Quindi le tribolazioni stringin usano tipicamente la tua tipica soluzione per questo compito qui invece
+
+20
+00:01:50,170 --> 00:01:51,220
+del segnaposto.
+
+21
+00:01:51,280 --> 00:01:58,050
+Uso le mie doppie parentesi graffe che si aprono e si chiudono fa questa sintassi di interpellanza
+
+22
+00:01:58,170 --> 00:02:04,440
+delle stringhe e tra queste doppie parentesi graffe è ora possibile scrivere un'espressione di dattiloscritto.
+
+23
+00:02:04,810 --> 00:02:12,670
+Pertanto, l'espressione più semplice è semplicemente fare riferimento a una proprietà come l'ID del server e questo è il
+
+24
+00:02:12,670 --> 00:02:19,340
+caso di utilizzo comune in cui si emettono solo le proprietà qui o il valore della proprietà.
+
+25
+00:02:19,360 --> 00:02:22,630
+Tuttavia non è l'unico caso d'uso.
+
+26
+00:02:22,630 --> 00:02:30,790
+Si potrebbe anche per esempio l'anno per il server semplicemente il codice hard una stringa in là qualsiasi espressione che può essere
+
+27
+00:02:30,790 --> 00:02:33,190
+risolta in una stringa alla fine.
+
+28
+00:02:33,190 --> 00:02:37,910
+Questa è l'unica condizione per una stringa di sintassi di depletion qui.
+
+29
+00:02:37,940 --> 00:02:43,640
+Quindi qualunque cosa tu abbia tra le parentesi graffe, alla fine, in qualche modo deve restituire una stringa.
+
+30
+00:02:43,720 --> 00:02:50,530
+Quindi puoi chiamare un metodo qui che restituisce una stringa, alla fine, l'unica limitazione
+
+31
+00:02:50,710 --> 00:02:52,910
+che puoi scrivere qui.
+
+32
+00:02:52,960 --> 00:03:00,410
+Non puoi scrivere espressioni di blocco qui, quindi non puoi aggiungere un if o per una struttura di controllo nel tuo.
+
+33
+00:03:00,550 --> 00:03:03,120
+Potresti usare un'espressione ternaria però.
+
+34
+00:03:03,490 --> 00:03:06,230
+Quindi questo è quello che puoi fare.
+
+35
+00:03:06,250 --> 00:03:12,400
+Ora sostituiamo anche l'ultimo segnaposto e qui farò nuovamente riferimento a una proprietà
+
+36
+00:03:12,400 --> 00:03:14,250
+lo stato del server.
+
+37
+00:03:14,260 --> 00:03:20,280
+Ora questa è interpellazione a stringa nella tua ricerca e vedrai che abbiamo un'espressione che è
+
+38
+00:03:20,280 --> 00:03:21,240
+una stringa stessa.
+
+39
+00:03:21,430 --> 00:03:25,090
+E poi due oppressioni su Abrego che indicano semplicemente le proprietà.
+
+40
+00:03:25,150 --> 00:03:28,690
+E ancora, puoi anche chiamare un metodo qui che restituisce una stringa.
+
+41
+00:03:28,690 --> 00:03:30,270
+Ora interessante.
+
+42
+00:03:30,270 --> 00:03:33,720
+L'ID del server non è una stringa ma un numero.
+
+43
+00:03:33,760 --> 00:03:41,200
+E ho appena detto che quella stringa di jubilation deve risolversi in una stringa e alla fine deve ottenere una stringa
+
+44
+00:03:41,200 --> 00:03:41,930
+alla fine.
+
+45
+00:03:42,070 --> 00:03:46,800
+Quindi vediamo se questo funziona se salviamo questo con il termine ancora in esecuzione.
+
+46
+00:03:46,960 --> 00:03:52,170
+Cambiamo anche l'osservatore agli osservatori per farlo funzionare di nuovo.
+
+47
+00:03:52,240 --> 00:03:58,420
+perché ripetiamo questo componente in ogni componente, ovviamente ha lo stesso contenuto ma vediamo che la tribolazione delle
+
+48
+00:03:58,420 --> 00:04:04,600
+stringhe sta funzionando e che in particolare è anche un anno di lavoro per il nostro numero.
+
+49
+00:04:05,080 --> 00:04:09,130
+Vediamo server con ID 10 non in linea, lo vediamo due volte
+
+50
+00:04:09,160 --> 00:04:16,090
+Così ho fatto 10 dati non è un problema che sta funzionando bene perché un numero può essere facilmente convertito
+
+51
+00:04:16,090 --> 00:04:17,130
+in una stringa.
+
+52
+00:04:17,140 --> 00:04:24,190
+Quindi sì, è necessario ottenere una stringa alla fine o qualcosa che può essere convertito in una stringa per
+
+53
+00:04:24,190 --> 00:04:25,810
+essere davvero corretto qui.
+
+54
+00:04:25,870 --> 00:04:28,230
+Questo è il modo in cui è possibile utilizzare la sottopopolazione di stringhe.
+
+55
+00:04:28,450 --> 00:04:35,620
+E ora per completare veramente l'esempio diciamo che lo stato del server qui è in qualche modo restituito in uno stato di
+
+56
+00:04:35,770 --> 00:04:38,970
+ottenere il server Meffert potrebbe essere il nome del metodo.
+
+57
+00:04:39,010 --> 00:04:41,680
+Questo è come si definisce un metodo in dattiloscritto.
+
+58
+00:04:41,680 --> 00:04:45,730
+Quindi potresti conoscere la definizione di Matha dalla nostra lingua.
+
+59
+00:04:45,940 --> 00:04:51,430
+E qui semplicemente restituiamo questo stato del server.
+
+60
+00:04:51,520 --> 00:04:58,180
+Pertanto, restituiamo la proprietà o, ovviamente, potremmo accedere direttamente come già fatto, ma solo dimostrare che
+
+61
+00:04:58,210 --> 00:05:00,500
+è possibile chiamare un metodo.
+
+62
+00:05:00,610 --> 00:05:08,140
+Qui sto chiamando un metodo per ottenere che lo stato del servizio porti naturalmente allo stesso output perché di nuovo tutto ciò che
+
+63
+00:05:08,140 --> 00:05:14,470
+la matematica fa è che ritorna come una stringa alla fine o qualcosa che non può essere convertito in una
+
+64
+00:05:14,470 --> 00:05:17,050
+stringa che è un'interpolazione di stringhe in azione.

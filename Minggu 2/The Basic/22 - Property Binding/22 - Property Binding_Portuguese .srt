@@ -1,0 +1,343 @@
+1
+00:00:02,660 --> 00:00:07,900
+Na última palestra, vimos a interpelação de Stringer, que é uma ótima ferramenta para a saída de
+
+2
+00:00:07,900 --> 00:00:09,280
+dados em um modelo.
+
+3
+00:00:09,340 --> 00:00:11,730
+Agora quero dar uma olhada nos atalhos de teclado apropriados.
+
+4
+00:00:11,770 --> 00:00:14,110
+Agora uma importante formação imediatamente.
+
+5
+00:00:14,290 --> 00:00:20,680
+Há muitas vezes em que você pode usar a vinculação de propriedade ou interpelação de string.
+
+6
+00:00:20,680 --> 00:00:22,790
+E vou mostrar o que quero dizer em um segundo.
+
+7
+00:00:23,080 --> 00:00:29,710
+Vamos ao nosso componente de serviço onde gerenciamos todos os servidores e queremos permitir que o usuário adicione novos
+
+8
+00:00:29,710 --> 00:00:31,380
+serviços pelo menos em breve.
+
+9
+00:00:31,390 --> 00:00:32,750
+Eu quero permitir isso.
+
+10
+00:00:33,010 --> 00:00:37,690
+Então, não precisamos de um botão onde eu digo servidor de anúncios sobre ele.
+
+11
+00:00:37,690 --> 00:00:42,680
+E eu adicionaria apenas alguns EUA como botão classis e Button primário para fazer essa parte parecer legal.
+
+12
+00:00:42,820 --> 00:00:49,400
+Isso tudo está usando bootstraps normais como classes que nada têm a ver com angular e refletir essa
+
+13
+00:00:49,400 --> 00:00:51,820
+mudança no meu componente de serviço aqui.
+
+14
+00:00:51,910 --> 00:00:56,620
+Também quero comentar o modelo in-line e apontar para o modelo externo novamente.
+
+15
+00:00:56,800 --> 00:01:06,380
+Então template ou então deve apontar para o meu componente de servidor para envelhecê-lo ou cair assim.
+
+16
+00:01:06,450 --> 00:01:12,510
+Agora, com isso, se eu salvei como vemos esse botão aqui agora, não faz qualquer sentido que eu possa clicar
+
+17
+00:01:12,510 --> 00:01:18,460
+neste botão, porque ele não faz nada que não tenhamos aprendido a reagir a um clique no botão ainda.
+
+18
+00:01:18,810 --> 00:01:26,250
+Então, adicionarei uma nova propriedade no meu código de datilografia aqui, que nomeará permitir servidor de notícias
+
+19
+00:01:26,280 --> 00:01:27,930
+e configurá-lo como falso.
+
+20
+00:01:27,930 --> 00:01:31,370
+Então agora isso é tudo uma propriedade numérica que contém um valor booleano.
+
+21
+00:01:31,390 --> 00:01:37,050
+Tão true ou false neste caso false porque eu não quero permitir que o usuário crie um novo servidor
+
+22
+00:01:37,050 --> 00:01:40,850
+e você pode imaginar novamente que estes são de alguma forma privados dinamicamente.
+
+23
+00:01:40,920 --> 00:01:48,460
+Em breve trabalharemos com alguns dados dinâmicos para que qualquer arquivo HMO aqui eu queira desabilitar o botão.
+
+24
+00:01:48,630 --> 00:01:55,050
+E como você provavelmente sabe, há um atributo desativado que você pode adicionar como dias que agora salvamos com os botões
+
+25
+00:01:55,100 --> 00:01:56,660
+desabilitados. Eu posso clicar nele.
+
+26
+00:01:56,790 --> 00:01:59,990
+Isso é legal, mas isso é difícil de codificar em HVM L.
+
+27
+00:02:00,000 --> 00:02:04,440
+Agora, talvez isso permita que o código do servidor de notícias seja alterado.
+
+28
+00:02:04,470 --> 00:02:07,980
+No entanto, talvez não seja dito faz o tempo todo.
+
+29
+00:02:08,190 --> 00:02:10,170
+Então não poderíamos reagir a isso.
+
+30
+00:02:10,170 --> 00:02:15,840
+E eu posso realmente demonstrar isso por enquanto no construtor que é simplesmente um método executado
+
+31
+00:02:15,840 --> 00:02:22,200
+no momento em que este componente é criado pelo pescador pelo tempo limite de seu conjunto de chamada.
+
+32
+00:02:22,230 --> 00:02:24,280
+Uma função normal de javascript.
+
+33
+00:02:24,600 --> 00:02:29,900
+E aqui eu defino após qual período de tempo ou depois de quantos milissegundos algo deve acontecer.
+
+34
+00:02:29,940 --> 00:02:35,080
+Então, após 2000 milissegundos, que são dois segundos, eu quero executar uma função.
+
+35
+00:02:35,160 --> 00:02:38,400
+E aqui estou usando como 6 função de seta.
+
+36
+00:02:38,400 --> 00:02:40,320
+Essa sintaxe pode parecer estranha.
+
+37
+00:02:40,350 --> 00:02:48,390
+É quase o mesmo que uma função como essa, com alguma diferença quando se trata de lidar com essa palavra-chave.
+
+38
+00:02:48,390 --> 00:02:53,670
+Mas no final aqui você passou os argumentos e aqui você tem o corpo da função mais importante
+
+39
+00:02:53,670 --> 00:02:54,420
+na sua.
+
+40
+00:02:54,510 --> 00:03:00,120
+Eu posso definir permitir servidor de notícias e não isso não funcionaria na sintaxe média, porque isso seria,
+
+41
+00:03:00,120 --> 00:03:03,320
+em seguida, referindo-se a outra coisa pode configurá-lo para true.
+
+42
+00:03:03,330 --> 00:03:08,610
+Então, depois de dois segundos, vamos mudar para True e, já que codificamos isso, é claro,
+
+43
+00:03:08,640 --> 00:03:12,030
+para o fato de que nosso botão aqui permanece desativado.
+
+44
+00:03:12,090 --> 00:03:19,740
+Então, eu quero vinculá-lo para permitir que o servidor de notícias agora faça com que essa
+
+45
+00:03:19,740 --> 00:03:26,580
+funcionalidade desativada seja dinâmica. Podemos ocultá-la colocando entre colchetes colchetes para indicar que estamos
+
+46
+00:03:26,580 --> 00:03:35,160
+usando a vinculação de propriedade que queremos vincular dinamicamente alguma propriedade e desativou o atributo HMO no final.
+
+47
+00:03:35,160 --> 00:03:35,490
+&nbsp;
+
+48
+00:03:35,490 --> 00:03:42,390
+No HVM normal, todos definem apenas uma propriedade específica no elemento Domínio subjacente.
+
+49
+00:03:42,420 --> 00:03:48,870
+Você pode notar que cada elemento HVM l que você usa é analisado pelo navegador e é traduzido em
+
+50
+00:03:48,870 --> 00:03:51,420
+um elemento no modelo de objeto do documento.
+
+51
+00:03:51,420 --> 00:03:54,080
+Isso é totalmente sem relação com angular.
+
+52
+00:03:54,270 --> 00:04:00,480
+E, portanto, temos um elemento nessa forma e esse elemento tem algumas propriedades.
+
+53
+00:04:00,690 --> 00:04:05,350
+Muitos deles nem podem ser definidos como atributos no elemento shemale.
+
+54
+00:04:05,700 --> 00:04:11,300
+Bem, uma das propriedades é desativar a propriedade e você pode definir o atributo desativado.
+
+55
+00:04:11,310 --> 00:04:18,240
+Mas aqui não estamos mais usando para desativar o atributo com os colchetes que
+
+56
+00:04:18,520 --> 00:04:22,190
+estamos vinculando diretamente à propriedade desativada do Tudor.
+
+57
+00:04:22,190 --> 00:04:24,350
+Este elemento HDMI tem.
+
+58
+00:04:24,630 --> 00:04:27,040
+Então agora podemos definir isso igual a.
+
+59
+00:04:27,150 --> 00:04:34,730
+E agora, com as aspas ventosas, uma expressão que, para essa propriedade, é convertida em booleana.
+
+60
+00:04:34,740 --> 00:04:41,760
+Mas para as nossas propriedades e número Taieb pode ser necessário porque novamente você pode ligar-se a
+
+61
+00:04:41,940 --> 00:04:46,220
+muitas propriedades basicamente a todas as propriedades do elemento h l.
+
+62
+00:04:46,230 --> 00:04:50,020
+Em breve saberemos que também existem propriedades Amur nas quais você pode comprar.
+
+63
+00:04:50,310 --> 00:04:53,350
+Então, por enquanto, posso simplesmente passar o servidor de notícias aqui.
+
+64
+00:04:53,640 --> 00:04:58,500
+O nome da minha propriedade, porque isso será resolvido como Verdadeiro ou Falso.
+
+65
+00:04:58,520 --> 00:05:04,170
+Exatamente desvalorizar o mesmo que a propriedade precisa porque tem que decidir se deve ser desativado
+
+66
+00:05:04,170 --> 00:05:04,840
+ou não.
+
+67
+00:05:05,040 --> 00:05:08,940
+Então, agora com isso, se invertermos isso.
+
+68
+00:05:09,010 --> 00:05:14,110
+Então, ao adicionar um ponto de exclamação, garantimos que isso só seria desabilitado se fosse para isso.
+
+69
+00:05:14,100 --> 00:05:17,520
+Então, se permitirmos um novo servidor, isso não é verdade.
+
+70
+00:05:17,520 --> 00:05:20,040
+Caso contrário, você faria exatamente o oposto.
+
+71
+00:05:20,190 --> 00:05:24,130
+Então, agora, com o ponto de exclamação, se voltarmos para o APAC está desativado.
+
+72
+00:05:24,430 --> 00:05:26,770
+Mas depois de dois segundos, deixe-me recarregar isso.
+
+73
+00:05:26,820 --> 00:05:34,020
+Ele é ativado porque agora estamos vinculando a essa propriedade desativada essa propriedade do elemento nativo que
+
+74
+00:05:34,400 --> 00:05:41,730
+estamos vinculando à nossa propriedade datilografada aqui e convocar a coisa é, e é isso que o
+
+75
+00:05:41,760 --> 00:05:45,030
+pescador diz que isso será atualizado dinamicamente.
+
+76
+00:05:45,150 --> 00:05:52,270
+Então, uma vez permitida a alteração do servidor de notícias, é uma mudança nos dormitórios, já que o botão é ativado.
+
+77
+00:05:52,350 --> 00:05:54,960
+Uma das principais razões pelas quais você usa angular.
+
+78
+00:05:54,960 --> 00:06:02,370
+Isso faz com que seja muito fácil para você interagir com seu dormitório para mudar alguma coisa em tempo de execução,
+
+79
+00:06:02,370 --> 00:06:03,530
+como fazemos aqui.
+
+80
+00:06:03,830 --> 00:06:06,040
+Isso é propriedade de ligação.
+
+81
+00:06:06,080 --> 00:06:13,070
+Agora, como eu mencionei além de vincular a propriedades do elemento HVM, como fazemos aqui, você também pode minerar para
+
+82
+00:06:13,070 --> 00:06:17,390
+nossas propriedades, por exemplo, de diretivas, algo sobre o qual ainda não aprendemos.
+
+83
+00:06:17,630 --> 00:06:21,090
+E seus próprios componentes, algo que eu também mostrarei mais tarde.
+
+84
+00:06:21,140 --> 00:06:23,300
+O mesmo acontece com essa vinculação de propriedade.
+
+85
+00:06:23,300 --> 00:06:26,100
+Antes de passar para as outras duas formas de ligação de dados.
+
+86
+00:06:26,180 --> 00:06:31,810
+Vamos descobrir onde você poderia realmente usar interpelação de strings em vez de binding de propriedade.

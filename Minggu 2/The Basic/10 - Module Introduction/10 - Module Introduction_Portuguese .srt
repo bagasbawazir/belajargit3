@@ -1,0 +1,43 @@
+1
+00:00:02,720 --> 00:00:08,510
+Então agora começamos com o discurso e com o nosso projeto angular e vamos usar e é
+
+2
+00:00:08,990 --> 00:00:14,840
+claro que é hora de mergulhar mais fundo na angular para entender o que realmente acontece nos
+
+3
+00:00:15,110 --> 00:00:21,710
+bastidores como um pescador é iniciado em primeiro lugar e qual blocos de construção básicos nos oferece como podemos
+
+4
+00:00:21,710 --> 00:00:25,520
+construir abs angular e quais recursos podemos usar para isso.
+
+5
+00:00:25,520 --> 00:00:31,400
+No final da seção, você entenderá como é possível construir seu aplicativo angular básico, o que ele
+
+6
+00:00:31,400 --> 00:00:35,690
+faz e o que você precisa alterar para alcançar um resultado diferente.
+
+7
+00:00:35,690 --> 00:00:42,920
+Então, com isso vamos mergulhar e vamos começar dando uma olhada no que realmente acontece quando estamos com
+
+8
+00:00:42,920 --> 00:00:43,230
+ele.
+
+9
+00:00:43,280 --> 00:00:48,090
+Esta página no navegador quando a página recarrega como a raiva começa.
+
+10
+00:00:48,170 --> 00:00:51,760
+O que nós realmente vemos aqui além de nada.
+
+11
+00:00:51,790 --> 00:00:54,710
+Porque há mais nessa página do que parece.

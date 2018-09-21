@@ -1,0 +1,203 @@
+1
+00:00:02,500 --> 00:00:08,560
+Entendimos que las plantillas son importantes y que podemos usarlas en línea aquí o apuntar
+
+2
+00:00:08,560 --> 00:00:10,150
+a un archivo externo.
+
+3
+00:00:10,360 --> 00:00:11,700
+¿Qué hay de los estilos?
+
+4
+00:00:11,710 --> 00:00:17,230
+También tenemos este estilo o propiedad aquí y tenemos archivos DS C S S.
+
+5
+00:00:17,230 --> 00:00:19,080
+¿Qué podemos hacer con eso?
+
+6
+00:00:19,550 --> 00:00:22,070
+Volvamos a nuestro componente de aplicación para esto.
+
+7
+00:00:22,120 --> 00:00:25,710
+Aquí tenemos una etiqueta de árbol y una línea horizontal.
+
+8
+00:00:25,810 --> 00:00:30,120
+Y si echamos un vistazo a nuestra aplicación, no es tan bueno.
+
+9
+00:00:30,330 --> 00:00:37,060
+Aquí estoy en el texto del componente de la aplicación, todo el texto está sentado justo en el que
+
+10
+00:00:37,060 --> 00:00:38,640
+no eres súper guapa.
+
+11
+00:00:38,830 --> 00:00:45,610
+Ahora que usamos bootstrap, por supuesto, podemos usar algunas clases de rutina de arranque para mejorar esto, así podríamos agregar
+
+12
+00:00:45,640 --> 00:00:49,800
+un día con nuestra clase de contenedor y luego agregar una fila.
+
+13
+00:00:49,900 --> 00:00:53,490
+Y esto solo está usando D. DO. es como bootstrap de framework.
+
+14
+00:00:53,500 --> 00:00:58,400
+Así que estas son algunas clases de siestas proporcionadas por este marco, nada específico del pescador.
+
+15
+00:00:58,660 --> 00:01:05,080
+Y luego podríamos agregar una columna de su exceso de riqueza para tener una columna en todos los soplos del dispositivo.
+
+16
+00:01:05,080 --> 00:01:12,100
+Ahora, si añadimos esto, agregamos un poco de estilo a la normalidad como un estilo que no es específico de ningún pescador.
+
+17
+00:01:12,100 --> 00:01:15,400
+Y nuestra aplicación se ve un poco mejor ahora.
+
+18
+00:01:15,490 --> 00:01:21,360
+Esto es genial, pero también podemos usar algunas herramientas que nos ha dado la angularidad.
+
+19
+00:01:21,430 --> 00:01:24,990
+Digamos que soy el componente de India que se dirige aquí.
+
+20
+00:01:25,000 --> 00:01:27,390
+Queremos cambiar ese estilo.
+
+21
+00:01:27,590 --> 00:01:31,960
+Tal vez queremos dar un poco de color azul.
+
+22
+00:01:32,290 --> 00:01:39,480
+Podemos hacerlo simplemente yendo al archivo C S del componente de la aplicación que define el estilo para el componente do.
+
+23
+00:01:39,880 --> 00:01:42,690
+Y ahora podemos usar o escribir el código us us us.
+
+24
+00:01:42,700 --> 00:01:49,570
+Así que anula el estilo de D. H. etiqueta gratis y establece su color a algunos Baloo.
+
+25
+00:01:49,570 --> 00:01:52,970
+Así que tal vez Tudor sea azul oscuro aquí.
+
+26
+00:01:53,230 --> 00:01:59,050
+Si ahora guardamos esto y echamos un vistazo a nuestra aplicación, verá que es de color azul oscuro.
+
+27
+00:01:59,060 --> 00:02:08,230
+Ahora esta es la forma en que puede usar este archivo de estilo este C-s como archivo referenciado en el componente de la aplicación aquí
+
+28
+00:02:08,240 --> 00:02:11,390
+también para encontrar los estilos para un componente.
+
+29
+00:02:11,500 --> 00:02:20,170
+Ahora, al igual que pudimos elegir entre un archivo externo y un código en línea para la plantilla, podemos hacer
+
+30
+00:02:20,170 --> 00:02:22,420
+lo mismo para el diseño.
+
+31
+00:02:22,600 --> 00:02:29,310
+Sabes que eso te da un estilo o si no es un año de matriz, mientras que la plantilla eras un Was was it is this.
+
+32
+00:02:29,350 --> 00:02:36,290
+Porque podríamos hacer referencia a varias hojas de estilo externas aquí para que pueda agregar punteros a las hojas de estilo.
+
+33
+00:02:36,790 --> 00:02:40,370
+Pero además de eso voy a comentarlo.
+
+34
+00:02:40,420 --> 00:02:44,170
+También puede configurar una propiedad numérica que es solo estilos.
+
+35
+00:02:44,200 --> 00:02:50,770
+Esto también toma una matriz, pero ahora se necesita una serie de cadenas donde se define el estilo en esta cadena.
+
+36
+00:02:50,770 --> 00:02:57,400
+Entonces, ahora en este archivo, voy a usar los ticks de nuevo para poder escribir una expresión de varias
+
+37
+00:02:57,400 --> 00:03:00,790
+líneas aquí y luego podríamos configurar un árbol aquí.
+
+38
+00:03:00,790 --> 00:03:05,430
+Y para mostrarte realmente que esto es diferente, estableceré el cubo de color.
+
+39
+00:03:05,440 --> 00:03:10,390
+Ahora no digamos azul oscuro, pero tú azul de los Dodgers.
+
+40
+00:03:10,750 --> 00:03:18,070
+Y si ahora guardo esto y volvemos a la aplicación, verá el azul actualizado porque ahora el estilo en línea
+
+41
+00:03:18,070 --> 00:03:19,470
+se está haciendo cargo.
+
+42
+00:03:19,480 --> 00:03:25,460
+Comenté el otro igual que con la plantilla que tiene que decidir cuál usar.
+
+43
+00:03:25,460 --> 00:03:32,290
+No se puede combinar el estilo o el estilo, pero ambos importantes aquí tienen que ser una matriz que es diferente a
+
+44
+00:03:32,290 --> 00:03:33,000
+la plantilla.
+
+45
+00:03:33,020 --> 00:03:40,730
+Solo debe tener una plantilla, puede tener múltiples archivos de estilos o definiciones de estilos y puede elegir entre archivos
+
+46
+00:03:40,730 --> 00:03:43,330
+en línea o extra en un archivo.
+
+47
+00:03:43,340 --> 00:03:46,370
+Las reglas son básicamente las mismas que para la plantilla.
+
+48
+00:03:46,370 --> 00:03:52,970
+Si tiene más código allí usando un archivo externo, es una buena idea si se trata de una definición corta de estilo
+
+49
+00:03:52,970 --> 00:03:53,670
+como esta.
+
+50
+00:03:53,720 --> 00:03:56,970
+¿Por qué no lo pones en el archivo de texto mecanografiado?
+
+51
+00:03:56,990 --> 00:03:59,940
+Así es como puedes trabajar con plantillas y estilos

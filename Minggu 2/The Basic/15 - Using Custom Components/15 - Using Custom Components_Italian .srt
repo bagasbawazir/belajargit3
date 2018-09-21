@@ -1,0 +1,59 @@
+1
+00:00:02,970 --> 00:00:06,040
+Con il nostro componente registrato usiamolo.
+
+2
+00:00:06,270 --> 00:00:10,690
+Quindi abbiamo il nostro selezionatore qui osservatore.
+
+3
+00:00:10,890 --> 00:00:15,620
+Ora ti ho detto che non aggiungeremo al file indice HMO non funzionerebbe.
+
+4
+00:00:15,900 --> 00:00:22,110
+Andiamo invece al team di età dei componenti che presenterò all'unico team medio di tutto quello che abbiamo
+
+5
+00:00:22,110 --> 00:00:23,660
+adesso dove potevamo modificare.
+
+6
+00:00:23,970 --> 00:00:27,250
+E qui aggiungerò una linea orizzontale e Lotus.
+
+7
+00:00:27,420 --> 00:00:35,800
+Aggiungerò qui il mio elemento server app e il collegamento che ho usato qui è solo un piccolo plug-in chiamato Emett disponibile per
+
+8
+00:00:36,010 --> 00:00:40,720
+molte idee e editor che ti dà un modo più veloce di scrivere.
+
+9
+00:00:40,740 --> 00:00:41,380
+Tim.
+
+10
+00:00:41,770 --> 00:00:47,630
+Quindi qui l'app server è il nostro tipo selezionato o il nostro elemento personale di ricrearlo.
+
+11
+00:00:47,740 --> 00:00:51,130
+Se ora salviamo questo dovrebbe ricompilare con successo.
+
+12
+00:00:51,130 --> 00:00:57,550
+E se guardiamo la nostra applicazione in esecuzione vedrai il componente server qui il nostro componente
+
+13
+00:00:57,850 --> 00:00:59,460
+che viene aggiunto qui.
+
+14
+00:00:59,860 --> 00:01:06,670
+Ecco come è possibile utilizzare i componenti, quindi con la loro offerta di selezione aggiungendoli al modulo
+
+15
+00:01:07,240 --> 00:01:10,240
+app e quindi visualizzandoli bene sulla pagina

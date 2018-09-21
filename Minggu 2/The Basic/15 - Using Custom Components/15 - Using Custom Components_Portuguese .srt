@@ -1,0 +1,59 @@
+1
+00:00:02,970 --> 00:00:06,040
+Com o nosso componente registrado, vamos usá-lo.
+
+2
+00:00:06,270 --> 00:00:10,690
+Então nós temos nosso seletor aqui observador.
+
+3
+00:00:10,890 --> 00:00:15,620
+Agora eu lhe disse que não vamos adicionar ao arquivo HMO do índice, não funcionaria.
+
+4
+00:00:15,900 --> 00:00:22,110
+Em vez disso, vamos para a equipe de idade do componente. Eu arquivarei a única equipe média que
+
+5
+00:00:22,110 --> 00:00:23,660
+temos agora onde poderíamos editar.
+
+6
+00:00:23,970 --> 00:00:27,250
+E aqui vou adicionar uma linha horizontal e Lotus.
+
+7
+00:00:27,420 --> 00:00:35,800
+Eu adicionarei meu elemento de servidor de aplicativo aqui e o atalho que usei aqui é apenas um pequeno plug-in chamado Emett disponível para
+
+8
+00:00:36,010 --> 00:00:40,720
+muitas ideias e editores, o que lhe dá uma maneira mais rápida de escrever.
+
+9
+00:00:40,740 --> 00:00:41,380
+Tim.
+
+10
+00:00:41,770 --> 00:00:47,630
+Então, aqui o servidor de aplicativos é o nosso próprio select ou o nosso próprio tipo de elemento para recriá-lo.
+
+11
+00:00:47,740 --> 00:00:51,130
+Se agora salvarmos isso, recompilá-lo com sucesso.
+
+12
+00:00:51,130 --> 00:00:57,550
+E se dermos uma olhada no nosso aplicativo em execução, você verá o componente do servidor aqui, nosso
+
+13
+00:00:57,850 --> 00:00:59,460
+próprio componente sendo adicionado aqui.
+
+14
+00:00:59,860 --> 00:01:06,670
+Então, é assim que você pode usar seus componentes e, depois, com o seletor deles, adicioná-los ao
+
+15
+00:01:07,240 --> 00:01:10,240
+módulo do aplicativo e exibi-los bem na página.

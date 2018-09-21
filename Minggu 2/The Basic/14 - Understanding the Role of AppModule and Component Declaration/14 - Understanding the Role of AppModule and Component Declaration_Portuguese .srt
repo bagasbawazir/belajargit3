@@ -1,0 +1,259 @@
+1
+00:00:02,800 --> 00:00:03,860
+Na última aula.
+
+2
+00:00:03,900 --> 00:00:07,710
+Criamos nosso próprio componente, o componente servidor aqui.
+
+3
+00:00:07,710 --> 00:00:15,240
+Ele está quase pronto para ser usado, mas para usá-lo precisamos mudar algo sobre
+
+4
+00:00:15,250 --> 00:00:25,200
+nosso módulo de aplicativo que usa componentes para construir páginas da web e usa módulos para agrupar peças diferentes,
+
+5
+00:00:25,260 --> 00:00:29,390
+por exemplo, componentes de seu aplicativo em pacotes.
+
+6
+00:00:29,550 --> 00:00:34,320
+Você sabe que este é um tipo de recurso avançado, mas mais tarde no curso eu
+
+7
+00:00:34,320 --> 00:00:40,920
+terei uma seção inteira sobre módulos para a maioria deste curso, vamos usar apenas o módulo de aplicativo que é absolutamente bom
+
+8
+00:00:40,920 --> 00:00:46,080
+para muitos projetos apenas em projetos maiores que você pode pense em dividir seu aplicativo em vários
+
+9
+00:00:46,160 --> 00:00:47,340
+módulos do aapke.
+
+10
+00:00:47,580 --> 00:00:51,170
+Mas o que esse aplicativo fará do que é um módulo?
+
+11
+00:00:51,600 --> 00:00:58,890
+Bem, é como eu disse pacote de funcionalidades do nosso aplicativo e, basicamente, dá a Inglaterra as informações
+
+12
+00:00:59,010 --> 00:01:05,850
+que recursos meu aplicativo tem e usar como você pode ver tudo é apenas a classe typescript
+
+13
+00:01:06,060 --> 00:01:12,900
+vazia como componente e componente pedido podemos transformá-lo em outra coisa por adicionando um decorador aqui.
+
+14
+00:01:13,020 --> 00:01:19,300
+É o decorador do módulo Engy que também é importado de um núcleo angular.
+
+15
+00:01:19,320 --> 00:01:27,450
+Agora, lá vemos quatro propriedades que configuramos no objeto que passamos para você, provedores de importações de regras
+
+16
+00:01:27,450 --> 00:01:29,350
+de módulo e bootstrap.
+
+17
+00:01:29,430 --> 00:01:35,640
+Nós tínhamos uma olhada no bootstrap que era responsável por classificar o pescador que odeia o componente do qual você
+
+18
+00:01:35,640 --> 00:01:39,240
+deveria estar ciente no momento em que o aplicativo inteiro é iniciado.
+
+19
+00:01:39,240 --> 00:01:43,050
+Então qual componente você basicamente reconheceria nos extremófilos do índice?
+
+20
+00:01:43,200 --> 00:01:45,330
+E esse foi o componente do aplicativo.
+
+21
+00:01:45,360 --> 00:01:51,020
+Agora eu já mencionei que não vamos adicionar mais seletores de componentes para o próximo arquivo HDMI.
+
+22
+00:01:51,030 --> 00:01:53,040
+Não é assim que funciona.
+
+23
+00:01:53,160 --> 00:01:56,010
+Portanto, queremos realmente fazer o bootstrap.
+
+24
+00:01:56,340 --> 00:02:03,360
+Ainda adicionamos um novo componente ao angular e este novo componente agora tem que ser registrado aqui no
+
+25
+00:02:03,360 --> 00:02:10,500
+módulo, assim o pescador sabe que este componente existe, e isso é importante por padrão O Engler não
+
+26
+00:02:10,530 --> 00:02:13,410
+irá escanear todos os seus arquivos aqui.
+
+27
+00:02:13,680 --> 00:02:20,510
+Então, se você não disser que o componente do servidor existe, ele não o sabe.
+
+28
+00:02:20,550 --> 00:02:23,430
+Apenas criar o arquivo não é suficiente.
+
+29
+00:02:23,490 --> 00:02:30,750
+É por isso que temos que registrá-lo aqui no módulo NGI para informar ao Engler Hey parte deste módulo e eles
+
+30
+00:02:30,750 --> 00:02:36,390
+aqui mesmo, todo o nosso aplicativo, já que só temos este módulo como o componente do servidor.
+
+31
+00:02:36,900 --> 00:02:41,490
+Registramos novos componentes neste array de declarações.
+
+32
+00:02:41,730 --> 00:02:47,010
+Nós já registramos o componente do aplicativo aqui, porque mesmo que ele também seja usado no Bootstrap, ele
+
+33
+00:02:47,010 --> 00:02:48,660
+também faz parte do nosso aplicativo.
+
+34
+00:02:48,660 --> 00:02:52,880
+Agora também precisamos adicionar o componente do servidor aqui.
+
+35
+00:02:53,790 --> 00:02:59,310
+Adicioná-lo assim não é suficiente, porque agora o pescador saberia que isso é parte do
+
+36
+00:02:59,310 --> 00:03:04,850
+aplicativo, mas o typescript não saberia onde encontrar esse tipo onde encontrar o componente do servidor.
+
+37
+00:03:04,860 --> 00:03:12,990
+Então, quando tentamos empacotar nosso código, obtemos um erro, mas você pode ver se salvou isso,
+
+38
+00:03:12,990 --> 00:03:14,380
+provocando a recompilação.
+
+39
+00:03:14,430 --> 00:03:20,110
+Você verá que recebemos um erro no terminal lá embaixo que não pode encontrar o componente do servidor porque.
+
+40
+00:03:20,180 --> 00:03:22,130
+E isso não pescador faz esse tipo de strop.
+
+41
+00:03:22,200 --> 00:03:25,800
+Não sabe onde esse arquivo é onde encontrar essa classe.
+
+42
+00:03:26,010 --> 00:03:30,710
+Então, precisamos adicionar importação no topo apontando manualmente para isso.
+
+43
+00:03:30,840 --> 00:03:41,340
+Então nós adicionamos componentes do servidor aqui como eles importam do servidor de barra de pontos e então aqui no componente de servidor e você admite o
+
+44
+00:03:41,520 --> 00:03:48,110
+ponto TS Você não adiciona pontos ts à sua importação é shust server dot component então o
+
+45
+00:03:48,110 --> 00:03:55,110
+nome do arquivo sem a extensão a extensão é adicionado por web bag que agrupa nosso projeto automaticamente.
+
+46
+00:03:55,110 --> 00:03:57,030
+Então, com isso e é tão importante.
+
+47
+00:03:57,030 --> 00:04:01,790
+Isso não termina ou não é um recurso de datilografia agora typescript sabe onde encontrar isso.
+
+48
+00:04:01,830 --> 00:04:08,580
+Portanto, tudo pode ser empacotado, portanto, agora o Engler quando executado sabe que temos um componente de servidor
+
+49
+00:04:08,580 --> 00:04:11,030
+e que faz parte do nosso aplicativo.
+
+50
+00:04:11,190 --> 00:04:14,390
+E com isso agora podemos finalmente usar nosso componente.
+
+51
+00:04:14,670 --> 00:04:16,190
+Nós faremos isso na próxima palestra.
+
+52
+00:04:16,200 --> 00:04:21,530
+Mas talvez você também esteja se perguntando o que importa e provedores para nós aqui no módulo.
+
+53
+00:04:21,600 --> 00:04:28,260
+Eu vou voltar para provedores mais tarde na seção de serviços de importações simplesmente nos permite adicionar alguns
+
+54
+00:04:28,260 --> 00:04:29,180
+módulos Alber.
+
+55
+00:04:29,220 --> 00:04:34,500
+Judas Marchal, porque eu disse que você pode dividir seu aplicativo em vários módulos e, em seguida,
+
+56
+00:04:34,530 --> 00:04:40,710
+você pode importar esses módulos para basicamente tornar esse bit modular mais enxuto e terceirizar algumas coisas para outro módulo.
+
+57
+00:04:40,710 --> 00:04:43,550
+Agora eu te disse que só vamos usar um módulo.
+
+58
+00:04:43,590 --> 00:04:45,450
+Então, o que estamos importando aqui.
+
+59
+00:04:45,450 --> 00:04:51,630
+Alguns módulos embutidos no angular, porque o próprio angular é dividido em módulos, então o módulo do navegador,
+
+60
+00:04:51,630 --> 00:04:58,280
+por exemplo, nos dá toda a funcionalidade básica que precisamos para iniciar nosso aplicativo e formulários e o módulo
+
+61
+00:04:58,270 --> 00:05:02,210
+HTP é algo que eu chamo de sua seção HTP. o curso.
+
+62
+00:05:02,220 --> 00:05:07,890
+Assim, com dias em que o básico sobre essa marcha seja claro novamente, vamos aprofundar isso mais adiante
+
+63
+00:05:07,890 --> 00:05:08,530
+no curso.
+
+64
+00:05:08,700 --> 00:05:11,160
+Também registramos nosso próprio componente.
+
+65
+00:05:11,280 --> 00:05:13,500
+Vamos agora usá-lo na próxima aula.

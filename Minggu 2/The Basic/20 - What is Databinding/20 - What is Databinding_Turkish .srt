@@ -1,0 +1,135 @@
+1
+00:00:02,460 --> 00:00:07,740
+Bizim küçük temel ilk uygulamada, birkaç bileşen eklediğimiz yerde çalışıyoruz.
+
+2
+00:00:07,790 --> 00:00:13,240
+Temel fenerimizin önemli yönlerini ve nasıl başladığını ve bileşenlerin nasıl kullanıldığını ele aldık.
+
+3
+00:00:13,250 --> 00:00:21,660
+Herhangi bir fener uygulamasının temel yapı taşıdır ancak şu ana kadar sadece statik içeriği çıkarırız.
+
+4
+00:00:21,680 --> 00:00:25,370
+Sunucu bileşeni burada çok ilginç değil.
+
+5
+00:00:25,370 --> 00:00:28,750
+Bu dersin ilk bölümünde bundan daha fazlasını yaptık.
+
+6
+00:00:29,030 --> 00:00:36,350
+Yani değişelim, en azından şablonun içine kodlanmış olmayan bir tür dinamik olan bir
+
+7
+00:00:36,350 --> 00:00:37,360
+veriyi çıkarmaktır.
+
+8
+00:00:37,370 --> 00:00:40,560
+Bazı veri bağlama zamanı Veri bağlama nedir.
+
+9
+00:00:40,730 --> 00:00:48,170
+Temel olarak, veri bağlayıcınızı, bileşeninizin kod türlerinizle iş mantığınız ile şablonların ya da kullanıcının
+
+10
+00:00:48,380 --> 00:00:54,200
+gördüğü şey arasında iletişim iletişimiyle tercüme edebilirsiniz. Çünkü bir sunucudan bir
+
+11
+00:00:54,200 --> 00:01:00,230
+şey getirdiğinizden ya da bir hesaplamayı bitirdiğinizden, tür şerit kodunuzda bir sonuç
+
+12
+00:01:00,470 --> 00:01:02,300
+olabilir. kullanıcıya göstermek istediğiniz.
+
+13
+00:01:02,420 --> 00:01:05,100
+Ve kullanıcının gördüğü tek şey şablon.
+
+14
+00:01:05,240 --> 00:01:11,240
+Bu nedenle, bu iletişimden sorumlu olduğu için veri madenciliğinin devreye girdiği, uygulamanızda gerçekten iyi
+
+15
+00:01:11,240 --> 00:01:17,030
+bir şey yapabilmek için her iki parça arasında bir çeşit iletişime ihtiyaç duyuyoruz.
+
+16
+00:01:17,030 --> 00:01:23,420
+tiplerimizden gelen verileri HCM'de vermek istediğimiz şablondaki tüm kodlar için stringin ablasyon kullanabiliriz.
+
+17
+00:01:23,770 --> 00:01:29,060
+Şu anda farklı iletişim yolları elde ediyoruz, örneğin, bizim kod
+
+18
+00:01:29,060 --> 00:01:33,650
+Bunu ilk bölümde gördüğünüzde, çifte arama parantezinin sözdizimi ve daha sonra bazı
+
+19
+00:01:33,650 --> 00:01:40,360
+özellik isimleri ya da aralarındaki bazı ifadeler ya da mülkiyete bağlanma gibi bir sonraki derste elbette ki tüm
+
+20
+00:01:40,370 --> 00:01:44,900
+bu formlara daha yakından bakacağız. Bunun ne olduğunu ve endekslemek için nasıl
+
+21
+00:01:45,000 --> 00:01:50,240
+çalıştığını öğrenmek temel olarak bu garip köşeli parantezleri yaş dişi nitelikleri etrafında kullanır.
+
+22
+00:01:50,240 --> 00:01:52,280
+Ama yine buna geri döneceğim.
+
+23
+00:01:52,670 --> 00:01:56,490
+Bazen ortalama yön de ilginçtir.
+
+24
+00:01:56,600 --> 00:02:02,150
+etkileşimde bulunduğu ve aynı zamanda tıklatma düğmelerini nerede bulabileceği ile ilgilidir.
+
+25
+00:02:02,150 --> 00:02:07,130
+Kullanıcı bir düğmeyi tıklarsa, şablondaki düğmeyi tıkladığında kullanıcıyı düşünebilirsiniz, çünkü
+
+26
+00:02:07,130 --> 00:02:08,380
+şablon, kullanıcının gördüğü
+
+27
+00:02:08,690 --> 00:02:13,300
+Bu yüzden bir düğmeye basarsak, kod türlerimizde bir şeyi tetiklemek isteyebiliriz.
+
+28
+00:02:13,310 --> 00:02:17,620
+Şimdi yönüne ihtiyacımız var ve bu yönü alabiliriz.
+
+29
+00:02:17,630 --> 00:02:24,320
+Kullanışlı rüzgârlara bile bağlanarak tepki verebiliriz, böylece bir kodun meydana gelmesi durumunda bazı kodları yürütmek için
+
+30
+00:02:24,320 --> 00:02:26,420
+örneğin bir tıklama olayına bağlanabiliriz.
+
+31
+00:02:26,840 --> 00:02:34,940
+iki yönlü veri bağlamayı birleştirdiğimiz ve veriyi aynı anda tepki verebildiğimiz iki
+
+32
+00:02:35,120 --> 00:02:41,300
+yönlü veri bağlamayı birleştirdiğimiz bir ek veri madenciliği yöntemine sahibiz.
+
+33
+00:02:41,300 --> 00:02:41,930
+Ayrıca,
+
+34
+00:02:41,960 --> 00:02:47,400
+Ama şimdi sıradaki derslerde dört forumda detaylı bir bakışa sahip olacaksınız.

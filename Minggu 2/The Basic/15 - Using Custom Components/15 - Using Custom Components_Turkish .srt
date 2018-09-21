@@ -1,0 +1,59 @@
+1
+00:00:02,970 --> 00:00:06,040
+Bizim bileşen kayıtlı ile kullanalım.
+
+2
+00:00:06,270 --> 00:00:10,690
+Bu yüzden selektörümüz burada gözlemcimiz var.
+
+3
+00:00:10,890 --> 00:00:15,620
+Şimdi size indeks HMO dosyasına eklenmeyeceğimizi söyledim, işe yaramayacaktı.
+
+4
+00:00:15,900 --> 00:00:22,110
+Bunun yerine bileşen çağ takımına gidelim, şu anda sahip olduğumuz her şeyin sadece
+
+5
+00:00:22,110 --> 00:00:23,660
+ortalama takımını düzenleyeyim.
+
+6
+00:00:23,970 --> 00:00:27,250
+Ve burada yatay bir çizgi ve Lotus ekleyeceğim.
+
+7
+00:00:27,420 --> 00:00:35,800
+Uygulama sunucusu elemanımı buraya ekleyeceğim ve burada kullandığım kısayol, Emett olarak adlandırılan küçük bir eklentidir ve size daha hızlı
+
+8
+00:00:36,010 --> 00:00:40,720
+bir yazı yazma olanağı veren birçok fikir ve editör için kullanılabilir.
+
+9
+00:00:40,740 --> 00:00:41,380
+Tim.
+
+10
+00:00:41,770 --> 00:00:47,630
+Yani burada uygulama sunucusu kendi seçtiğimiz veya kendi elemanımızın bir tür yeniden yaratmasıdır.
+
+11
+00:00:47,740 --> 00:00:51,130
+Şimdi bunu kaydedersek, başarılı bir şekilde yeniden derlemeliyiz.
+
+12
+00:00:51,130 --> 00:00:57,550
+Çalışan uygulamamıza bir göz atabilirsek, burada sunucu
+
+13
+00:00:57,850 --> 00:00:59,460
+bileşenini göreceksiniz.
+
+14
+00:00:59,860 --> 00:01:06,670
+Öyleyse, bileşenlerinizi daha sonra uygulama modülüne ekleyerek ve ardından bunları sayfada görüntüleyen
+
+15
+00:01:07,240 --> 00:01:10,240
+seçici teklifleriyle nasıl kullanabileceğinizi öğrenebilirsiniz.

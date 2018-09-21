@@ -1,0 +1,135 @@
+1
+00:00:02,460 --> 00:00:07,740
+Em nossa pequena primeira aplicação básica, estamos trabalhando onde adicionamos alguns componentes.
+
+2
+00:00:07,790 --> 00:00:13,240
+Nós cobrimos muitos aspectos importantes do nosso pescador básico e como ele começa e como usar componentes.
+
+3
+00:00:13,250 --> 00:00:21,660
+O bloco de construção básico de qualquer aplicativo de pesca, mas até agora só produzimos conteúdo estático.
+
+4
+00:00:21,680 --> 00:00:25,370
+O componente do servidor aqui não é super interessante.
+
+5
+00:00:25,370 --> 00:00:28,750
+Fizemos ainda mais do que isso na primeira seção deste curso.
+
+6
+00:00:29,030 --> 00:00:36,350
+Então, vamos mudar para produzir alguns dados que são dinâmicos, pelo menos, que não são codificados
+
+7
+00:00:36,350 --> 00:00:37,360
+no template.
+
+8
+00:00:37,370 --> 00:00:40,560
+Tempo para alguma ligação de dados O que é ligação de dados.
+
+9
+00:00:40,730 --> 00:00:48,170
+Você poderia basicamente converter a vinculação de dados com comunicação de comunicação entre os tipos de código do seu componente, a lógica
+
+10
+00:00:48,380 --> 00:00:54,200
+de negócios e os modelos ou o que o usuário vê, pois você pode ter algum resultado
+
+11
+00:00:54,200 --> 00:01:00,230
+no código de faixa de tipo porque buscou algo em um servidor ou finalizou alguns cálculos que você
+
+12
+00:01:00,470 --> 00:01:02,300
+deseja exibir para o usuário.
+
+13
+00:01:02,420 --> 00:01:05,100
+E a única coisa que o usuário vê é o modelo.
+
+14
+00:01:05,240 --> 00:01:11,240
+Portanto, precisamos de algum tipo de comunicação entre as duas partes para que possamos realmente fazer algo em
+
+15
+00:01:11,240 --> 00:01:17,030
+nosso aplicativo, que é onde a mineração de dados entra em ação, porque é responsável por essa comunicação.
+
+16
+00:01:17,030 --> 00:01:23,420
+Temos diferentes formas de comunicação agora, por exemplo, queremos saída de dados de nossos tipos de
+
+17
+00:01:23,770 --> 00:01:29,060
+código no HCM todo o código no modelo, podemos usar stringin ablation para isso.
+
+18
+00:01:29,060 --> 00:01:33,650
+Você viu isso na primeira seção, é claro, é a sintaxe com as chaves de
+
+19
+00:01:33,650 --> 00:01:40,360
+chamada dupla e, em seguida, algum nome de propriedade ou alguma expressão no meio ou vinculação de propriedade, teremos um olhar mais atento
+
+20
+00:01:40,370 --> 00:01:44,900
+a todas essas formas de curso na próxima aula ou então Aprenda o que isso
+
+21
+00:01:45,000 --> 00:01:50,240
+é e como funciona para indexar basicamente usa esses colchetes estranhos em torno dos atributos femininos da idade.
+
+22
+00:01:50,240 --> 00:01:52,280
+Mas mais uma vez voltarei a isso.
+
+23
+00:01:52,670 --> 00:01:56,490
+Às vezes, embora a direção média seja interessante também.
+
+24
+00:01:56,600 --> 00:02:02,150
+Se o usuário clicar em um botão, você pode pensar que o usuário clicou no botão no modelo porque, novamente,
+
+25
+00:02:02,150 --> 00:02:07,130
+o modelo é a coisa com a qual o usuário interage, o que ele vê e onde também
+
+26
+00:02:07,130 --> 00:02:08,380
+é possível clicar nos botões.
+
+27
+00:02:08,690 --> 00:02:13,300
+Então, se clicarmos em um botão, talvez possamos acionar algo em nossos tipos de código.
+
+28
+00:02:13,310 --> 00:02:17,620
+Então, agora precisamos da direção e podemos obter essa direção.
+
+29
+00:02:17,630 --> 00:02:24,320
+Podemos reagir a ventos normais com vinculação uniforme, para que possamos nos vincular, por exemplo, a um evento de clique para
+
+30
+00:02:24,320 --> 00:02:26,420
+executar algum código sempre que ocorrer.
+
+31
+00:02:26,840 --> 00:02:34,940
+E também temos uma forma adicional de mineração de dados em que combinamos as duas direções. A vinculação de dados bidirecional, na qual somos
+
+32
+00:02:35,120 --> 00:02:41,300
+capazes de reagir a eventos e gerar algo ao mesmo tempo, pode não estar muito clara sobre como
+
+33
+00:02:41,300 --> 00:02:41,930
+isso funciona.
+
+34
+00:02:41,960 --> 00:02:47,400
+Mas isso é o que você terá agora um olhar detalhado em todos os quatro fóruns nas próximas palestras
